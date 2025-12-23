@@ -1,0 +1,471 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden" style="width:{size}px;height:auto" viewBox="0 0 6396 4791">
+    <defs>
+        <clipPath id="a">
+            <path d="M122 1023h6396v4791H122z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path fill-rule="evenodd" d="M2623 2568c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="d">
+            <path d="M70 59h980v121H70z"/>
+        </clipPath>
+        <clipPath id="f">
+            <path fill-rule="evenodd" d="M151 2568c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13Zm-29-1545h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="h">
+            <path d="M70 52h1101v148H70z"/>
+        </clipPath>
+        <clipPath id="j">
+            <path fill-rule="evenodd" d="M2623 1131c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="l">
+            <path d="M63 59h1077v138H63z"/>
+        </clipPath>
+        <clipPath id="n">
+            <path fill-rule="evenodd" d="M5096 1128c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="p">
+            <path d="M63 59h495v138H63z"/>
+        </clipPath>
+        <clipPath id="r">
+            <path fill-rule="evenodd" d="M151 3957c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13Zm-29-2934h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="t">
+            <path d="M66 59h967v138H66z"/>
+        </clipPath>
+        <clipPath id="v">
+            <path fill-rule="evenodd" d="M2623 5229c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="x">
+            <path d="M70 59h901v141H70z"/>
+        </clipPath>
+        <clipPath id="z">
+            <path fill-rule="evenodd" d="M5093 2568c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="B">
+            <path d="M70 52h437v128H70z"/>
+        </clipPath>
+        <clipPath id="D">
+            <path fill-rule="evenodd" d="M5093 3957c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="F">
+            <path d="M73 59h953v121H73z"/>
+        </clipPath>
+        <clipPath id="H">
+            <path fill-rule="evenodd" d="M2623 3957c-7 0-13 6-13 13v523c0 7 6 13 13 13h1349c7 0 13-6 13-13v-523c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="J">
+            <path d="M63 59h998v138H63z"/>
+        </clipPath>
+        <clipPath id="L">
+            <path fill-rule="evenodd" d="M4803 5217c-7 0-13 6-13 13v522c0 7 6 13 13 13h712c7 0 13-6 13-13v-522c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="N">
+            <path d="M46 39h485v358H46z"/>
+        </clipPath>
+        <clipPath id="P">
+            <path fill-rule="evenodd" d="M5634 5219c-7 0-13 6-13 13v522c0 7 6 13 13 13h712c7 0 13-6 13-13v-522c0-7-6-13-13-13ZM122 1023h6396v4791H122Z" clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="R">
+            <path d="M46 39h615v285H46z"/>
+        </clipPath>
+        <filter id="c" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="e" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="g" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="i" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="k" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="m" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="o" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="q" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="s" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="u" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="w" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="y" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="A" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="C" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="E" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="G" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="I" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="K" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="M" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="O" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="Q" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+        <filter id="S" width="120%" height="120%" x="-10%" y="-10%" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR tableValues="0 0" type="discrete"/>
+                <feFuncG tableValues="0 0" type="discrete"/>
+                <feFuncB tableValues="0 0" type="discrete"/>
+                <feFuncA slope=".4" type="linear"/>
+            </feComponentTransfer>
+            <feGaussianBlur stdDeviation="6.11111 6.11111"/>
+        </filter>
+    </defs>
+    <g clip-path="url(#a)" transform="translate(-122 -1023)">
+        <g clip-path="url(#b)">
+            <g filter="url(#c)" transform="translate(2595 2553)">
+                <path fill="#F2F2F2" fill-rule="evenodd" stroke="#262626" stroke-miterlimit="8" stroke-width="10" d="M25 38c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H38c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#d)" filter="url(#e)" transform="translate(2751 2733)">
+                <path fill="#262626" d="M94 155V83h30c5 0 9 0 12 2 4 1 7 3 9 6s3 7 3 12c0 4-1 8-3 11-3 3-7 6-11 7 3 1 5 1 7 3l4 5 3 9 5 17h-16l-3-14-3-8c0-2-2-3-3-4l-7-2h-12v28Zm15-40h12l7-1 4-4 1-5c0-3-1-6-3-7-2-2-4-3-8-3h-13Zm78 41c-6 0-11-1-14-3-4-2-7-6-10-10-2-4-3-9-3-14 0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a37 37 0 0 1-1 4h-36l1 7 4 5 7 2 8-2c2-2 2-4 2-6h15l-4 10c-2 3-5 5-8 6l-13 2Zm-12-33h23c-1-4-2-7-4-9l-8-2-8 2c-2 2-3 5-3 9Zm52 32v-41h-9v-11h9v-2l1-8c0-3 1-4 3-6 1-1 3-3 6-3l10-1h5v10h-5l-5 2-1 6v2h11v11h-11v41Zm57 1c-6 0-10-1-14-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15 1-4 4-7 8-9s9-3 14-3c8 0 14 2 19 7 5 4 7 11 7 19a39 39 0 0 1 0 4h-37l1 7 4 5 7 2 8-2 3-6h14l-4 10c-2 3-5 5-8 6l-13 2Zm-12-33h23c0-4-2-7-4-9l-8-2-8 2c-2 2-3 5-3 9Zm50 32v-52h13v9l7-8 9-2h2v12h-8l-5 2-4 4v35Zm63 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a38 38 0 0 1-1 4h-36l1 7 4 5 7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-8 6l-13 2Zm-12-33h22c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-3 9Zm49 32v-52h14v7l7-6 11-2c6 0 10 1 13 5 3 3 4 8 4 14v34h-14v-32l-1-5-2-4-5-1-7 2-6 5v35Zm85 1-9-1c-2 0-5-1-7-3a15 15 0 0 1-8-13h14c0 3 1 5 3 6l7 1 6-1c2-1 3-2 3-4s-1-4-3-5l-9-3-10-3c-3-1-6-3-7-5-2-2-3-5-3-8l2-7 5-5 7-2a40 40 0 0 1 16 0l7 2 5 5 2 8h-13c0-2-1-4-3-5l-6-2-5 1c-2 1-3 2-3 4l2 2 4 2 8 3 9 3c3 1 5 3 6 5 2 2 3 4 3 8l-2 8-5 5-8 3-8 1Zm50 0-8-2-7-5-2-9c0-4 1-8 4-11l12-5 19-1v-3c0-3-1-6-3-7l-6-2-7 2c-2 2-3 4-3 7h-13c0-5 1-8 3-11l8-6 12-1 9 1 7 2 5 6 1 9v35h-13v-7a22 22 0 0 1-18 8Zm5-10 7-2 5-5v-8l-15 2c-3 1-5 4-5 7l2 5 6 1Zm41 9v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm41 0V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm59 0v-52h14v52Zm7-59-6-2-2-5 2-5c2-2 4-2 6-2 3 0 5 0 6 2 2 1 2 3 2 5s0 3-2 5l-6 2Zm45 59-13-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c1 1 2 2 5 2h5v11Zm40 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 8-3 14-3c8 0 14 2 18 7 5 4 7 11 7 19a39 39 0 0 1 0 4h-37l2 7c0 2 2 3 4 5l7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm50 32V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm81 0-12-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c0 1 2 2 5 2h5v11Zm33 1c-5 0-9-2-12-5s-4-8-4-14v-34h14v32l1 5 2 3 5 1c3 0 5 0 7-2l6-4v-35h14v52h-14v-8l-7 6c-3 2-7 3-12 3Zm48-1v-52h14v9l6-8 10-2h1v12h-7l-5 2-5 4v35Z"/>
+            </g>
+        </g>
+        <path fill="#F2F2F2" fill-rule="evenodd" stroke="#262626" stroke-miterlimit="8" stroke-width="10.3" d="M2610 2581c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H2623c-7 0-13-6-13-13Z"/>
+        <text fill="#262626" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(2827 2879)">Referensarkitektur</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 2973)">►</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 3071)">beskriver </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 3170)">önskat läge </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 3269)">för</text>
+        <g clip-path="url(#f)">
+            <g filter="url(#g)" transform="translate(123 2553)">
+                <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10" d="M25 38c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H38c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#h)" filter="url(#i)" transform="translate(219 2733)">
+                <path fill="#FFF" d="M94 155V83h18l22 38h-6l23-38h16v72h-15V91h7l-24 41h-9l-24-41h7v64Zm104 1-8-2c-3-1-5-3-6-5-2-2-3-5-3-9s2-8 4-11c3-2 7-4 13-5l18-1v-3c0-3-1-6-3-7l-6-2-7 2c-2 2-3 4-3 7h-13c0-5 1-8 3-11l8-6 12-1 9 1 7 2 5 6 2 9v35h-14v-7a22 22 0 0 1-18 8Zm5-10 7-2 6-5v-8l-16 2c-3 1-5 4-5 7l2 5 6 1Zm5-49c-4 0-6-1-9-3-2-2-3-5-3-8s1-6 3-8c3-2 5-3 9-3 3 0 6 1 8 3s3 5 3 8-1 6-3 8-5 3-8 3Zm0-6 3-1 1-4-1-3-3-2a5 5 0 0 0-5 5l1 4 4 1Zm56 64-12-2c-3-1-5-3-6-6l-2-10V83h14v53l1 6 6 2h3v11Zm34 20c-6 0-11 0-15-2-4-1-6-3-8-5s-2-4-2-7 1-5 4-7c3-3 7-4 13-5l3-5h7c8 0 15 1 19 3 4 3 6 7 6 11 0 6-3 10-7 13-5 3-11 4-20 4Zm0-9c4 0 8 0 10-2 2-1 3-2 3-4l-1-3-4-2h-16l-3 2-1 3c0 2 1 3 3 4 1 2 4 2 9 2Zm-8-12-9-2-5-4-1-4c0-3 0-5 2-6l8-4 7 3-5 1-2 3 1 1 4 2h8Zm7-16-12-2c-4-2-6-4-8-7s-2-6-2-9a17 17 0 0 1 10-16l12-2 13 2 7 7c2 3 2 6 2 9a17 17 0 0 1-10 16l-12 2Zm0-8c3 0 5-1 6-3 2-1 3-4 3-7l-2-7c-2-2-4-3-7-3-2 0-5 1-6 3-2 2-3 4-3 7s1 6 3 7c1 2 4 3 6 3Zm15-20-4-5c1-4 3-7 6-8l11-2v10l-8 1-5 4Zm21 45v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm57 1c-5 0-9-2-12-5s-4-8-4-14v-34h14v32l1 5 2 3 5 1c3 0 5 0 7-2l5-4v-35h15v52h-14v-8l-7 6c-3 2-7 3-12 3Zm48 18v-71h14v8l7-7 10-2c4 0 8 1 11 3s6 5 7 9c2 4 3 9 3 15s-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm27-29c3 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-2-3-4-4-7-4-4 0-6 0-9 2l-5 6v16l5 6 8 2Zm38 29v-71h13l1 8 7-7 10-2c4 0 8 1 11 3s5 5 7 9 3 9 3 15-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm26-29c4 0 7-1 8-4 2-3 3-7 3-12l-2-12c-2-3-5-4-8-4s-6 0-8 2l-5 6v16l5 6 7 2Zm60 11-9-1c-3 0-5-1-7-3a15 15 0 0 1-8-13h13c0 3 1 5 4 6l7 1 6-1c2-1 2-2 2-4l-2-5-10-3-10-3-6-5c-2-2-3-5-3-8l2-7 5-5 7-2a40 40 0 0 1 16 0l7 2 5 5 2 8h-13c0-2-1-4-3-5l-6-2-6 1-2 4 2 2 4 2 8 3 9 3 6 5c2 2 3 4 3 8l-2 8-5 5-8 3-8 1Zm35 18v-71h14l1 8 7-7 9-2c4 0 8 1 11 3s6 5 8 9l2 15c0 6-1 11-3 15a21 21 0 0 1-19 12l-9-2-6-6v26Zm27-29c3 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-2-3-4-4-7-4s-6 0-8 2c-3 2-4 4-5 6v16l4 6 8 2Zm62 11c-6 0-11-1-14-3-4-2-7-6-10-10-2-4-3-9-3-14 0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a38 38 0 0 1-1 4h-36l1 7 4 5 7 2 8-2c2-2 2-4 2-6h15l-4 10c-2 3-5 5-8 6l-13 2Zm-12-33h23c-1-4-2-7-4-9l-8-2-8 2c-2 2-3 5-3 9Zm49 32v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm61 1-8-1c-3 0-6-1-8-3a15 15 0 0 1-7-13h13c0 3 1 5 3 6l7 1 6-1c2-1 3-2 3-4s-1-4-3-5l-9-3-10-3-7-5c-2-2-3-5-3-8l2-7 5-5 7-2a40 40 0 0 1 16 0l7 2 5 5c2 3 2 5 2 8h-13l-2-5-6-2-6 1c-2 1-2 2-2 4l1 2 4 2 8 3 9 3 7 5 2 8-2 8-5 5-7 3-9 1Zm36 18v-71h13l1 8 7-7 10-2c4 0 7 1 11 3 3 2 5 5 7 9s3 9 3 15-1 11-3 15a21 21 0 0 1-19 12l-10-2-6-6v26Zm26-29c4 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-1-3-4-4-7-4s-6 0-8 2l-5 6v16l5 6 7 2Zm63 11c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a39 39 0 0 1 0 4h-37l1 7 4 5 8 2 7-2 3-6h14c0 4-1 7-3 10-3 3-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-4 5-4 9Zm50 32V83h14v44l20-24h16l-21 24 22 28h-16l-21-28v28Zm81 0-12-2c-3-1-5-3-6-6l-2-10v-23h-9v-11h9V90h14v13h12v11h-12v22l2 6c0 1 2 2 5 2h5v11Zm17 0v-52h14v52Zm7-59-6-2-2-5 2-5c1-2 3-2 6-2s5 0 6 2l2 5-2 5-6 2Zm34 59-20-52h15l13 39 12-39h15l-19 52Z"/>
+            </g>
+        </g>
+        <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10.3" d="M138 2581c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H151c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(295 2879)">Målgruppsperspektiv</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M2610 2843H1513"/>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2139 2564)">ska beskriva</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2481 2663)">för</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2495 2763)">◄</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1548 2957)">►</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1548 3055)">vägleder </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1548 3154)">Innehållet för</text>
+        <g clip-path="url(#j)">
+            <g filter="url(#k)" transform="translate(2595 1116)">
+                <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10" d="M25 38c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H38c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#l)" filter="url(#m)" transform="translate(2706 1296)">
+                <path fill="#FFF" d="m87 155 26-72h15l27 72h-16l-5-16h-26l-6 16Zm24-28h19l-9-29Zm51 28v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm41 0V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm59 0v-52h14v52Zm7-59-6-2-2-5 2-5c2-2 4-2 6-2 3 0 5 0 6 2l2 5-2 5-6 2Zm45 59-13-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c1 1 2 2 5 2h5v11Zm40 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 8-3 14-3c8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l2 7c0 2 2 3 4 5l7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm50 32V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm81 0-12-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c0 1 2 2 5 2h5v11Zm33 1c-5 0-9-2-12-5s-4-8-4-14v-34h14v32l1 5 2 3 5 1c3 0 5 0 7-2l5-4v-35h15v52h-14v-8l-7 6c-3 2-7 3-12 3Zm48-1v-52h14v9c1-3 3-6 6-8l10-2h1v12h-7l-6 2-4 4v35Zm41 19v-71h13l1 8 7-7 10-2c4 0 7 1 11 3 3 2 5 5 7 9s3 9 3 15-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm26-29c4 0 6-1 8-4s3-7 3-12l-2-12c-2-3-5-4-8-4s-6 0-8 2l-5 6v16l5 6 7 2Zm63 11c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l2 7c0 2 2 3 4 5l7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm50 32v-52h14v9c1-3 3-6 6-8l10-2h1v12h-8l-5 2-4 4v35Zm61 1-9-1c-3 0-5-1-8-3a15 15 0 0 1-7-13h13c0 3 1 5 3 6l8 1 6-1 2-4-2-5-10-3-10-3-7-5-2-8 2-7 5-5 7-2a40 40 0 0 1 16 0l7 2 5 5 2 8h-13c0-2-1-4-3-5l-6-2-6 1-2 4 1 2 5 2 7 3c4 0 7 1 10 3l6 5c2 2 2 4 2 8 0 3 0 6-2 8l-5 5-7 3-8 1Zm35 18v-71h14v8l7-7 10-2c4 0 8 1 11 3s6 5 7 9c2 4 3 9 3 15s-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm27-29c3 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-2-3-4-4-7-4-4 0-6 0-9 2l-5 6v16l5 6 8 2Zm62 11c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a39 39 0 0 1-1 4h-37l2 7 4 5 7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-8 6l-13 2Zm-12-33h22c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-3 9Zm49 32V83h14v44l21-24h15l-20 24 22 28h-16l-22-28v28Zm82 0-13-2c-2-1-5-3-6-6l-1-10v-23h-9v-11h9V90h14v13h11v11h-11v22l1 6 5 2h5v11Zm16 0v-52h15v52Zm7-59-6-2-2-5 2-5c2-2 4-2 6-2 3 0 5 0 6 2 2 1 3 3 3 5s-1 3-3 5l-6 2Zm34 59-19-52h15l12 39 13-39h14l-19 52Z"/>
+            </g>
+        </g>
+        <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10.3" d="M2610 1144c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H2623c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(2783 1441)">Arkitekturperspektiv</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M3298 2569v-889"/>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2909 1795)">beskriver/ </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2854 1894)">visualiserar</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3180 1994)">▼</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3369 2288)">▲</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3369 2386)">byggs upp </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3369 2485)">av</text>
+        <g clip-path="url(#n)">
+            <g filter="url(#o)" transform="translate(5068 1113)">
+                <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10" d="M25 38c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H38c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#p)" filter="url(#q)" transform="translate(5468 1293)">
+                <path fill="#FFF" d="m86 155 26-72h16l26 72h-15l-6-16h-26l-5 16Zm25-28h19l-10-29Zm73 29-8-1c-3 0-6-1-8-3a15 15 0 0 1-7-13h13c0 3 1 5 3 6l7 1 7-1 2-4c0-2-1-4-3-5l-9-3-10-3-7-5-2-8c0-3 0-5 2-7l5-5 7-2a40 40 0 0 1 16 0l7 2 5 5 2 8h-14l-2-5-6-2-6 1-2 4 1 2 4 2 8 3c4 0 7 1 9 3l7 5 2 8c0 3 0 6-2 8l-5 5-7 3-9 1Zm36 18v-71h13l1 8 7-7 10-2c4 0 8 1 11 3s5 5 7 9 3 9 3 15-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm26-29c4 0 7-1 9-4l2-12-2-12c-2-3-4-4-8-4-3 0-6 0-8 2l-5 6v16l5 6 7 2Zm63 11c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 8-3 14-3c8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l2 7c0 2 2 3 4 5l7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm50 32V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm82 0-13-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c1 1 2 2 5 2h5v11Zm40 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l2 7c0 2 2 3 4 5l7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm50 32v-52h14v9c1-3 3-6 6-8l10-2h1v12h-8l-5 2-4 4v35Z"/>
+            </g>
+        </g>
+        <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10.3" d="M5083 1141c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H5096c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(5545 1439)">Aspekter</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 1540)">►</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 1638)">visualiserar</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4748 2584)">ger </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4875 2584)">syfte</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4958 2683)">t</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4985 2683)">ill</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4965 2783)">◄</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M2611 1405H826v1163"/>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(892 2288)">▲</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(892 2386)">styr utformning </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(892 2485)">av</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2177 1223)">adresserar</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2476 1323)">◄</text>
+        <g clip-path="url(#r)">
+            <g filter="url(#s)" transform="translate(121 3940)">
+                <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="14" d="M27 40c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H40c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#t)" filter="url(#u)" transform="translate(287 4122)">
+                <path fill="#FFF" d="m120 156-15-2c-5-2-8-4-11-8-2-3-3-8-3-13h15l2 6 5 4 7 1 7-1 4-3 2-5-2-4c-1-2-2-3-5-4l-10-3-12-5-9-6c-2-3-3-7-3-11 0-5 1-9 4-12 2-3 5-5 9-6 4-2 9-2 14-2l13 2c5 2 8 4 10 7 3 3 4 7 4 12h-15c0-3-2-6-4-7-2-2-5-2-8-2l-8 1c-2 1-3 3-3 6l1 4 5 3 10 3 14 5 8 7 2 11c0 6-1 10-4 13-2 3-5 5-10 7l-14 2Zm62-1-12-2c-3-1-5-3-6-6l-2-10v-23h-9v-11h9V90h14v13h12v11h-12v22l2 6c0 1 2 2 5 2h5v11Zm15 19v-11h5l5-1c2-1 3-2 3-4l2-3-21-52h15l13 38 12-38h15l-19 52-2 5-5 9-7 4-9 1Zm56-19v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm52 1-8-2-7-5-2-9c0-4 1-8 4-11 3-2 7-4 13-5l18-1v-3c0-3-1-6-3-7l-6-2-7 2c-2 2-3 4-3 7h-13c0-5 1-8 3-11l8-6 12-1 9 1 7 2 5 6 2 9v35h-14v-7a22 22 0 0 1-18 8Zm5-10 7-2 6-5v-8l-16 2c-3 1-5 4-5 7l2 5 6 1Zm41 9v-52h14v7l7-6 12-2c5 0 9 1 12 5 3 3 4 8 4 14v34h-14v-32l-1-5-2-4-5-1-7 2-5 5v35Zm82 1c-4 0-7-1-11-3-3-2-5-5-7-9s-3-9-3-16c0-6 1-11 3-15a20 20 0 0 1 19-11c4 0 7 0 10 2 2 1 5 3 6 6V83h14v72h-13l-1-7-7 6-10 2Zm4-11 8-2 5-6v-16l-5-6c-2-2-4-2-7-2-4 0-6 1-8 4-2 2-3 6-3 11 0 6 1 10 3 13s4 4 7 4Zm67 11c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 8-3 14-3c8 0 14 2 19 7 4 4 6 11 6 19a38 38 0 0 1 0 4h-37l2 7 4 5 7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm72 51v-71h14l1 8 7-7 9-2c4 0 8 1 11 3s6 5 8 9l2 15c0 6-1 11-3 15a21 21 0 0 1-19 12l-9-2-6-6v26Zm27-29c3 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-2-3-4-4-7-4s-6 0-8 2c-3 2-4 4-5 6v16l4 6 8 2Zm38 10v-52h14v9c1-3 3-6 6-8l10-2h1v12h-7l-6 2-4 4v35Zm41 0v-52h14v52Zm7-59-6-2-2-5 2-5c1-2 3-2 6-2s5 0 6 2l2 5-2 5-6 2Zm22 59v-52h14v7l7-6 11-2c5 0 10 1 13 5 2 3 4 8 4 14v34h-14v-32l-1-5-3-4-4-1-7 2-6 5v35Zm87 1c-5 0-9-1-13-3s-7-5-10-9c-2-4-3-9-3-15s1-11 3-15c3-4 6-7 10-9s8-3 13-3l12 2c4 1 7 4 9 7 2 2 3 6 3 11h-14c0-3-1-5-3-7l-7-2c-4 0-7 1-9 4s-2 7-2 12l1 9 4 5 6 2c3 0 6-1 8-3s3-4 3-7h13c0 4-1 8-3 11s-5 6-8 7c-4 2-8 3-13 3Zm37-1v-52h14v52Zm7-59-6-2-2-5 2-5c1-2 3-2 6-2s5 0 6 2l2 5-2 5-6 2Zm22 78v-71h13l1 8 7-7 10-2c4 0 8 1 11 3s5 5 7 9 3 9 3 15-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm26-29c4 0 7-1 9-4l2-12c0-6 0-10-2-12-2-3-4-4-8-4-3 0-6 0-8 2l-5 6v16l5 6 7 2Zm63 11c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 8-3 14-3c8 0 14 2 19 7 4 4 6 11 6 19a38 38 0 0 1 0 4h-37l2 7 4 5 7 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-4 9Zm50 32v-52h14v9c1-3 3-6 6-8l10-2h1v12h-7l-6 2-4 4v35Z"/>
+            </g>
+        </g>
+        <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="13.8" d="M138 3970c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H151c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(364 4268)">Styrande principer</text>
+        <g clip-path="url(#v)">
+            <g filter="url(#w)" transform="translate(2593 5212)">
+                <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="14" d="M27 40c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H40c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#x)" filter="url(#y)" transform="translate(2790 5394)">
+                <path fill="#FFF" d="M95 155V83h29c5 0 9 0 13 2 3 1 6 3 8 6 3 3 4 7 4 12 0 4-2 8-4 11s-6 6-11 7c3 1 5 1 7 3l5 5 3 9 4 17h-15l-4-14-2-8-4-4-7-2h-11v28Zm15-40h12l6-1 4-4 1-5c0-3-1-6-3-7-2-2-4-3-7-3h-13Zm53 40v-52h15v52Zm8-59-6-2c-2-2-2-3-2-5s0-4 2-5c1-2 3-2 6-2 2 0 4 0 6 2l2 5-2 5-6 2Zm22 59V83h14v44l20-24h16l-21 24 22 28h-16l-21-28v28Zm81 0-12-2c-3-1-5-3-6-6l-2-10v-23h-9v-11h9V90h14v13h12v11h-12v22l1 6 6 2h5v11Zm36 0-12-2c-3-1-5-3-6-6l-2-10V83h14v53l2 6c0 1 2 2 5 2h3v11Zm13 0v-52h15v52Zm8-59-6-2c-2-2-2-3-2-5s0-4 2-5c1-2 3-2 6-2 2 0 4 0 6 2l2 5-2 5-6 2Zm22 59v-52h13l1 7 7-6 11-2c5 0 9 1 12 5 3 3 5 8 5 14v34h-15v-37l-3-4-5-1-7 2-5 5v35Zm53 19v-11h3l6-2 1-5v-53h14v52c0 6-1 11-4 14-3 4-8 5-15 5Zm17-78-6-2-2-5 2-5c2-2 4-2 6-2 3 0 5 0 6 2 2 1 2 3 2 5s0 3-2 5l-6 2Zm47 60c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l1 7 4 5 8 2 7-2 3-6h14c0 4-1 7-3 10-3 3-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-4 5-4 9Zm50 32v-52h13l1 9c1-3 3-6 6-8l10-2h1v12h-8l-5 2-4 4v35Zm57 0 26-72h13l-26 72Zm72 0V83h29c5 0 9 0 13 2 3 1 6 3 8 6 3 3 4 7 4 12 0 4-2 8-4 11s-6 6-11 7c3 1 5 1 7 3l5 5 3 9 4 17h-15l-4-14-2-8-4-4-7-2h-11v28Zm15-40h12l6-1 4-4 1-5c0-3-1-6-3-7-2-2-4-3-7-3h-13Zm78 41c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 8-9c4-2 9-3 15-3 7 0 14 2 18 7 5 4 7 11 7 19a39 39 0 0 1 0 4h-37l1 7 4 5 8 2 7-2 3-6h14c0 4-1 7-4 10-2 3-4 5-8 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-4 5-4 9Zm70 52c-6 0-11 0-15-2l-8-5-2-7c0-3 1-5 4-7 3-3 8-4 14-5l2-5h7c9 0 15 1 19 3 4 3 6 7 6 11 0 6-2 10-7 13-4 3-11 4-20 4Zm0-9c5 0 8 0 10-2 2-1 3-2 3-4l-1-3-3-2h-16l-3 2-2 3c0 2 1 3 3 4 2 2 5 2 9 2Zm-7-12-9-2-5-4-2-4c0-3 1-5 3-6 1-2 4-3 7-4l8 3-5 1c-2 1-2 2-2 3l1 1 4 2h8Zm6-16-12-2c-3-2-6-4-7-7l-3-9a17 17 0 0 1 10-16l13-2 12 2c3 2 6 4 7 7l3 9a17 17 0 0 1-10 16l-13 2Zm0-8c3 0 5-1 7-3 2-1 3-4 3-7s-1-6-3-7c-1-2-4-3-6-3-3 0-5 1-7 3s-3 4-3 7 1 6 3 7l6 3Zm15-20-4-5c2-4 4-7 7-8l10-2v10l-7 1-6 4Zm42 45-13-2c-3-1-5-3-6-6l-2-10V83h15v53l1 6c0 1 2 2 5 2h3v11Zm37 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l1 7 4 5 8 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-4 5-4 9Zm50 32v-52h13l1 9c1-3 3-6 6-8l10-2h1v12h-8l-5 2-4 4v35Z"/>
+            </g>
+        </g>
+        <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="13.8" d="M2610 5242c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H2623c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(2866 5539)">Riktlinjer / Regler</text>
+        <g clip-path="url(#z)">
+            <g filter="url(#A)" transform="translate(5065 2553)">
+                <path fill="#F2F2F2" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10" d="M25 38c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H38c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#B)" filter="url(#C)" transform="translate(5489 2733)">
+                <path d="M127 156c-8 0-14-2-19-5-6-3-10-7-12-13-3-5-4-12-4-19 0-8 1-14 4-20 2-5 6-10 12-13 5-3 11-4 19-4 7 0 14 1 19 4s9 8 12 13c3 6 4 12 4 20 0 7-1 14-4 19-3 6-7 10-12 13s-12 5-19 5Zm0-13c5 0 8-1 11-3s5-5 6-9c2-4 2-8 2-12 0-5 0-9-2-12-1-4-3-7-6-9-3-3-6-4-11-4s-9 1-12 4c-2 2-5 5-6 9l-2 12 2 12c1 4 4 7 6 9 3 2 7 3 12 3Zm48 12v-52h14v7l7-6 12-2c5 0 9 1 12 5 3 3 4 8 4 14v34h-14v-32l-1-5-3-4-4-1-7 2-5 5v35Zm69 0v-32l-1-5-2-4-5-1-7 2-5 5-2-9c2-3 5-5 8-6l12-3c5 0 9 1 12 5 3 3 4 8 4 14v34Zm29 0v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm52 1-8-2-7-5-2-9c0-4 1-8 4-11 3-2 7-4 13-5l18-1v-3c0-3-1-6-3-7l-6-2-7 2c-2 2-3 4-3 7h-13c0-5 1-8 3-11l8-6 12-1 9 1 7 2 5 6 2 9v35h-14v-7a22 22 0 0 1-18 8Zm5-10 7-2 6-5v-8l-16 2c-3 1-5 4-5 7l2 5 6 1Zm5-49c-4 0-7-1-9-3s-3-5-3-8 1-6 3-8 5-3 9-3c3 0 6 1 8 3s3 5 3 8-1 6-3 8-5 3-8 3Zm0-6 3-1 1-4-1-3-3-2a5 5 0 0 0-5 5l1 4 4 1Zm54 65c-3 0-7-1-10-3s-6-5-8-9l-2-16c0-6 1-11 3-15a20 20 0 0 1 19-11c3 0 7 0 9 2 3 1 5 3 6 6V83h15v72h-14l-1-7-7 6-10 2Zm5-11 7-2c3-2 4-4 5-6v-16l-4-6c-2-2-5-2-8-2s-6 1-8 4c-2 2-3 6-3 11 0 6 1 10 3 13s4 4 8 4Zm66 11c-6 0-10-1-14-3s-7-6-9-10c-3-4-4-9-4-14 0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a39 39 0 0 1-1 4h-36l1 7 4 5 7 2 8-2 3-6h14l-4 10c-2 3-5 5-8 6l-13 2Zm-12-33h23c-1-4-2-7-4-9l-8-2-8 2c-2 2-3 5-3 9Z"/>
+            </g>
+        </g>
+        <path fill="#F2F2F2" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10.3" d="M5080 2581c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H5093c-7 0-13-6-13-13Z"/>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(5566 2879)">Område</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M5767 3117v840"/>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3382 3680)">▲</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3382 3778)">styr utformningen </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3382 3877)">av </text>
+        <g clip-path="url(#D)">
+            <g filter="url(#E)" transform="translate(5063 3940)">
+                <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="14" d="M27 40c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H40c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#F)" filter="url(#G)" transform="translate(5229 4122)">
+                <g fill="#FFF">
+                    <path d="M95 155V83h17l23 38h-6l22-38h17v72h-15V91h7l-24 41h-9l-24-41h7v64Zm113 1c-5 0-10-1-14-3s-7-5-9-9c-2-5-3-9-3-15s1-11 3-15 5-7 9-9 9-3 14-3c6 0 10 1 14 3s8 5 10 9 3 9 3 15-1 10-3 15c-2 4-6 7-10 9s-8 3-14 3Zm0-11 8-2 4-6 1-8-1-8c-1-3-2-5-4-6-2-2-4-2-8-2-3 0-5 0-7 2-1 1-3 3-3 6a29 29 0 0 0 0 16l3 6 7 2Zm11-50c-2 0-4 0-5-2l-2-4 2-5 5-2 4 2c2 1 2 3 2 5s0 3-2 4c-1 2-2 2-4 2Zm-21 0c-2 0-3 0-4-2-2-1-2-2-2-4s0-4 2-5l4-2 5 2 2 5-2 4c-1 2-3 2-5 2Zm50 60v-52h13l1 7 7-6 11-2c5 0 9 1 12 5 3 3 5 8 5 14v34h-15v-37l-3-4-5-1-7 2-5 5v35Zm84 1-8-1c-3 0-6-1-8-3a15 15 0 0 1-7-13h13c0 3 1 5 3 6l7 1 7-1 2-4c0-2-1-4-3-5l-9-3-10-3-7-5-2-8c0-3 0-5 2-7 1-2 2-4 5-5l7-2a40 40 0 0 1 16 0l7 2 5 5 2 8h-14l-2-5-6-2-6 1-2 4 1 2 4 2 8 3c4 0 7 1 9 3l7 5 2 8-2 8-5 5-7 3-9 1Zm57-1-12-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c0 1 2 2 5 2h5v11Zm41 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a39 39 0 0 1 0 4h-37l1 7 4 5 8 2 7-2 3-6h14c0 4-1 7-3 10-3 3-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-4 5-4 9Zm50 32v-52h13l1 9c1-3 3-6 6-8l10-2h1v12h-8l-5 2-4 4v35Zm57 0 26-72h13l-26 72ZM596 155V83h28l13 2c4 2 7 4 9 8 3 3 4 8 4 13s-1 10-4 13c-2 4-5 6-9 8l-13 2h-13v26Zm15-38h12c3 0 6-1 8-3s3-4 3-8-1-7-3-8c-2-2-5-3-8-3h-12Zm61 39-8-2-7-5-2-9c0-4 1-8 4-11l12-5 19-1v-3c0-3-1-6-3-7l-6-2-7 2c-2 2-3 4-3 7h-13c0-5 1-8 3-11l8-6 12-1 9 1 7 2 5 6 1 9v35h-13v-7a22 22 0 0 1-18 8Zm5-10 7-2 5-5v-8l-15 2c-3 1-5 4-5 7l2 5 6 1Zm63 9-12-2c-3-1-5-3-6-6-2-2-2-6-2-10v-23h-9v-11h9V90h14v13h12v11h-12v22l1 6 5 2h6v11Zm39 0-12-2c-3-1-5-3-6-6-2-2-2-6-2-10v-23h-9v-11h9V90h14v13h11v11h-11v22l1 6 5 2h5v11Zm40 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a38 38 0 0 1-1 4h-36l1 7 4 5 7 2 8-2 2-6h14c0 4-1 7-3 10s-5 5-8 6l-13 2Zm-12-33h22c0-4-1-7-3-9l-8-2-8 2c-2 2-3 5-3 9Zm49 32v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Zm41 0v-52h14v7l7-6 11-2c5 0 10 1 12 5 3 3 5 8 5 14v34h-14v-32l-1-5-3-4-4-1-8 2-5 5v35Zm85 1-9-1c-3 0-5-1-7-3a15 15 0 0 1-8-13h13c0 3 1 5 3 6l8 1 6-1c2-1 2-2 2-4l-2-5-10-3-10-3-7-5-2-8 2-7 5-5 7-2a40 40 0 0 1 16 0l7 2 5 5 2 8h-13c0-2-1-4-3-5l-6-2-6 1-2 4 1 2 5 2 8 3 9 3 6 5c2 2 2 4 2 8l-1 8c-2 2-3 4-6 5l-7 3-8 1Z"/>
+                </g>
+            </g>
+        </g>
+        <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="13.8" d="M5080 3970c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H5093c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(5306 4268)">Mönster / Patterns</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="m5083 1403-1098 3"/>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4738 1124)">validerar</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4567 1223)">visualisering i</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4965 1323)">◄</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M5080 2843H3985"/>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5819 3680)">▲</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5819 3778)">beskriver bästa </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5819 3877)">praxis inom</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5343 3241)">innehåller</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5617 3341)">▼</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="m5767 2568 3-891"/>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5277 1795)">är baserade </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5608 1894)">på</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5617 1994)">▼</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5819 2411)">▲</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(5819 2509)">har olika</text>
+        <g clip-path="url(#H)">
+            <g filter="url(#I)" transform="translate(2593 3940)">
+                <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="14" d="M27 40c0-7 6-13 13-13h1348c8 0 14 6 14 13v522c0 8-6 14-14 14H40c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#J)" filter="url(#K)" transform="translate(2744 4122)">
+                <g fill="#FFF">
+                    <path d="m87 155 26-72h15l26 72h-15l-5-16h-27l-5 16Zm24-28h19l-10-29Zm51 28v-52h14v9l6-8 10-2h1v12h-7l-5 2-5 4v35Zm41 0V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm59 0v-52h14v52Zm7-59-6-2-2-5 2-5c1-2 3-2 6-2s5 0 6 2l2 5-2 5-6 2Zm44 59-12-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h15v13h11v11h-11v22l1 6c1 1 2 2 5 2h5v11Zm41 1c-6 0-11-1-15-3s-7-6-9-10-3-9-3-14c0-6 1-11 3-15s5-7 9-9c3-2 8-3 14-3 8 0 14 2 18 7 5 4 7 11 7 19a38 38 0 0 1 0 4h-37l1 7 4 5 8 2 7-2 3-6h14c0 4-1 7-3 10s-5 5-9 6l-12 2Zm-13-33h23c0-4-1-7-3-9l-8-2-8 2c-2 2-4 5-4 9Zm50 32V83h14v44l21-24h15l-21 24 23 28h-17l-21-28v28Zm81 0-12-2c-3-1-5-3-6-6l-2-10v-23h-8v-11h8V90h14v13h12v11h-12v22l2 6c0 1 2 2 5 2h5v11Zm33 1c-5 0-9-2-12-5s-5-8-5-14v-34h15v37l3 3 5 1c3 0 5 0 7-2l5-4v-35h15v52h-14v-8l-8 6c-3 2-6 3-11 3Zm48-1v-52h14v9c1-3 3-6 6-8l10-2h1v12h-7l-6 2-4 4v35ZM594 174v-71h13l1 8 7-7 10-2c4 0 7 1 11 3 3 2 5 5 7 9s3 9 3 15-1 11-3 15a21 21 0 0 1-19 12l-9-2-7-6v26Zm26-29c4 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-1-3-4-4-7-4s-6 0-8 2l-5 6v16l5 6 7 2Zm38 10v-52h14v9l7-8 9-2h1v12h-7l-5 2-4 4v35Zm41 0v-52h14v52Zm7-59-6-2-2-5 2-5c2-2 4-2 6-2 3 0 5 0 6 2 2 1 2 3 2 5s0 3-2 5l-6 2Zm22 59v-52h14v7l7-6 11-2c6 0 10 1 13 5 3 3 4 8 4 14v34h-14v-32l-1-5-2-4-5-1-7 2-5 5v35Zm88 1c-5 0-10-1-14-3s-7-5-9-9c-3-4-4-9-4-15s1-11 4-15c2-4 5-7 9-9s8-3 14-3l12 2c3 1 6 4 8 7 2 2 3 6 3 11h-13c-1-3-1-5-3-7l-7-2c-5 0-8 1-9 4-2 3-3 7-3 12l1 9 4 5 7 2c3 0 5-1 7-3s3-4 3-7h14c0 4-1 8-4 11-2 3-4 6-8 7l-12 3Zm36-1v-52h14v52Zm7-59-6-2-2-5 2-5c2-2 4-2 6-2 3 0 5 0 6 2 2 1 2 3 2 5s0 3-2 5l-6 2Zm22 78v-71h14l1 8 7-7 9-2c4 0 8 1 11 3s6 5 8 9l2 15c0 6-1 11-3 15a21 21 0 0 1-19 12l-9-2-6-6v26Zm27-29c3 0 6-1 8-4s3-7 3-12c0-6-1-10-3-12-2-3-4-4-7-4s-6 0-8 2c-3 2-4 4-5 6v16l4 6 8 2Zm62 11c-6 0-11-1-14-3-4-2-7-6-10-10-2-4-3-9-3-14 0-6 1-11 3-15s5-7 9-9 9-3 14-3c8 0 14 2 19 7 4 4 7 11 7 19a39 39 0 0 1-1 4h-36l1 7 4 5 7 2 8-2 2-6h14c0 4-1 7-3 10s-5 5-8 6l-13 2Zm-12-33h23c-1-4-2-7-4-9l-8-2-8 2c-2 2-3 5-3 9Zm49 32v-52h14v9l6-8 10-2h1v12h-7l-5 2-4 4v35Z"/>
+                </g>
+            </g>
+        </g>
+        <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="13.8" d="M2610 3970c0-7 6-13 13-13h1349c7 0 13 6 13 13v523c0 7-6 13-13 13H2623c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="110" font-weight="700" transform="translate(2821 4268)">Arkitekturprinciper</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2931 4627)">ger syfte </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3140 4726)">till</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3147 4826)">▼</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M3298 5229v-723"/>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3359 4993)">▲</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3359 5091)">motiveras</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3359 5190)">av</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M2610 4232H1513"/>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2032 3983)">följer / refererar </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2488 4082)">till</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(2495 4182)">◄</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1548 4334)">►</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1548 4432)">påverkar utformning</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1548 4531)">a</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(1592 4531)">v</text>
+        <path fill="none" stroke="#262626" stroke-miterlimit="8" stroke-width="27.5" d="M3298 3957v-840M5080 4232H3985"/>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 4334)">►</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 4432)">påverkar val </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4037 4531)">av</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3082 3242)">följer</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(3180 3342)">▼</text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4730 3965)">förenklar </text>
+        <text font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4545 4064)">efterlevnad av</text>
+        <text font-family="Arial,Arial_MSFontService,sans-serif" font-size="83" font-weight="400" transform="translate(4965 4164)">◄</text>
+        <g clip-path="url(#L)">
+            <g filter="url(#M)" transform="translate(4775 5202)">
+                <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10" d="M25 38c0-7 6-13 13-13h711c8 0 14 6 14 13v521c0 8-6 14-14 14H38c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#N)" filter="url(#O)" transform="translate(4880 5283)">
+                <g fill="#FFF">
+                    <path d="M77 110V62h16c5 0 10 1 13 3s4 5 4 9l-2 6c-1 2-3 4-5 4l8 4 2 8c0 3 0 6-2 8-1 2-3 3-6 4l-10 2Zm10-8h8l4-1 3-2 1-4-2-5-6-1h-8Zm0-21h6l5-1 2-4-1-4-2-1-4-1h-6Zm50 30c-3 0-7-1-9-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 5-6 3-2 6-2 10-2 5 0 9 1 12 4s5 8 5 13a25 25 0 0 1 0 2h-25l1 5c1 1 1 3 3 3l4 2 5-2c2 0 2-2 2-4h10c-1 3-1 5-3 7l-5 4-9 2Zm-8-23h15l-2-5-5-2-5 2c-2 1-3 3-3 5Zm47 35-10-1-5-3-2-5c0-2 1-3 3-5l9-3 1-3h5c6 0 10 0 13 2 2 2 4 4 4 7 0 4-2 6-5 8s-7 3-13 3Zm0-5 6-2c2-1 2-2 2-3v-2l-3-1h-10l-2 1-1 2c0 1 0 2 2 3l6 2Zm-5-9-6-1-4-3-1-3 2-3 5-3 5 2-3 1-2 2 1 1h3l5 1Zm4-10-8-2-5-4-2-6a11 11 0 0 1 7-11l8-1 9 1 4 5c2 2 2 4 2 6a11 11 0 0 1-7 10l-8 2Zm0-6 5-1 1-5-1-5-5-2-4 2-2 5 2 5 4 1Zm10-13-3-3c1-3 3-5 5-6l7-1v7h-5l-4 3Zm14 30V75h9l1 6c0-2 2-3 4-5l6-1h1v8h-5l-3 1-3 3v23Zm42 1c-3 0-7-1-9-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 5-6 3-2 6-2 10-2 5 0 9 1 12 4s5 8 5 13a26 26 0 0 1 0 2h-25l1 5c1 1 1 3 3 3l4 2 5-2c2 0 2-2 2-4h10c-1 3-1 5-3 7l-5 4-9 2Zm-8-23h15c0-2 0-4-2-5l-5-2-5 2c-2 1-3 3-3 5Zm33 35V75h9l1 6 4-5 7-1c2 0 5 0 7 2 2 1 4 3 5 6l2 10-2 10a14 14 0 0 1-13 8l-6-2-4-4v18Zm18-20 5-2 2-8-2-8c-1-2-3-3-5-3s-4 0-5 2c-2 1-3 2-3 4v10l3 4 5 1Zm25 20V75h9l1 6 4-5 7-1c2 0 5 0 7 2 2 1 4 3 5 6l2 10-2 10a14 14 0 0 1-13 8l-6-2-4-4v18Zm18-20 5-2 2-8-2-8c-1-2-3-3-5-3s-4 0-5 2c-2 1-3 2-3 4v10l3 4 5 1Zm54 8-6-1-5-2a10 10 0 0 1-5-9h9l2 4 5 1 4-1 2-2c0-2-1-3-2-3l-6-2-7-3c-2 0-3-1-4-3-2-1-2-3-2-5l1-5 4-3 4-2a27 27 0 0 1 11 0l4 2 4 3 1 6h-9l-1-4-4-1-4 1-2 2 1 2 3 1 5 1 6 2 5 4 1 5-1 6-4 3-4 2-6 1Zm40 0c-4 0-7-1-10-3l-6-6-2-9 2-10 6-6c3-2 6-2 10-2 3 0 6 0 9 2 3 1 5 3 6 6 2 3 2 6 2 10 0 3 0 7-2 9-1 3-3 5-6 6l-9 3Zm0-8 4-1 3-4 1-5-1-6-3-4-4-1-5 1-3 4a20 20 0 0 0 0 11l3 4 5 1Zm26 7V75h9v5l5-4 7-1c4 0 6 1 8 3s3 5 3 9v23h-10V85l-2-2-3-1-5 2-3 3v23Zm45 0V85l-2-2-3-1-5 1-3 4-1-6 5-5 8-1c3 0 6 1 8 3s3 5 3 9v23ZM89 199l-6-2-4-4-1 5h-8v-48h9v18l4-4 7-1c3 0 5 0 7 2 2 1 4 3 5 6l2 10-2 10a13 13 0 0 1-13 8Zm-2-8c2 0 4 0 5-2 2-2 2-5 2-8 0-4 0-7-2-9-1-1-2-2-5-2-2 0-3 0-5 2l-3 4v10l3 4 5 1Zm41 8c-3 0-7-1-9-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 5-6 3-2 6-2 10-2 5 0 9 1 12 4s5 8 5 13a25 25 0 0 1 0 2h-25l1 5 3 3 4 2c3 0 4-1 5-2 2 0 2-2 2-4h10c-1 3-1 5-3 7l-5 4-9 2Zm-8-23h15c0-2 0-4-2-5l-5-2-5 2c-2 1-3 3-3 5Zm47 23-6-1-5-2a10 10 0 0 1-4-9h8l2 4 5 1 4-1 2-2c0-2-1-3-2-3l-6-2-7-3c-2 0-3-1-4-3l-2-5 1-5 4-3 4-2a27 27 0 0 1 11 0l5 2 3 3 1 6h-9l-1-4-4-1-4 1-1 2v2l3 1 5 1 6 2 5 4 1 5-1 6-3 3-5 2-6 1Zm24-1v-48h9v29l14-16h10l-13 16 14 19h-10l-15-18v18Zm39 0v-35h9v6l4-5 7-1h1v8h-5l-4 1-3 3v23Zm27 0v-35h9v35Zm5-39-4-2-2-3 2-3 4-2 4 2 1 3-1 3-4 2Zm22 39-13-35h10l8 26 9-26h9l-12 35Zm44 1c-4 0-7-1-10-3-3-1-5-3-6-6l-2-10 2-9c1-3 3-5 6-6 2-2 5-2 9-2 5 0 9 1 12 4s5 8 5 13a25 25 0 0 1 0 2h-25l1 5 3 3 5 2 5-2 2-4h9l-2 7-6 4-8 2Zm-8-23h15c0-2-1-4-3-5l-5-2-5 2c-2 1-2 3-2 5Zm32 22v-35h9l1 6 4-5 6-1h1v8h-5l-3 1-3 3v23Zm58 1c-3 0-7-1-9-3-3-1-5-3-6-6-2-2-3-6-3-9 0-4 1-7 3-10 1-3 3-5 6-6 2-2 6-2 9-2 4 0 7 0 9 2 3 1 5 3 7 6l2 10-2 9c-2 3-4 5-7 6-2 2-5 3-9 3Zm0-8 5-1 2-4 1-5-1-6-2-4-5-1-5 1-2 4a20 20 0 0 0 0 11l2 4 5 1Zm42 7-9-1-6-6c-2-3-3-6-3-10l2-10c2-3 4-5 7-6 2-2 5-2 9-2l8 1 5 5c2 1 2 4 2 7h-9l-1-4-5-2c-3 0-5 1-6 3l-2 8 1 5 2 4 5 1c2 0 3 0 5-2l2-4h9l-2 7-6 5-8 1Zm24 0v-48h9v18l5-4 7-1c4 0 7 1 9 3s3 5 3 9v23h-10v-25l-2-2-3-1-5 2-3 3v23ZM124 286v-28h-6v-7h6v-1l1-5 2-4 4-2 7-1h3v7h-3l-4 1v5h7v7h-7v28Zm39 1c-4 0-7-1-10-3l-6-6-2-9 2-10 6-6c3-2 6-2 10-2 3 0 6 0 9 2 3 1 5 3 6 6 2 3 2 6 2 10 0 3 0 7-2 9-1 3-3 5-6 6l-9 3Zm0-8 4-1 3-4 1-5-1-6-3-4-4-1-5 1-3 4a20 20 0 0 0 0 11l3 4 5 1Zm6-33-3-1-1-3 1-3 3-1 4 1 1 3-1 3-4 1Zm-13 0-3-1-2-3 2-3 3-1 3 1 1 3-1 3-3 1Zm33 40v-35h9v6l4-5 6-1h1v8h-5l-3 1-3 3v23Zm41 0-8-1-4-4-1-7v-16h-6v-7h6v-8h9v8h8v7h-8v15l1 4 4 2h3v7Zm11 13v-8h3l4-1 2-2v-2l-13-35h10l8 26 8-26h10l-13 35-1 3-3 6-4 3-7 1Zm48-12-7-2-5-6-2-11 2-10a13 13 0 0 1 13-7l6 1 4 4v-18h10v48h-9l-1-5-4 4-7 2Zm3-8 5-1 3-4v-10c0-2-1-3-3-4-1-2-3-2-5-2s-4 1-5 3l-2 7 2 9c1 2 3 2 5 2Zm41 7-8-1-4-4-1-7v-36h9v35l1 4 4 2h2v7Zm9 0v-35h9v35Zm5-39-4-2-2-3 2-3 4-2 4 2 1 3-1 3-4 2Zm28 52-10-1-5-3-2-5c0-2 1-3 3-5l9-3 2-3h4c6 0 10 0 13 2s4 4 4 7c0 4-2 6-5 8s-7 3-13 3Zm0-5 7-2 2-3-1-2-2-1h-11l-2 1-1 2 2 3 6 2Zm-5-9-6-1-3-3-1-3 1-3 5-3 5 2-3 1-1 2 1 1h2l6 1Zm5-10-9-2-5-4-1-6a11 11 0 0 1 7-11l8-1 8 1 5 5 1 6a11 11 0 0 1-6 10l-8 2Zm0-6 4-1 2-5-2-5-4-2-5 2-1 5 1 5 5 1Zm9-13-2-3c1-3 2-5 4-6l7-1v7h-5l-4 3Zm23 31-5-2c-2 0-3-1-4-3l-2-6c0-3 1-5 3-7s5-3 8-3l12-1v-2c0-2 0-4-2-5l-4-1-4 1c-2 1-2 3-2 5h-9l2-7 5-4 8-1h6l5 2 3 4 1 6v23h-9v-5a15 15 0 0 1-12 6Zm3-7 5-1 4-3v-6l-11 1c-2 1-3 3-3 5l2 3 3 1Zm28 6v-35h10v6l4-5 6-1h1v8h-5l-3 1-3 3v23ZM125 374v-35h9v35Zm4-39-3-2-2-3 2-3 3-2 4 2 2 3-2 3-4 2Zm15 39v-35h9l1 5 4-4 8-1c3 0 6 1 8 3s3 5 3 9v23h-10v-25l-2-2-3-1-5 2-3 3v23Zm43 0v-35h9v5l4-4 8-1c3 0 6 1 8 3s3 5 3 9v23h-9v-21l-1-4-2-2-3-1-4 2c-2 0-3 2-4 3v23Zm58 1c-4 0-7-1-10-3l-6-6-2-10 2-9c2-3 3-5 6-6 3-2 6-2 9-2 6 0 10 1 13 4s4 8 4 13a25 25 0 0 1 0 2h-24l1 5 2 3 5 2 5-2 2-4h9l-2 7c-1 2-3 3-6 4l-8 2Zm-8-23h15l-2-5-6-2-5 2-2 5Zm33 22v-48h9v18l5-4 7-1c4 0 6 1 8 3s3 5 3 9v23h-9v-21l-1-4-1-2-4-1-4 2c-2 0-3 2-4 3v23Zm52 1-6-2c-2 0-3-1-4-3l-2-6c0-3 1-5 3-7s5-3 8-3l12-1v-2l-1-5-4-1-5 1-2 5h-9l2-7c1-2 3-3 6-4l8-1h6l4 2c2 1 3 2 3 4l2 6v23h-9l-1-5a15 15 0 0 1-11 6Zm3-7 5-1 3-3v-6l-10 1c-2 1-3 3-3 5l1 3 4 1Zm3-32-6-2-2-6 2-5 6-2 5 2c2 1 3 3 3 5 0 3-1 4-3 6l-5 2Zm0-4 2-1 1-3-1-2-2-1a3 3 0 0 0-3 3l1 3 2 1Zm38 42-8-1c-2-1-4-2-4-4l-2-7v-36h10v35l1 4c0 1 1 2 3 2h2v7Zm22 0-9-1-4-4-1-7v-36h10v39l4 2h2v7Zm24 1c-4 0-7-1-9-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 5-6 3-2 6-2 10-2 5 0 9 1 12 4s5 8 5 13a25 25 0 0 1-1 2h-24l1 5c0 1 1 3 3 3l4 2 5-2 2-4h9c0 3 0 5-2 7l-5 4-9 2Zm-8-23h15l-2-5-5-2-6 2-2 5Zm48 22-8-1c-2-1-4-2-4-4l-2-7v-16h-5v-7h5v-8h10v8h8v7h-8v15l1 4c0 1 1 2 3 2h4v7Z"/>
+                </g>
+            </g>
+        </g>
+        <path fill="#352F44" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="10.3" d="M4790 5230c0-7 6-13 13-13h712c7 0 13 6 13 13v522c0 7-6 13-13 13h-712c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(4941 5383)">Begrepp som </text>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(4935 5471)">beskriver och </text>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(4988 5559)">förtydligar </text>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(4990 5647)">innehållet</text>
+        <g clip-path="url(#P)">
+            <g filter="url(#Q)" transform="translate(5604 5202)">
+                <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="14" d="M27 40c0-7 6-13 13-13h711c8 0 14 6 14 13v521c0 8-6 14-14 14H40c-7 0-13-6-13-14Z"/>
+            </g>
+            <g clip-path="url(#R)" filter="url(#S)" transform="translate(5647 5329)">
+                <g fill="#FFF">
+                    <path d="M70 110V62h16c5 0 9 1 12 3s5 5 5 9l-2 6c-1 2-3 4-5 4 3 1 6 2 7 4 2 2 3 5 3 8l-2 8-6 4-10 2Zm10-8h7l5-1 3-2 1-4c0-2-1-4-3-5l-6-1h-7Zm0-21h6l5-1 2-4-1-4-3-1-3-1h-6Zm50 30c-4 0-7-1-10-3l-6-6-2-10 2-9 6-6c3-2 6-2 10-2 5 0 9 1 12 4s4 8 4 13a25 25 0 0 1 0 2h-24l1 5 2 3 5 2 5-2 2-4h9l-2 7c-1 2-3 3-6 4l-8 2Zm-8-23h15l-2-5-5-2-6 2-2 5Zm46 35-9-1-6-3-1-5c0-2 1-3 3-5l8-3 2-3h5c5 0 10 0 12 2 3 2 4 4 4 7 0 4-1 6-4 8s-8 3-14 3Zm0-5c4 0 6-1 7-2l2-3-1-2-2-1h-10l-3 1-1 2 2 3 6 2Zm-4-9-6-1-4-3-1-3 2-3 5-3 5 2-4 1-1 2 1 1h3l5 1Zm4-10-8-2-5-4-2-6a11 11 0 0 1 7-11l8-1 8 1 5 5 2 6a11 11 0 0 1-7 10l-8 2Zm0-6 4-1 2-5-2-5-4-2-4 2-2 5 2 5 4 1Zm10-13-3-3c1-3 2-5 4-6l7-1v7h-5l-3 3Zm14 30V75h9v6l4-5 7-1h1v8h-5l-4 1-3 3v23Zm42 1c-4 0-7-1-10-3l-6-6-2-10 2-9 6-6c3-2 6-2 10-2 5 0 9 1 12 4s4 8 4 13a26 26 0 0 1 0 2h-24l1 5 2 3 5 2 5-2 2-4h9l-2 7c-1 2-3 3-6 4l-8 2Zm-8-23h15l-2-5-5-2-6 2-2 5Zm33 35V75h9v6l5-5 6-1c3 0 5 0 8 2 2 1 3 3 4 6 2 2 2 6 2 10s0 7-2 10a14 14 0 0 1-12 8l-6-2-5-4v18Zm17-20 6-2 2-8-2-8c-1-2-3-3-5-3s-4 0-5 2l-4 4v10l3 4 5 1Zm26 20V75h9v6l5-5 6-1c3 0 5 0 7 2 3 1 4 3 5 6 2 2 2 6 2 10s0 7-2 10a14 14 0 0 1-12 8l-6-2-5-4v18Zm17-20 6-2 2-8-2-8c-1-2-3-3-5-3s-4 0-5 2l-4 4v10l3 4 5 1Zm55 8-6-1-5-2a10 10 0 0 1-5-9h9c0 2 0 3 2 4l5 1 4-1 1-2-1-3-7-2-6-3c-2 0-4-1-5-3l-1-5 1-5 3-3 5-2a27 27 0 0 1 11 0l4 2 3 3 2 6h-9l-2-4-4-1-4 1-1 2 1 2 3 1 5 1 6 2 4 4 2 5-1 6-4 3-5 2-5 1Zm39 0-9-3c-3-1-5-3-6-6-2-2-2-6-2-9 0-4 0-7 2-10 1-3 3-5 6-6 3-2 6-2 9-2 4 0 7 0 10 2l6 6 2 10-2 9-6 6c-3 2-6 3-10 3Zm0-8 5-1 3-4V87l-3-4-5-1-5 1-2 4a20 20 0 0 0 0 11l2 4 5 1Zm26 7V75h9l1 5 4-4 8-1c3 0 6 1 8 3s3 5 3 9v23h-10V85l-2-2-3-1-5 2-3 3v23Zm46 0V89l-1-4-1-2-3-1-5 1-4 4-1-6 6-5 8-1c3 0 6 1 8 3l2 9v23Zm48 1-5-1-5-2a10 10 0 0 1-5-9h9c0 2 0 3 2 4l4 1 5-1 1-2c0-2 0-3-2-3l-6-2-6-3c-2 0-4-1-5-3l-2-5 2-5 3-3 5-2a27 27 0 0 1 10 0l5 2 3 3 2 6h-9l-2-4-4-1-4 1-1 2 1 2 3 1 5 1 6 2 4 4 2 5-2 6-3 3-5 2-6 1Zm39-1-9-1-4-4-1-7V82h-6v-7h6v-8h10v8h7v7h-7v19l4 2h3v7Zm10 13v-8h3l4-1 2-2 1-2-14-35h10l9 26 7-26h10l-12 35-2 3-3 6-4 3-7 1Zm37-13V75h9v6l4-5 7-1h1v8h-5l-4 1-2 3v23ZM109 199l-7-2-5-6-1-11c0-4 0-7 2-10a13 13 0 0 1 12-7l7 1 4 4v-18h9v48h-9v-5l-5 4-7 2Zm3-8 5-1 4-4v-10l-3-4c-2-2-3-2-5-2-3 0-4 1-6 3l-2 7 2 9c1 2 3 2 5 2Zm44 8c-3 0-7-1-9-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 5-6 3-2 6-2 10-2 5 0 9 1 12 4s5 8 5 13a25 25 0 0 1 0 2h-25l1 5c1 1 1 3 3 3l4 2 5-2c2 0 2-2 2-4h10c-1 3-1 5-3 7l-5 4-9 2Zm-8-23h15c0-2 0-4-2-5l-5-2-5 2c-2 1-3 3-3 5Zm47 23-6-1-5-2a10 10 0 0 1-4-9h8l2 4 5 1 4-1 2-2c0-2-1-3-2-3l-6-2-7-3c-2 0-3-1-4-3l-2-5 1-5 4-3 4-2a27 27 0 0 1 11 0l5 2 3 3 1 6h-9l-1-4-4-1-4 1-2 2 1 2 3 1 5 1 6 2 5 4 1 5-1 6-3 3-5 2-6 1Zm24-1v-35h9v35Zm5-39-4-2-2-3 2-3 4-2 4 2 1 3-1 3-4 2Zm28 52-10-1-5-3-2-5c0-2 1-3 3-5l9-3 2-3h4c6 0 10 0 13 2s4 4 4 7c0 4-2 6-5 8s-7 3-13 3Zm0-5 7-2 2-3-1-2-2-1h-11l-2 1-1 2 2 3 6 2Zm-5-9-6-1-3-3-1-3 1-3 5-3 5 2-3 1-1 2 1 1h2l5 1Zm4-10-8-2-5-4-1-6a11 11 0 0 1 7-11l8-1 8 1 5 5 1 6a11 11 0 0 1-6 10l-9 2Zm0-6 5-1 2-5-2-5-4-2-5 2-1 5 1 5 4 1Zm10-13-2-3c1-3 2-5 4-6l7-1v7h-5l-4 3Zm15 30v-35h9v5l5-4 7-1c3 0 6 1 8 3s3 5 3 9v23h-9v-21l-1-4-2-2-3-1-4 2c-2 0-3 2-4 3v23Zm58 1c-4 0-7-1-10-3l-6-6-2-10 2-9 6-6c3-2 6-2 9-2 6 0 10 1 13 4s4 8 4 13a25 25 0 0 1 0 2h-24l1 5 2 3 5 2 5-2 2-4h9l-2 7c-1 2-3 3-6 4l-8 2Zm-8-23h15l-2-5-6-2-5 2-2 5Zm33 22v-35h9v5l5-4 7-1c4 0 6 1 8 3s3 5 3 9v23h-9v-21l-1-4-1-2-3-1-5 2c-2 0-3 2-4 3v23Zm67 1-6-2c-2 0-3-1-4-3l-2-6c0-3 1-5 3-7s5-3 8-3l12-1v-2l-1-5-5-1-4 1-2 5h-9l2-7 5-4 8-1h7l4 2c2 1 3 2 3 4l1 6v23h-8l-1-5a15 15 0 0 1-11 6Zm3-7 5-1 3-3v-6l-10 1c-2 1-3 3-3 5l1 3 4 1Zm35 6-13-35h10l8 26 9-26h9l-12 35Zm55 1-7-2-5-6-1-11c0-4 0-7 2-10a13 13 0 0 1 12-7l7 1 4 4v-18h9v48h-9v-5l-5 4-7 2Zm3-8 5-1 4-4v-10l-3-4c-2-2-3-2-5-2-3 0-4 1-6 3l-2 7 2 9c1 2 3 2 5 2Zm44 8c-3 0-7-1-9-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 5-6 3-2 6-2 10-2 5 0 9 1 12 4s5 8 5 13a26 26 0 0 1-1 2h-24l1 5c1 1 1 3 3 3l4 2 5-2c2 0 2-2 2-4h10c-1 3-1 5-3 7l-5 4-9 2Zm-8-23h15l-2-5-5-2-6 2-2 5Zm48 22-8-1c-2-1-4-2-4-4l-1-7v-16h-6v-7h6v-8h9v8h8v7h-8v15l1 4c0 1 1 2 3 2h4v7ZM141 287c-4 0-7-1-10-3l-6-6-2-9 2-10 6-6c3-2 6-2 10-2 3 0 6 0 9 2 3 1 5 3 6 6 2 3 2 6 2 10 0 3 0 7-2 9-1 3-3 5-6 6l-9 3Zm0-8 5-1 2-4 1-5-1-6-2-4-5-1-5 1-2 4a20 20 0 0 0 0 11l2 4 5 1Zm7-33-3-1-2-3 2-3 3-1 3 1 1 3-1 3-3 1Zm-14 0-3-1-1-3 1-3 3-1 3 1 1 3-1 3-3 1Zm33 40v-35h9v5l5-4 7-1c4 0 6 1 8 3s3 5 3 9v23h-9v-21l-1-4-1-2-3-1-5 2c-2 0-3 2-4 3v23Zm56 1-6-1-5-2a10 10 0 0 1-4-9h8l2 4 5 1 4-1 2-2c0-2-1-3-2-3l-6-2-7-3c-2 0-3-1-4-3l-2-5 1-5 4-3 4-2a27 27 0 0 1 11 0l5 2 3 3 1 6h-9l-1-4-4-1-4 1-2 2 1 2 3 1 5 1 6 2 5 4 1 5-1 6-3 3-5 2-6 1Zm24-1v-48h9v29l14-16h10l-13 16 14 19h-11l-14-18v18Zm47 1-5-2c-2 0-3-1-4-3l-2-6c0-3 1-5 3-7s5-3 8-3l12-1v-2l-1-5-5-1-4 1-2 5h-9l2-7 5-4 8-1h6l5 2c2 1 3 2 3 4l1 6v23h-8l-1-5a15 15 0 0 1-12 6Zm3-7 5-1 4-3v-6l-10 1c-2 1-3 3-3 5l1 3 3 1Zm41 7-7-2c-3-2-4-4-5-6-2-3-2-6-2-11 0-4 0-7 2-10a13 13 0 0 1 12-7l7 1 4 4v-18h9v48h-9v-5l-5 4-6 2Zm2-8 6-1 3-4v-10l-3-4c-2-2-3-2-5-2-3 0-4 1-6 3l-2 7 2 9c2 2 3 2 5 2Zm45 8c-4 0-8-1-10-3-3-1-5-3-6-6-2-2-2-6-2-10 0-3 0-6 2-9 1-3 3-5 6-6 2-2 5-2 9-2 5 0 9 1 12 4s5 8 5 13a26 26 0 0 1 0 2h-25l1 5 3 3 5 2 4-2c2 0 2-2 2-4h10c0 3-1 5-3 7l-5 4-8 2Zm-9-23h15c0-2 0-4-2-5l-5-2-5 2c-2 1-3 3-3 5Zm61 22-8-1-4-4-1-7v-36h9v35l1 4 3 2h3v7Zm18 1-5-2c-2 0-3-1-4-3l-2-6c0-3 1-5 3-7s5-3 8-3l12-1v-2l-1-5-5-1-4 1c-2 1-2 3-2 5h-9l2-7 5-4 8-1h6l5 2c2 1 3 2 3 4l1 6v23h-8l-1-5a15 15 0 0 1-12 6Zm3-7 5-1 4-3v-6l-10 1c-2 1-3 3-3 5l1 3 3 1Zm11-34-3-1-2-3 2-3 3-1 3 1 1 3-1 3-3 1Zm-14 0-3-1-1-3 1-3 3-1 3 1 1 3-1 3-3 1Zm45 53-10-1-5-3-2-5c0-2 1-3 3-5l9-3 2-3h4c6 0 10 0 13 2s4 4 4 7c0 4-1 6-4 8-4 2-8 3-14 3Zm0-5 7-2 2-3-1-2-2-1h-11l-2 1-1 2 2 3 6 2Zm-5-9-6-1-3-3-1-3 1-3 6-3 4 2-3 1-1 2 1 1h2l6 1Zm5-10-8-2c-3-1-4-2-5-4-2-2-2-4-2-6a11 11 0 0 1 7-11l8-1 8 1 5 5 2 6a11 11 0 0 1-7 10l-8 2Zm0-6 4-1 2-5-2-5-4-2-5 2-1 5c0 2 0 4 2 5l4 1Zm10-13-3-3c1-3 2-5 4-6l7-1v7h-5l-3 3Zm29 31c-4 0-7-1-10-3l-6-6-2-10 2-9c1-3 3-5 6-6 2-2 6-2 9-2 6 0 10 1 13 4s4 8 4 13a25 25 0 0 1 0 2h-24l1 5 2 3 5 2 5-2 2-4h9l-2 7-6 4-8 2Zm-8-23h15l-2-5-6-2-5 2-2 5Zm47 22-8-1-4-4-1-7v-16h-6v-7h6v-8h10v8h7v7h-7v19l4 2h3v7Z"/>
+                </g>
+            </g>
+        </g>
+        <path fill="#0D3B4F" fill-rule="evenodd" stroke="#000" stroke-miterlimit="8" stroke-width="13.8" d="M5621 5232c0-7 6-13 13-13h712c7 0 13 6 13 13v522c0 7-6 13-13 13h-712c-7 0-13-6-13-13Z"/>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(5701 5429)">Begrepp som styr </text>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(5730 5517)">designen av det </text>
+        <text fill="#FFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-size="73" font-weight="700" transform="translate(5757 5605)">önskade läget</text>
+    </g>
+</svg>

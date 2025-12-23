@@ -4,7 +4,8 @@
 	import { getConcepts, getPrinciple, type Concept, type ConceptMetadata } from '$lib/content';
 	import { contentData } from '$lib/content-data.generated.js';
 	import { getSidebarContext } from '$lib/sidebar-state.svelte';
-	import { resolve } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
+    import ConceptModel from '$lib/components/ConceptModel.svelte';
 
 	// Icon mapping for concepts
 	const iconMap: Record<string, any> = {
@@ -172,9 +173,7 @@
 								<!-- Concept Map Visualization -->
 								<div class="relative bg-gradient-to-br from-blue-50 to-indigo-50 p-4 sm:p-6 lg:p-8 rounded-xl min-h-64 sm:min-h-96 overflow-hidden">
 									<!-- Center: Reference Architecture -->
-									<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0D3B4F] text-white px-3 sm:px-6 py-2 sm:py-4 rounded-lg text-center font-semibold text-sm sm:text-base">
-										Referensarkitektur
-									</div>
+									<ConceptModel  />
 								</div>
 								<h3 class="text-xl sm:text-2xl font-bold text-[#0D3B4F] mb-6 sm:mb-8 mt-8 sm:mt-12">Konceptbeskrivningar</h3>
 								<div class="space-y-6 sm:space-y-8">
