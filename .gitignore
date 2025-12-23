@@ -1,0 +1,31 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# Generated content files
+/src/lib/content-data.generated.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+HERAF - Vägledning.pdf
+HERAM Referensarkitektur - Styrning.pdf
+HERAM Konceptbeskrivning.pdf
+ref/HERAM Referensarkitektur - styrning.md
+ref/HERAM Referensarkitektur koncept.md
