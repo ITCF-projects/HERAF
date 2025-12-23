@@ -12,7 +12,7 @@ date: 2025-11-13
 
 En regel är en tvingande riktlinje. Den definierar vad som måste följas i syfte att säkerställa att personer agerar i enlighet med styrande principer, lagkrav eller andra obligatoriska förhållningssätt.
 
-## Karakteristika
+## Egenskaper
 
 ### Obligatorisk
 Regler är tvingande och måste följas utan undantag eller endast med formella avsteg.

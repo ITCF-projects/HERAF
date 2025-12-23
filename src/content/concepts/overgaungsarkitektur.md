@@ -16,7 +16,7 @@ date: 2025-11-13
 
 Den är ett viktigt verktyg för att hantera komplexitet, risker och beroenden i större transformationsinitiativ.
 
-## Karakteristika
+## Egenskaper
 - **Tidsbegränsad** - har ett tydligt slutdatum
 - **Stegvis** - möjliggör gradvis transformation
 - **Riskhantering** - minskar risker genom mindre förändringar

@@ -10,9 +10,9 @@ date: 2025-11-13
 
 # Målgruppsperspektiv
 
-Målgruppsperspektiv är synvinkeln från en specifik målgrupp och beskriver vilka frågeställningar, eller angelägenhet (concerns), som är viktiga att besvara eller addressera.
+Målgruppsperspektiv  är synvinkeln från en specifik målgrupp och beskriver vilka frågeställningar, eller angelägenheter (concerns), som är viktiga att besvara/adressera. Angelägenhet beskriver vad en intressent eller målgrupp anser vara viktigt inom området. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera. 
 
-## Definition och syfte
+Exempel: säkerhet, prestanda, användbarhet, kostnadseffektivitet.
 
 Varje målgrupp har unika behov, kunskaper och ansvar som påverkar vilka aspekter av arkitekturen som är mest relevanta för dem. Målgruppsperspektiv säkerställer att arkitekturdokumentation och -kommunikation anpassas för att vara maximalt värdefull för varje specifik grupp.
 

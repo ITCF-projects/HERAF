@@ -38,7 +38,7 @@
 		<div>
 					<p class="text-gray-700">
 						Ramverket innehåller material som beskriver, visualiserar och vägleder i hur man skapar en referensarkitektur. På en övergripande nivå innehåller ramverket två huvudsakliga områden, vägledningen och HERAM.
-Varje område innehåller även komponenter som hjälper under framtagningen. Följande konceptuella modell (figur c) visar relationerna mellan komponenterna i respektive område.
+Varje område innehåller även komponenter som hjälper under framtagningen.
 					</p>
 		</div>
 		

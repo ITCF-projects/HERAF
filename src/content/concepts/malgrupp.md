@@ -10,7 +10,7 @@ date: 2025-11-13
 
 # Målgrupp
 
-Målgrupp är primära rollen eller rollerna som en referensarkitektur riktar sig till. Denna grupp påverkas helt av mot vem referensarkitektur riktar sig till och kan vara allt från verksamhetsledningen, IT-arkitekter eller tom. IT-tjänsteleverantörer.
+Målgrupp är primära rollen eller rollerna som ska använda sig av en referensarkitektur. De är själva konsumenten eller kunden av referensarkitekturen och kan vara allt från IT-arkitekter, IT-specialister eller tom. IT-tjänsteleverantörer.
 
 ## Betydelse för referensarkitektur
 

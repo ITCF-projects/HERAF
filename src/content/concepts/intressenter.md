@@ -10,9 +10,7 @@ date: 2025-11-13
 
 # Intressenter
 
-Intressenter är de roller som påverkas av en referensarkitektur men inte nödvändigtvis kommer vara den primära målgruppen som kommer använda den. 
-
-Inkluderande roller beror mycket på innehållet av en referensarkitektur där tex. Säkerhet och riskhanteringsteam kan ha ett intresse hur en referensarkitektur för IAM utformas även om de nödvändigtvis inte kommer använda dem.
+Intressenter är de roller som påverkas av en referensarkitektur men inte nödvändigtvis kommer vara den primära målgruppen eller konsumenten av den. Inkluderande roller beror mycket på innehållet av en referensarkitektur där exempelvis en ledningsgrupp kan ha ett intresse hur en referensarkitektur för IAM utformas även om de nödvändigtvis inte kommer använda dem.
 
 ## Distinction från målgrupp
 

@@ -42,7 +42,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>HERAF - Higher Education Reference Architecture Framework</title>
+	<title>HERAF v0.5</title>
 </svelte:head>
 
 <div class="min-h-screen bg-gray-50">
@@ -53,7 +53,7 @@
 				<!-- Logo/Brand -->
 				<div class="flex items-center space-x-4">
 					<a href="/" class="text-2xl font-bold text-gray-900">
-						<span class="text-[#352F44]">HERAF</span>
+						<span class="text-[#352F44]">HERAF v0.5</span>
 					</a>
 					<div class="hidden sm:block h-8 w-px bg-gray-300"></div>
 					<img 

@@ -10,7 +10,7 @@ date: 2025-11-13
 
 # Referensarkitektur
 
-En referensarkitektur är en mall eller ramverk som beskriver en rekommenderad struktur och organisering inom ett specifikt område. Den fungerar som en överenskommen vägledning och standardiseringsgrund för hur en lösning inom ett visst område bör implementeras.
+En referensarkitektur är en mall eller ramverk som beskriver en rekommenderad struktur och organisering inom ett specifikt område. Den fungerar som en överenskommen vägledning och standardiseringsgrund för vad en lösning inom ett visst område bör implementeras.
 
 ## Syfte
 

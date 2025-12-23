@@ -14,7 +14,7 @@ Styrande principer är den grundläggande riktningen som finns på ett lärosät
 
 Genom att följa principerna kan lärosäten säkerställa att deras arkitektur samt underliggande design går mot den gemensamma tilltänkta riktningen.
 
-## Karakteristika
+## Egenskaper
 
 ### Riktningsgivande
 Principer ger övergripande vägledning för arkitektoniska beslut utan att vara för specifika eller tekniska.

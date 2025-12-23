@@ -41,7 +41,7 @@ En vy-specifikation definierar hur en vy ska utformas genom att ange dess syfte,
 
 ## Fördelar med vy-specifikationer
 
-### Konsekvens
+### Konsekventa vyer
 Säkerställer att liknande vyer skapas på samma sätt oavsett vem som producerar dem.
 
 ### Kvalitet
