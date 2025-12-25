@@ -21,7 +21,7 @@
    2. [HERAM](#heram)
 3. [Skapa referensarkitektur](#skapa-referensarkitektur)
    1. [Kontinuerliga aktiviteter](#kontinuerliga-aktiviteter)
-      - [Förankra med målgrupp](#förankra-med-målgrupp)
+      - [Identifiera och förankra med målgrupp](#identifiera-och-förankra-med-målgrupp)
       - [Kommunicera med intressenter](#kommunicera-med-intressenter)
       - [Dokumentera arkitekturbeslut](#dokumentera-arkitekturbeslut)
    2. [Skapande aktiviteter](#skapande-aktiviteter)
