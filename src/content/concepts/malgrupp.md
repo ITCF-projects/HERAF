@@ -10,7 +10,7 @@ date: 2025-11-13
 
 # Målgrupp
 
-Målgrupp är primära rollen eller rollerna som ska använda sig av en referensarkitektur. De är själva konsumenten eller kunden av referensarkitekturen och kan vara allt från IT-arkitekter, IT-specialister eller tom. IT-tjänsteleverantörer.
+Målgrupp är den eller de roller som ska använda en referensarkitektur. De är referensarkitekturens användare och kan vara allt från IT-arkitekter och IT-specialister till IT-tjänsteleverantörer. I varje iteration väljs en primär målgrupp.
 
 ## Betydelse för referensarkitektur
 
@@ -25,25 +25,23 @@ Arkitekturperspektiv och vyer utformas för att besvara målgruppens specifika f
 
 ## Vanliga målgrupper
 
+En referensarkitektur innehåller principer, strukturer, begrepp, mönster och arkitekturvyer. Implementationsguider, teknisk design, API-specifikationer och kod ingår inte – de tas fram senare av målgrupperna, med referensarkitekturen som grund. Exemplen nedan beskriver därför vilken nytta varje målgrupp har av referensarkitekturen, inte vilka leverabler den innehåller.
+
 ### IT-arkitekter
-- **Behov**: Detaljerade tekniska specifikationer, designmönster, integrationslösningar
-- **Fokus**: Teknisk implementation och systemdesign
-- **Vyer**: Tekniska arkitekturvyer, komponentdiagram
+- **Nytta av referensarkitekturen**: En gemensam grund för arkitekturbeslut genom principer, mönster och vyer. Används som stöd när lösningsarkitektur och teknisk design tas fram, och bidrar till konsekventa val mellan projekt och lärosäten.
+- **Exempel på relevanta vyer**: Översiktliga arkitekturvyer, logiska vyer, integrations- och strukturvyer.
 
 ### Verksamhetsledning
-- **Behov**: Strategisk översikt, kostnad-nytta, riskbedömningar
-- **Fokus**: Affärsvalue och strategisk riktning
-- **Vyer**: Högnivåöversikter, roadmaps
+- **Nytta av referensarkitekturen**: En överblick över den inriktning som gäller för området och vilka principer som styr den. Ger underlag för prioriteringar och investeringsbeslut.
+- **Exempel på relevanta vyer**: Översiktliga vyer, vyer som visar förhållandet mellan nuläge och mål.
 
 ### Utvecklare
-- **Behov**: Konkreta implementationsguider, kodexempel, API-specifikationer
-- **Fokus**: Praktisk implementation
-- **Vyer**: Detaljerade tekniska vyer, sekvensdiagram
+- **Nytta av referensarkitekturen**: Ramar och mönster att utgå från när lösningar byggs, till exempel hur integrationer och säkerhet ska hanteras. Utvecklarna tar själva fram implementationsguider, API-specifikationer och kod inom de ramarna.
+- **Exempel på relevanta vyer**: Logiska vyer, integrationsvyer, mönster.
 
 ### IT-tjänsteleverantörer
-- **Behov**: Servicenivåer, integrationskrav, leveransstandarder
-- **Fokus**: Tjänsteleverans och drift
-- **Vyer**: Servicearkitektur, operationella vyer
+- **Nytta av referensarkitekturen**: Tydliga krav och principer som lösningar och tjänster behöver uppfylla, vilket gör det lättare att bedöma och anpassa ett erbjudande.
+- **Exempel på relevanta vyer**: Integrationsvyer, vyer över tjänster och gränssnitt.
 
 ## Primär vs sekundär målgrupp
 - **Primär målgrupp**: Huvudanvändarna som referensarkitekturen främst är utformad för

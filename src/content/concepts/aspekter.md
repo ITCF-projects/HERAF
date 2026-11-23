@@ -26,14 +26,14 @@ Hjälper till att identifiera potentiella brister eller risker i olika områden.
 ## Vanliga aspekter
 
 ### Funktionella aspekter
-- **Omfattning**: Vad systemet ska göra
+- **Omfattning**: Vad lösningen ska göra
 - **Kapacitet**: Vilken volym som ska hanteras
 - **Prestanda**: Svarstider och genomströmning
 - **Användbarhet**: Användarupplevelse och tillgänglighet
 
 ### Informationsaspekter
 - **Datamodeller**: Struktur och relationer
-- **Informationsflöden**: Hur data rör sig genom systemet
+- **Informationsflöden**: Hur data rör sig genom lösningen
 - **Datakvalitet**: Precision, aktualitet, kompletthet
 - **Datahantering**: Lagring, backup, arkivering
 
@@ -52,7 +52,7 @@ Hjälper till att identifiera potentiella brister eller risker i olika områden.
 ## Tvärgående karaktär
 
 ### Påverkan på multipla komponenter
-Aspekter är sällan isolerade till enskilda komponenter utan påverkar hela systemet.
+Aspekter är sällan isolerade till enskilda komponenter utan påverkar hela lösningen.
 
 ### Integration mellan aspekter
 Olika aspekter kan ha beroenden eller konflikter som behöver hanteras.

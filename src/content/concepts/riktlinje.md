@@ -3,7 +3,7 @@ id: riktlinje
 title: Riktlinje
 icon: Guide
 category: Governance
-relationships: [styrande-principer, regel]
+relationships: [arkitekturprinciper, styrande-principer, regel]
 examples: [API-designriktlinjer, Säkerhetsriktlinjer, Kodningsstandarder]
 date: 2025-11-13
 ---

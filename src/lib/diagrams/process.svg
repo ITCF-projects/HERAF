@@ -1,0 +1,55 @@
+<svg class="diagram-svg" viewBox="0 0 680 304" role="group" aria-label="Processen Skapa referensarkitektur" xmlns="http://www.w3.org/2000/svg">
+  <text class="d-group" x="0" y="14">Starta iterationen – i denna ordning</text>
+  <a class="d-step" href="#steg-1-valj-primar-malgrupp" data-target="steg-1-valj-primar-malgrupp">
+    <path d="M0 24 H218 L234 60 L218 96 H0 Z"/>
+    <text class="d-num" x="113" y="52">Steg 1</text>
+    <text class="d-label" x="113" y="72">Välj primär målgrupp</text>
+  </a>
+  <a class="d-step" href="#steg-2-identifiera-malgruppens-angelagenheter" data-target="steg-2-identifiera-malgruppens-angelagenheter">
+    <path d="M222 24 H440 L456 60 L440 96 H222 L238 60 Z"/>
+    <text class="d-num" x="343" y="52">Steg 2</text>
+    <text class="d-label" x="343" y="72">Identifiera angelägenheter</text>
+  </a>
+  <a class="d-step" href="#steg-3-bestam-omfang" data-target="steg-3-bestam-omfang">
+    <path d="M444 24 H662 L678 60 L662 96 H444 L460 60 Z"/>
+    <text class="d-num" x="565" y="52">Steg 3</text>
+    <text class="d-label" x="565" y="72">Bestäm omfång</text>
+  </a>
+  <text class="d-group" x="0" y="128">Ta fram innehållet</text>
+  <a class="d-step" href="#steg-4-identifiering" data-target="steg-4-identifiering">
+    <path d="M0 138 H218 L234 174 L218 210 H0 Z"/>
+    <text class="d-num" x="113" y="166">Steg 4</text>
+    <text class="d-label" x="113" y="186">Identifiering</text>
+  </a>
+  <a class="d-step" href="#steg-5-definiering" data-target="steg-5-definiering">
+    <path d="M222 138 H440 L456 174 L440 210 H222 L238 174 Z"/>
+    <text class="d-num" x="343" y="166">Steg 5</text>
+    <text class="d-label" x="343" y="186">Definiering</text>
+  </a>
+  <a class="d-step" href="#steg-6-konkretisering" data-target="steg-6-konkretisering">
+    <path d="M444 138 H662 L678 174 L662 210 H444 L460 174 Z"/>
+    <text class="d-num" x="565" y="166">Steg 6</text>
+    <text class="d-label" x="565" y="186">Konkretisering</text>
+  </a>
+  <text class="d-group" x="0" y="242">Löpande under hela iterationen</text>
+  <a class="d-ongoing" href="#forankra-med-referensgrupp" data-target="forankra-med-referensgrupp">
+    <rect x="0" y="252" width="164" height="50" rx="4"/>
+    <text class="d-small" x="82" y="273">Förankra med</text>
+    <text class="d-small" x="82" y="290">referensgrupp</text>
+  </a>
+  <a class="d-ongoing" href="#kommunicera-med-intressenter" data-target="kommunicera-med-intressenter">
+    <rect x="172" y="252" width="164" height="50" rx="4"/>
+    <text class="d-small" x="254" y="273">Kommunicera med</text>
+    <text class="d-small" x="254" y="290">intressenter</text>
+  </a>
+  <a class="d-ongoing" href="#dokumentera-arkitekturbeslut" data-target="dokumentera-arkitekturbeslut">
+    <rect x="344" y="252" width="164" height="50" rx="4"/>
+    <text class="d-small" x="426" y="273">Dokumentera</text>
+    <text class="d-small" x="426" y="290">arkitekturbeslut</text>
+  </a>
+  <a class="d-ongoing" href="#dokumentera-underlag" data-target="dokumentera-underlag">
+    <rect x="516" y="252" width="164" height="50" rx="4"/>
+    <text class="d-small" x="598" y="273">Dokumentera</text>
+    <text class="d-small" x="598" y="290">underlag</text>
+  </a>
+</svg>

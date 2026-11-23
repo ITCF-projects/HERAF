@@ -54,7 +54,7 @@ class SidebarState {
 			title: principle.metadata.id,
 			content: principle.content,
 			htmlContent: principle.htmlContent,
-			categoryLabel: 'Arkitekturprincip',
+			categoryLabel: 'Princip',
 			categoryColor: 'blue',
 			metadata: {
 				header: principle.metadata.principle,
@@ -63,8 +63,8 @@ class SidebarState {
 				references: principle.metadata.references,
 				type: 'principle'
 			},
-			footerContent: 'Se i fullständig vägledning',
-			footerHref: `/vagledning#principle-${principle.metadata.id}`
+			footerContent: 'Visa i HERAM',
+			footerHref: `${resolve('/heram')}#${String(principle.metadata.id).toLowerCase()}`
 		});
 	}
 	
@@ -73,7 +73,7 @@ class SidebarState {
 			title: concept.metadata.title,
 			content: concept.content,
 			htmlContent: concept.htmlContent,
-			categoryLabel: 'Koncept',
+			categoryLabel: 'Begrepp',
 			categoryColor: 'green',
 			metadata: {
 				header: concept.metadata.title,
@@ -82,8 +82,8 @@ class SidebarState {
 				relationships: concept.metadata.relationships,
 				type: 'concept'
 			},
-			footerContent: 'Utforska i HERAM',
-			footerHref: resolve('/heram')
+			footerContent: 'Visa i HERAM',
+			footerHref: `${resolve('/heram')}#concept-${concept.slug}`
 		});
 	}
 	
@@ -98,7 +98,6 @@ class SidebarState {
 		footerContent?: string;
 		footerHref?: string;
 	}) {
-		console.log('openGeneric called with options:', options);
 		this.open({
 			title: options.title,
 			content: options.content || '',

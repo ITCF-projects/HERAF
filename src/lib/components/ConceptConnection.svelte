@@ -77,8 +77,8 @@
     <path
         d={pathData()}
         fill="none"
-        stroke="#262626"
-        stroke-width={highlighted ? 30 : 27.5}
+        stroke="#5E5A6B"
+        stroke-width={highlighted ? 18 : 14}
         stroke-dasharray={connection.type === 'dashed' ? '10,5' : 'none'}
         class="connection-line"
     />
@@ -95,9 +95,8 @@
                 y={position.y}
                 text-anchor={textAnchor}
                 dominant-baseline={dominantBaseline}
-                fill="#262626"
-                font-size="83"
-                font-family="Aptos,Aptos_MSFontService,sans-serif"
+                fill="#5E5A6B"
+                font-size="80"
                 class="connection-label"
             >
                 {#each lines as line, i}

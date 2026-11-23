@@ -10,28 +10,28 @@ date: 2025-11-13
 
 # Angelägenhet (Concern)
 
-En angelägenhet beskriver vad en intressent eller målgrupp anser vara viktigt i ett system eller en arkitektur. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera.
+En angelägenhet beskriver vad en intressent eller målgrupp anser vara viktigt i en lösning eller en arkitektur. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera.
 
 ## Definition enligt ISO 42010
 
-Enligt standarden ISO 42010:2022 är en "concern" ett intresse som är av betydelse för en eller flera intressenter i relation till ett system och dess arkitektur.
+Enligt standarden ISO 42010:2022 är en "concern" ett intresse som är av betydelse för en eller flera intressenter i relation till ett system och dess arkitektur. I HERAF motsvarar det lösningen eller området som referensarkitekturen gäller.
 
 ## Typer av angelägenheter
 
 ### Funktionella angelägenheter
-- **Användbarhet**: Hur lätt är systemet att använda?
-- **Prestanda**: Uppfyller systemet prestandakrav?
-- **Funktionalitet**: Ger systemet rätt funktioner?
+- **Användbarhet**: Hur lätt är lösningen att använda?
+- **Prestanda**: Uppfyller lösningen prestandakrav?
+- **Funktionalitet**: Ger lösningen rätt funktioner?
 
 ### Kvalitetsaspekter
-- **Säkerhet**: Är systemet säkert mot hot?
-- **Tillförlitlighet**: Fungerar systemet konsekvent?
-- **Skalbarhet**: Kan systemet hantera ökad belastning?
+- **Säkerhet**: Är lösningen säker mot hot?
+- **Tillförlitlighet**: Fungerar lösningen konsekvent?
+- **Skalbarhet**: Kan lösningen hantera ökad belastning?
 
 ### Affärsangelägenheter
-- **Kostnadseffektivitet**: Ger systemet värde för pengarna?
+- **Kostnadseffektivitet**: Ger lösningen värde för pengarna?
 - **Time-to-market**: Hur snabbt kan lösningen levereras?
-- **Compliance**: Följer systemet regelverk?
+- **Compliance**: Följer lösningen regelverk?
 
 ## Relation till arkitekturvyer
 

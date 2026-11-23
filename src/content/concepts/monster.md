@@ -10,7 +10,7 @@ date: 2025-11-13
 
 # Mönster / Patterns
 
-Mönster är återanvändbara och standardiserade lösningar på återkommande problem. De fungerar som mallar eller riktlinjer för hur system kan designas och kan ingå i en referensarkitektur för att underlätta och styra implementationer.
+Mönster är återanvändbara och standardiserade lösningar på återkommande problem. De fungerar som mallar eller riktlinjer för hur lösningar kan utformas och kan ingå i en referensarkitektur för att underlätta och styra implementationer.
 
 ## Definition och egenskaper
 
@@ -26,7 +26,7 @@ Baseras på erfarenhet och har testats i verkliga implementationer.
 ## Typer av mönster
 
 ### Arkitekturmönster
-Övergripande strukturer för systemorganisation:
+Övergripande strukturer för hur lösningar organiseras:
 - **Layered Architecture**: Organisering i logiska lager
 - **Microservices**: Uppsplittring i små, autonoma tjänster
 - **Event-driven Architecture**: Kommunikation via händelser

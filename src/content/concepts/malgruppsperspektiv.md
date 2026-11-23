@@ -10,18 +10,16 @@ date: 2025-11-13
 
 # Målgruppsperspektiv
 
-Målgruppsperspektiv  är synvinkeln från en specifik målgrupp och beskriver vilka frågeställningar, eller angelägenheter (concerns), som är viktiga att besvara/adressera. Angelägenhet beskriver vad en intressent eller målgrupp anser vara viktigt inom området. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera. 
+Målgruppsperspektiv är synvinkeln från en specifik målgrupp. Det beskriver vilka angelägenheter (concerns) som är viktiga för målgruppen och som referensarkitekturen därför behöver ge svar på.
 
-Exempel: säkerhet, prestanda, användbarhet, kostnadseffektivitet.
-
-Varje målgrupp har unika behov, kunskaper och ansvar som påverkar vilka aspekter av arkitekturen som är mest relevanta för dem. Målgruppsperspektiv säkerställer att arkitekturdokumentation och -kommunikation anpassas för att vara maximalt värdefull för varje specifik grupp.
+Varje målgrupp har egna kunskaper och ansvar, vilket påverkar vilka delar av arkitekturen som är relevanta för dem. Målgruppsperspektivet används för att välja vilka vyer som tas fram och hur de utformas.
 
 ## Viktiga dimensioner
 
 ### Kunskapsnivå
 - **Teknisk djup** som målgruppen behöver
 - **Förtrogenhet** med arkitekturkoncept
-- **Tidigare erfarenhet** av liknande system
+- **Tidigare erfarenhet** av liknande lösningar
 
 ### Ansvarsområden
 - **Beslut** som målgruppen fattar
@@ -35,25 +33,23 @@ Varje målgrupp har unika behov, kunskaper och ansvar som påverkar vilka aspekt
 
 ## Vanliga målgruppsperspektiv
 
+Exemplen visar vilka angelägenheter varje perspektiv typiskt har och vilken nytta referensarkitekturen ger. Detaljerad design, implementation och driftrutiner tas fram senare, med referensarkitekturen som grund.
+
 ### Utvecklarperspektiv
-- **Frågeställningar**: Hur implementerar jag detta? Vilka API:er finns?
-- **Behov**: Tekniska detaljer, kodexempel, integrationsmönster
-- **Fokus**: Konkret implementation och teknisk utformning
+- **Angelägenheter**: Vilka mönster ska jag följa? Hur ska integrationer och säkerhet hanteras?
+- **Nytta av referensarkitekturen**: Ramar och mönster att bygga inom.
 
 ### Ledningsperspektiv
-- **Frågeställningar**: Vad kostar det? Vilka risker finns? Hur bidrar det till affärsmålen?
-- **Behov**: Strategisk översikt, kostnad-nyttaanalys, riskbedömningar
-- **Fokus**: Affärsvalue och strategisk riktning
+- **Angelägenheter**: Vilken inriktning gäller? Vilka risker finns? Hur bidrar det till verksamhetens mål?
+- **Nytta av referensarkitekturen**: Överblick och underlag för prioriteringar och beslut.
 
 ### Driftperspektiv
-- **Frågeställningar**: Hur övervakas systemet? Vilka backup-rutiner behövs?
-- **Behov**: Operationella procedures, övervakningsstrategier
-- **Fokus**: Stabilitet, prestanda, säkerhet i drift
+- **Angelägenheter**: Vilka krav ställs på övervakning, kontinuitet och säkerhet i drift?
+- **Nytta av referensarkitekturen**: Principer och krav som lösningar ska uppfylla för att kunna förvaltas.
 
 ### Arkitektperspektiv
-- **Frågeställningar**: Följer detta våra principer? Hur påverkar det andra system?
-- **Behov**: Designrationale, beroenden, konsekvensanalys
-- **Fokus**: Systemhelt och arkitekturell konsekvens
+- **Angelägenheter**: Följer detta våra principer? Hur påverkar det andra lösningar?
+- **Nytta av referensarkitekturen**: Gemensamma principer, mönster och vyer som stöd för konsekventa arkitekturbeslut.
 
 ## Anpassning av arkitekturvyer
 

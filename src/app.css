@@ -1,284 +1,670 @@
 @import 'tailwindcss';
 
-/* Custom prose styling for concept content */
-.concept-content h1 {
-  font-size: 1.5rem;
+/* HERAF design tokens
+   aubergine = Vägledningen / processen, petrol = HERAM (begrepp, styrning).
+   The two hues are kept clearly apart (violet vs teal) so the colour tells
+   which part you are in; ink stays the neutral near-black. Both pass AA on
+   white and on their soft tint (aubergine ≈10.5:1, petrol ≈8.4:1 on white). */
+@theme {
+  --color-aubergine: #4A3566;
+  --color-aubergine-soft: #EEE8F5;
+  --color-aubergine-hover: #E2D9EE;
+  --color-aubergine-line: #C8BDD8;
+  --color-petrol: #0B5566;
+  --color-petrol-soft: #E2EFF1;
+  --color-ink: #26232E;
+  --color-muted: #5E5A6B;
+  --color-line: #DAD8E0;
+  --color-paper: #FFFFFF;
+  --color-shade: #F6F5F8;
+  --font-sans: 'Public Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+}
+
+:root {
+  /* Height of the sticky site header (h-14 in +layout.svelte) */
+  --header-h: 3.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Anchor jumps land below the sticky header; scroll-margin on headings adds to this */
+  scroll-padding-top: var(--header-h);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-petrol);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ==========================================================================
+   Document article: long-form text on Vägledning and HERAM.
+   Global because the content is generated HTML ({@html}).
+   ========================================================================== */
+
+.doc-article {
+  max-width: 42rem;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--color-ink);
+  overflow-wrap: break-word;
+}
+
+.doc-article :is(h1, h2, h3, h4, h5) {
+  font-family: var(--font-sans);
+  line-height: 1.25;
+  scroll-margin-top: 1.5rem;
+}
+
+.doc-article h1 {
+  margin: 0 0 0.75rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  color: #1f2937;
-  margin-bottom: 1rem;
-  margin-top: 1.5rem;
-  line-height: 1.4;
+  letter-spacing: -0.015em;
+  color: var(--color-aubergine);
 }
 
-.concept-content h1:first-child {
-  margin-top: 0;
-}
-
-.concept-content h2 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #374151;
-  margin-bottom: 0.75rem;
-  margin-top: 1.25rem;
-  line-height: 1.4;
-}
-
-.concept-content h3 {
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: #4b5563;
+/* Lead paragraph and meta line directly under the title */
+.doc-article h1 + p {
   margin-bottom: 0.5rem;
-  margin-top: 1rem;
-  line-height: 1.4;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--color-muted);
 }
 
-.concept-content ul {
-  list-style-type: disc;
-  list-style-position: outside;
-  margin: 0.75rem 0;
-  padding-left: 1.5rem;
-}
-
-.concept-content ol {
-  list-style-type: decimal;
-  list-style-position: outside;
-  margin: 0.75rem 0;
-  padding-left: 1.5rem;
-}
-
-.concept-content li {
-  color: #4b5563;
-  margin-bottom: 0.25rem;
-  line-height: 1.6;
-}
-
-.concept-content p {
-  color: #4b5563;
-  margin-bottom: 0.75rem;
-  line-height: 1.6;
-}
-
-.concept-content strong {
-  font-weight: 600;
-  color: #374151;
-}
-
-.concept-content a {
-  color: #2563eb;
-  text-decoration: underline;
-}
-
-.concept-content a:hover {
-  color: #1d4ed8;
-}
-
-.concept-content code {
-  background-color: #f3f4f6;
-  padding: 0.125rem 0.25rem;
-  border-radius: 0.25rem;
+.doc-article h1 + p + p {
+  margin-bottom: 0;
+  font-family: var(--font-sans);
   font-size: 0.875rem;
-  font-family: ui-monospace, SFMono-Regular, 'SF Mono', monospace;
+  color: var(--color-muted);
 }
 
-/* Guidance-specific styling */
-.guidance-content h1 {
-  font-size: 1.875rem;
+.doc-article h2 {
+  margin: 3.5rem 0 1.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-line);
+  font-size: 1.625rem;
   font-weight: 700;
-  color: #352F44;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgb(229, 231, 235);
-  scroll-margin-top: 120px;
+  letter-spacing: -0.01em;
+  color: var(--color-aubergine);
 }
 
-.guidance-content h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #352F44;
-  margin-bottom: 1.5rem;
-  margin-top: 3rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgb(229, 231, 235);
-  scroll-margin-top: 120px;
-}
-
-.guidance-content h3 {
+.doc-article h3 {
+  margin: 2.5rem 0 0.75rem;
   font-size: 1.25rem;
   font-weight: 600;
-  color: #0D3B4F;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  scroll-margin-top: 120px;
 }
 
-.guidance-content h4 {
-  font-size: 1.125rem;
+.doc-article h4 {
+  margin: 2rem 0 0.5rem;
+  font-size: 1.0625rem;
   font-weight: 600;
-  color: #4b5563;
-  margin-bottom: 0.75rem;
-  margin-top: 1.5rem;
-  scroll-margin-top: 120px;
+  color: var(--color-aubergine);
 }
 
-/* Callout styling for guidance content */
-.callout {
+.doc-article h5 {
+  margin: 1.5rem 0 0.375rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.doc-article p { margin: 0 0 1rem; }
+.doc-article strong { font-weight: 600; }
+
+.doc-article ul,
+.doc-article ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.doc-article ul { list-style: disc; }
+.doc-article ol { list-style: decimal; }
+
+.doc-article li {
+  margin-bottom: 0.375rem;
+  padding-left: 0.25rem;
+}
+
+.doc-article li::marker { color: var(--color-aubergine); }
+.doc-article hr { display: none; }
+
+.doc-article code {
+  font-size: 0.875em;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  background: var(--color-shade);
+}
+
+/* Links. Petrol = leads into HERAM. Dotted = opens in the side panel. */
+.doc-article a {
+  color: var(--color-petrol);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.doc-article :is(a.concept-link, a[href^='concept:'], a.principle-ref) {
+  text-decoration-style: dotted;
+  cursor: pointer;
+}
+
+.doc-article :is(a.concept-link, a[href^='concept:'], a.principle-ref):hover {
+  text-decoration-style: solid;
+}
+
+.doc-article a.section-ref { color: var(--color-aubergine); }
+
+/* Tables */
+.doc-article table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.doc-article th {
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-bottom: 2px solid var(--color-ink);
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.doc-article td {
+  padding: 0.625rem 1rem 0.625rem 0;
+  border-bottom: 1px solid var(--color-line);
+  vertical-align: top;
+}
+
+/* Callouts */
+.doc-article .callout {
   margin: 1.5rem 0;
-  border: 1px solid;
-  border-radius: 0.5rem;
-  overflow: hidden;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--color-aubergine);
+  background: var(--color-aubergine-soft);
 }
 
-.callout-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1rem;
+.doc-article .callout-title {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
   font-weight: 600;
-  border-bottom: 1px solid inherit;
-  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--color-aubergine);
 }
 
-.callout-content {
-  padding: 1rem;
+.doc-article .callout-content > :last-child { margin-bottom: 0; }
+
+/* ==========================================================================
+   Quick guide (buildQuickGuide() in generate-content.js): the whole process on
+   one screen, so the page opens on "this is all you need" rather than a wall
+   of text. Same numbered dots as the floating progress bar.
+   ========================================================================== */
+
+.doc-article .quickguide {
+  margin: 1.75rem 0 1.75rem;
+  padding: 1.25rem 1.25rem 1.5rem;
+  border: 1px solid var(--color-aubergine-line);
+  border-radius: 0.75rem;
+  font-family: var(--font-sans);
+}
+
+@media (min-width: 40rem) {
+  .doc-article .quickguide { padding: 1.5rem 1.75rem 1.75rem; }
+}
+
+.doc-article .quickguide a { text-decoration: none; }
+
+.doc-article .qg-phase + .qg-phase { margin-top: 1.25rem; }
+
+.doc-article .qg-phase-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.doc-article .qg-phase-title a { color: var(--color-aubergine); }
+.doc-article .qg-phase-title a:hover { text-decoration: underline; }
+
+.doc-article ol.qg-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.doc-article .qg-steps > li {
+  margin: 0;
+  padding: 0;
+}
+
+.doc-article .qg-step {
+  display: flex;
+  gap: 0.875rem;
+  align-items: flex-start;
+  margin: 0 -0.625rem;
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.5rem;
+  color: var(--color-ink);
+}
+
+.doc-article .qg-step:hover { background: var(--color-aubergine-soft); }
+
+.doc-article .qg-n {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.0625rem;
+  border: 1.5px solid var(--color-aubergine-line);
+  border-radius: 50%;
+  color: var(--color-aubergine);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.doc-article .qg-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.doc-article .qg-purpose {
+  display: block;
+  margin-top: 0.125rem;
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--color-muted);
+}
+
+.doc-article .qg-ongoing {
+  margin: 1.25rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-line);
+  font-size: 0.9375rem;
   line-height: 1.6;
 }
 
-.callout-icon {
-  font-size: 1.2rem;
+.doc-article .qg-ongoing a { color: var(--color-ink); }
+.doc-article .qg-ongoing a:hover { text-decoration: underline; }
+
+.doc-article .qg-ongoing a.qg-label {
+  display: inline-block;
+  margin-right: 0.375rem;
+  padding: 0 0.5rem;
+  border: 1px dashed var(--color-aubergine-line);
+  border-radius: 3px;
+  color: var(--color-aubergine);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.6;
 }
 
-.callout-note {
-  background-color: rgb(249, 250, 251);
-  border-color: rgb(209, 213, 219);
-  color: rgb(55, 65, 81);
+.doc-article .qg-minimum {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-line);
+  font-size: 0.9375rem;
 }
 
-.callout-tip {
-  background-color: rgb(240, 253, 244);
-  border-color: rgb(187, 247, 208);
-  color: rgb(21, 128, 61);
+.doc-article .qg-minimum-title {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
 }
 
-.callout-warning {
-  background-color: rgb(254, 252, 232);
-  border-color: rgb(253, 224, 71);
-  color: rgb(146, 64, 14);
+.doc-article .qg-minimum ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.callout-danger {
-  background-color: rgb(254, 242, 242);
-  border-color: rgb(252, 165, 165);
-  color: rgb(153, 27, 27);
+@media (min-width: 40rem) {
+  .doc-article .qg-minimum ul { columns: 2; column-gap: 1.5rem; }
 }
 
-.callout-info {
-  background-color: rgb(239, 246, 255);
-  border-color: rgb(147, 197, 253);
-  color: rgb(29, 78, 216);
+.doc-article .qg-minimum li {
+  position: relative;
+  margin: 0;
+  padding: 0.1875rem 0 0.1875rem 1.5rem;
+  break-inside: avoid;
 }
 
-.callout-important {
-  background-color: rgb(250, 245, 255);
-  border-color: rgb(196, 181, 253);
-  color: rgb(109, 40, 217);
+.doc-article .qg-minimum li::before {
+  content: '';
+  position: absolute;
+  top: 0.5em;
+  left: 0.125rem;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border: 1.5px solid var(--color-aubergine-line);
+  border-radius: 3px;
 }
 
-.callout-example {
-  background-color: rgb(240, 253, 244);
-  border-color: rgb(187, 247, 208);
-  color: rgb(21, 128, 61);
-}
-
-/* Concept links in guidance */
-.concept-link {
-  color: #0D3B4F;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
-.concept-link:hover {
-  color: #456882;
-  text-decoration-style: solid;
-}
-
-/* Section references */
-.section-ref {
-  color: #352F44;
-  text-decoration: none;
-  background-color: rgba(53, 47, 68, 0.1);
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.9em;
-  border: 1px solid rgba(53, 47, 68, 0.2);
-}
-
-.section-ref:hover {
-  background-color: rgba(53, 47, 68, 0.2);
-  border-color: rgba(53, 47, 68, 0.4);
-}
-
-/* Image styling for guidance */
-.image-figure {
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.guidance-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-  margin: 0 auto;
-  display: block;
-  object-fit: contain;
-}
-
-/* Logo images - make them smaller */
-.logo-image {
-  max-width: 600px;
-  max-height: 550px;
-  object-fit: contain;
-  margin: 0 auto;
-}
-
-.image-caption {
-  margin-top: 0.5rem;
+.doc-article .qg-minimum-more {
+  margin: 0.375rem 0 0;
   font-size: 0.875rem;
-  color: rgb(107, 114, 128);
-  font-style: italic;
 }
 
-/* Mobile responsiveness for images */
-@media (max-width: 768px) {
-  .guidance-image {
-    max-width: calc(100vw - 4rem);
-    min-width: 100%;
-    width: 100%;
-  }
-  
-  .logo-image {
-    max-width: min(300px, calc(100vw - 4rem));
-    max-height: 200px;
-  }
-  
-  .image-figure {
-    margin: 1rem 0;
-  }
-}
-
-/* Principle references */
-.principle-ref {
-  color: #0D3B4F;
+.doc-article .qg-minimum-more a {
+  color: var(--color-petrol);
   text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-  cursor: pointer;
-  transition: all 0.2s ease;
+  text-underline-offset: 0.18em;
 }
 
-.principle-ref:hover {
-  color: #456882;
-  text-decoration-style: solid;
-  background-color: rgba(13, 59, 79, 0.05);
-  padding: 0 1px;
+.doc-article .qg-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: center;
+  margin: 1.5rem 0 0;
 }
+
+.doc-article .qg-actions a {
+  color: var(--color-petrol);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.doc-article .qg-actions a.qg-button {
+  padding: 0.5rem 0.875rem;
+  border-radius: 0.375rem;
+  background: var(--color-aubergine);
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doc-article .qg-actions a.qg-button:hover { background: #3C2A54; }
+
+/* Collapsed introduction (collapseIntroduction() in generate-content.js) */
+.doc-article .intro-details {
+  margin: 3.5rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-line);
+}
+
+.doc-article .intro-details > summary {
+  display: block;
+  cursor: pointer;
+  list-style: none;
+}
+
+.doc-article .intro-details > summary::-webkit-details-marker { display: none; }
+
+.doc-article .intro-details > summary h2 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Chevron: points right when closed, down when open */
+.doc-article .intro-details > summary h2::after {
+  content: '';
+  display: inline-block;
+  width: 0.45em;
+  height: 0.45em;
+  margin-left: 0.5em;
+  border-right: 2.5px solid currentColor;
+  border-bottom: 2.5px solid currentColor;
+  vertical-align: 0.2em;
+  transform: rotate(-45deg);
+  transition: transform 150ms ease;
+}
+
+.doc-article .intro-details[open] > summary h2::after { transform: rotate(45deg); }
+
+.doc-article .intro-details > summary:hover h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.doc-article .intro-hint {
+  display: block;
+  margin-top: 0.375rem;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  color: var(--color-muted);
+}
+
+.doc-article .intro-body { padding-top: 0.5rem; }
+
+/* ==========================================================================
+   Process steps (structured by structureSteps() in generate-content.js).
+   A step is the core unit of the guidance: number, purpose, checklist, outcome.
+   ========================================================================== */
+
+.doc-article .step {
+  position: relative;
+  margin: 2.75rem 0 0;
+}
+
+.doc-article .step-heading {
+  margin: 0 0 0.625rem;
+  scroll-margin-top: 5rem; /* clears the floating progress bar */
+}
+
+.doc-article .step-num {
+  display: block;
+  margin-bottom: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-aubergine);
+  font-variant-numeric: tabular-nums;
+}
+
+.doc-article .step-title {
+  display: block;
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+
+/* Wide screens: the number hangs in the margin and a thin spine runs down the
+   step, so the six steps read as one sequence when scanning */
+@media (min-width: 64rem) {
+  .doc-article .step::before {
+    content: attr(data-step);
+    position: absolute;
+    top: -0.375rem;
+    left: -3.75rem;
+    width: 2.5rem;
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    color: var(--color-aubergine);
+    font-variant-numeric: lining-nums;
+  }
+
+  .doc-article .step::after {
+    content: '';
+    position: absolute;
+    top: 3.25rem;
+    bottom: 0.25rem;
+    left: -2.5rem;
+    width: 1px;
+    background: var(--color-aubergine-line);
+  }
+
+  .doc-article .step-num { display: none; }
+}
+
+.doc-article .step-purpose {
+  margin-bottom: 1.25rem;
+  font-size: 1.1875rem;
+  line-height: 1.55;
+}
+
+.doc-article .step-sub {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-aubergine);
+}
+
+.doc-article ul.step-todo {
+  list-style: none;
+  padding-left: 0;
+}
+
+.doc-article .step-todo > li {
+  position: relative;
+  padding-left: 1.875rem;
+}
+
+/* An empty checkbox: these are things to do, not points to read */
+.doc-article .step-todo > li::before {
+  content: '';
+  position: absolute;
+  top: 0.32em;
+  left: 0.125rem;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  border: 1.5px solid var(--color-aubergine-line);
+  border-radius: 3px;
+  background: var(--color-paper);
+}
+
+/* Outcome: what the step leaves behind in the iteration template */
+/* Plain flow, not flex: the text holds inline links and emphasis */
+.doc-article .outcome {
+  margin: 1.25rem 0 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-line);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.doc-article .outcome-label {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.0625rem 0.5rem;
+  border-radius: 3px;
+  background: var(--color-aubergine);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.doc-article :is(#starta-iterationen, #ta-fram-innehallet, #lopande-aktiviteter),
+.doc-article #lopande-aktiviteter ~ h4 {
+  scroll-margin-top: 5rem;
+}
+
+/* ==========================================================================
+   Inline SVG diagrams (src/lib/diagrams/*.svg)
+   ========================================================================== */
+
+.doc-article figure.diagram {
+  margin: 2rem 0 2.25rem;
+  font-family: var(--font-sans);
+}
+
+.diagram-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Below ~36rem the diagram text gets too small: scroll the figure instead of shrinking */
+@media (max-width: 40rem) {
+  .doc-article figure.diagram { overflow-x: auto; }
+  .doc-article .diagram-svg { min-width: 36rem; }
+}
+
+.doc-article figure.diagram figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+}
+
+.diagram a {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+.diagram text { font-family: var(--font-sans); }
+.diagram :is(.d-num, .d-label, .d-small) { text-anchor: middle; }
+
+.d-group {
+  font-size: 12px;
+  font-weight: 600;
+  fill: var(--color-muted);
+}
+
+/* Process steps */
+.d-step path {
+  fill: var(--color-aubergine-soft);
+  transition: fill 120ms ease;
+}
+
+.d-step .d-num { font-size: 11px; fill: var(--color-muted); }
+.d-step .d-label { font-size: 13px; font-weight: 600; fill: var(--color-aubergine); }
+.d-step:hover path { fill: var(--color-aubergine-hover); }
+.d-step.is-current path { fill: var(--color-aubergine); }
+.d-step.is-current text { fill: #FFFFFF; }
+
+/* Ongoing activities */
+.d-ongoing rect {
+  fill: var(--color-paper);
+  stroke: var(--color-aubergine-line);
+  stroke-width: 1.25;
+  stroke-dasharray: 4 3;
+  transition: fill 120ms ease;
+}
+
+.d-small { font-size: 12px; fill: var(--color-ink); }
+.d-ongoing:hover rect { fill: var(--color-shade); }
+
+.d-ongoing.is-current rect {
+  fill: var(--color-aubergine-soft);
+  stroke: var(--color-aubergine);
+  stroke-dasharray: none;
+}
+
+:is(.d-step, .d-ongoing, .d-node):focus-visible :is(path, rect) {
+  stroke: var(--color-petrol);
+  stroke-width: 3;
+  stroke-dasharray: none;
+}
+
+/* Overview diagram */
+.d-area-heram { fill: var(--color-petrol-soft); }
+.d-area-guide { fill: var(--color-aubergine-soft); }
+.d-area-label { font-size: 12px; font-weight: 700; }
+.d-heram-text { fill: var(--color-petrol); }
+.d-guide-text { fill: var(--color-aubergine); }
+.d-node-heram rect { fill: var(--color-petrol); }
+.d-node-guide rect { fill: var(--color-aubergine); }
+.d-node:hover rect { opacity: 0.88; }
+.d-node .d-label { font-size: 14px; font-weight: 600; fill: #FFFFFF; }
+.d-center { fill: var(--color-ink); }
+.d-center-text { font-size: 15px; font-weight: 700; fill: #FFFFFF; }
+.d-edge { fill: none; stroke: var(--color-muted); stroke-width: 1.25; }
+.d-arrowhead { fill: var(--color-muted); }
+.d-edge-label { font-size: 11.5px; fill: var(--color-muted); }

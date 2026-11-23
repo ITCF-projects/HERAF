@@ -30,12 +30,12 @@ Definierar hur vyerna ska konstrueras:
 ## Vanliga arkitekturperspektiv
 
 ### Funktionellt perspektiv
-- **Fokus**: Vad systemet gör
+- **Fokus**: Vad lösningen gör
 - **Vyer**: Use case-diagram, funktionsöversikter
 - **Målgrupp**: Verksamhetsanalytiker, produktägare
 
 ### Logiskt perspektiv
-- **Fokus**: Systemets struktur och organisation
+- **Fokus**: Lösningens struktur och organisation
 - **Vyer**: Komponentdiagram, klassdiagram
 - **Målgrupp**: Arkitekter, utvecklare
 

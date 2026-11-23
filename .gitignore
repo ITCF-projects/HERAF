@@ -10,6 +10,9 @@ node_modules
 
 # Generated content files
 /src/lib/content-data.generated.ts
+/static/heraf-agent.md
+/static/llms.txt
+/static/mallar/
 
 # OS
 .DS_Store

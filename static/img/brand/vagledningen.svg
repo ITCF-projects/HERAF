@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="240" height="240">
+  <title>Vägledningen</title>
+  <path d="M4 20H9V15H14V10H19V7.5" fill="none" stroke="#4A3566" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="5" r="2.75" fill="#4A3566"/>
+</svg>

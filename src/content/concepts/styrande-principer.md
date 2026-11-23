@@ -3,7 +3,7 @@ id: styrande-principer
 title: Styrande principer
 icon: Compass
 category: Governance
-relationships: [riktlinje, regel, malarkitektur]
+relationships: [arkitekturprinciper, riktlinje, regel, malarkitektur]
 examples: [Säkerhet först, Öppna standarder, Användarcentrerat]
 date: 2025-11-13
 ---
@@ -26,7 +26,7 @@ Ska vara stabila över tid och inte förändras med varje teknisk trend eller ko
 Måste vara kopplade till organisationens mål och strategier.
 
 ## Hierarki av styrning
-Styrande principer operationaliseras genom:
+Styrande principer omsätts för arkitekturarbetet i **arkitekturprinciper**, som i sin tur operationaliseras genom:
 
 1. **Riktlinjer** - konkretiserar hur principerna ska tillämpas
 2. **Regler** - tvingande krav som måste följas
@@ -43,7 +43,7 @@ Föredra öppna, välbeprövade standarder framför proprietära lösningar.
 Designbeslut ska utgå från användarnas behov och upplevelser.
 
 ### Modulär arkitektur
-System ska byggas med löst kopplade, återanvändbara komponenter.
+Lösningar ska byggas med löst kopplade, återanvändbara komponenter.
 
 ## Implementation
 Principer realiseras genom arkitektoniska beslut, designmönster och tekniska standarder som följer principernas anda.

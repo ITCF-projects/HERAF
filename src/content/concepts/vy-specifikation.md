@@ -56,14 +56,14 @@ Gemensam förståelse för vad olika vytyper innehåller och varför.
 ## Exempel på vy-specifikationer
 
 ### Systemkontextvy
-- **Syfte**: Visa systemets relation till omgivningen
+- **Syfte**: Visa lösningens relation till omgivningen
 - **Målgrupp**: Verksamhetsanalytiker, projektledare
-- **Innehåll**: System, externa aktörer, informationsflöden
+- **Innehåll**: Lösningen, externa aktörer, informationsflöden
 - **Notation**: Enkla rektanglar och pilar
 - **Detalj**: Högnivå, inga tekniska detaljer
 
 ### Komponentarkitekturvy
-- **Syfte**: Visa systemets interna struktur
+- **Syfte**: Visa lösningens interna struktur
 - **Målgrupp**: Systemarkitekter, utvecklare
 - **Innehåll**: Komponenter, gränssnitt, dependencies
 - **Notation**: UML-komponentdiagram

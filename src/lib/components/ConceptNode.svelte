@@ -1,47 +1,35 @@
 <script lang="ts">
     import type { ModelNode } from './ConceptModelTypes';
     import { NODE_COLORS } from './ConceptModelTypes';
-    
+
     const {
         node,
-        highlighted = false,
-        hovered = false,
-        onclick,
-        onmouseenter,
-        onmouseleave
+        onclick
     }: {
         node: ModelNode;
-        highlighted?: boolean;
-        hovered?: boolean;
         onclick?: () => void;
-        onmouseenter?: () => void;
-        onmouseleave?: () => void;
     } = $props();
-    
+
     const colorScheme = NODE_COLORS[node.color];
-    const rx = 13.5;
 </script>
 
-<g 
+<g
     class="node"
-    class:highlighted
-    class:hovered
-    role="button"
+    role="link"
     tabindex="0"
+    aria-label="{node.title} – gå till beskrivningen"
     {onclick}
-    {onmouseenter}
-    {onmouseleave}
-    onkeydown={(e) => e.key === 'Enter' && onclick?.()}
+    onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), onclick?.())}
 >
     <rect
         x={node.x}
         y={node.y}
         width={node.width}
         height={node.height}
-        {rx}
+        rx="24"
         fill={colorScheme.fill}
         stroke={colorScheme.stroke}
-        stroke-width="10.3125"
+        stroke-width="10"
         class="node-rect"
     />
     <text
@@ -50,9 +38,8 @@
         text-anchor="middle"
         dominant-baseline="middle"
         fill={colorScheme.textFill}
-        font-size="110"
-        font-weight="700"
-        font-family="Aptos,Aptos_MSFontService,sans-serif"
+        font-size="118"
+        font-weight="600"
         class="node-text"
     >
         {node.title}
@@ -62,23 +49,16 @@
 <style>
     .node {
         cursor: pointer;
-        transition: transform 0.2s ease, filter 0.2s ease;
         outline: none;
     }
-    
-    .node:hover .node-rect,
+
+    .node:hover .node-rect {
+        opacity: 0.88;
+    }
+
     .node:focus-visible .node-rect {
-        stroke-width: 12;
-        filter: brightness(1.02);
-    }
-    
-    .node.hovered {
-        transform: scale(1.005);
-        transform-origin: center;
-    }
-    
-    .node:focus-visible {
-        outline: 3px solid #4A90E2;
-        outline-offset: 5px;
+        stroke: var(--color-petrol);
+        stroke-width: 36;
+        paint-order: stroke;
     }
 </style>

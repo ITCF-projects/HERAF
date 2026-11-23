@@ -1,134 +1,290 @@
 <script lang="ts">
-	import { BookOpen, Brain, GitBranch, ArrowRight, Shield, FileText } from '@lucide/svelte';
 	import { resolve, asset } from '$app/paths';
+	import { contentData } from '$lib/content-data.generated.js';
+	import BrandMark from '$lib/components/BrandMark.svelte';
+
+	type Section = { id: string; title: string; level: number };
+
+	const version = contentData.guidance?.version ?? '';
+	const guideSections: Section[] = contentData.guidance?.sections ?? [];
+	const vagledning = resolve('/vagledning');
+	const heram = resolve('/heram');
+
+	// The six steps, read from the guidance so the start page never drifts from it
+	const steps = guideSections
+		.filter((s) => /^steg-\d+-/.test(s.id))
+		.map((s) => {
+			const [, num, title] = s.title.match(/^Steg (\d+):\s*(.*)$/) ?? [];
+			return { id: s.id, num: Number(num), title: title ?? s.title };
+		});
+
+	const phases = [
+		{ id: 'starta-iterationen', title: 'Starta iterationen', steps: steps.filter((s) => s.num <= 3) },
+		{ id: 'ta-fram-innehallet', title: 'Ta fram innehållet', steps: steps.filter((s) => s.num > 3) }
+	];
+
+	// HERAM's concept groups, in the order the guidance meets them
+	const conceptTitles = new Map(contentData.concepts.map((c) => [c.slug, c.metadata.title as string]));
+	const groups = contentData.heram.groups.map((g) => ({
+		id: g.id,
+		title: g.title,
+		concepts: g.concepts.map((slug: string) => conceptTitles.get(slug)).filter(Boolean) as string[]
+	}));
 </script>
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-	<!-- Development Notice -->
-	<div class="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8">
-		<div class="flex items-start">
-			<div class="flex-shrink-0">
-				<svg class="h-5 w-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor">
-					<path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-				</svg>
-			</div>
-			<div class="ml-3">
-				<h3 class="text-sm font-medium text-amber-800">Innehåll under utveckling</h3>
-				<div class="mt-1 text-sm text-amber-700">
-					<p>Detta ramverk och dess innehåll är för närvarande under utveckling. Innehållet kan komma att förändras och bör inte betraktas som slutgiltig version.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<svelte:head>
+	<title>HERAF – referensarkitekturer för högskolesektorn</title>
+	<meta
+		name="description"
+		content="HERAF är ett gemensamt ramverk för att ta fram referensarkitekturer inom den svenska högskolesektorn: en vägledning för processen och modellen HERAM med begrepp och styrning."
+	/>
+</svelte:head>
 
-	<!-- Hero Section -->
-	<div class="text-center mb-16">
-		<h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-			<span class="text-gray-900">HERAF</span>
+<div class="mx-auto max-w-6xl px-4 pt-12 pb-16 sm:px-6 sm:pt-16 sm:pb-20">
+	<header class="max-w-3xl">
+		<h1 class="text-[2.25rem] leading-[1.1] font-bold tracking-tight text-ink sm:text-[3rem]">
+			Ramverk för referens&shy;arkitekturer inom högskolesektorn
 		</h1>
-		<h2 class="text-xl md:text-2xl text-gray-700 mb-8 max-w-4xl mx-auto">
-			Higher Education Reference Architecture Framework
-		</h2>
+		<p class="mt-5 max-w-2xl font-serif text-lg leading-relaxed text-ink sm:text-xl">
+			HERAF, Higher Education Reference Architecture Framework, är ett gemensamt ramverk för att ta fram
+			referensarkitekturer inom den svenska högskolesektorn. Ramverket består av två delar: Vägledningen,
+			som beskriver processen, och HERAM, som beskriver begrepp och styrning.
+		</p>
 
-	</div>
-
-	<!-- What is HERAF Section -->
-	<div class="bg-white rounded-xl shadow-lg p-8 md:p-12 mb-16">
-		<h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Vad är HERAF?</h3>
-		<div>
-					<p class="text-gray-700">
-						Ramverket innehåller material som beskriver, visualiserar och vägleder i hur man skapar en referensarkitektur. På en övergripande nivå innehåller ramverket två huvudsakliga områden, vägledningen och HERAM.
-Varje område innehåller även komponenter som hjälper under framtagningen.
-					</p>
+		<div class="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
+			<a
+				href="{vagledning}#snabbguide"
+				class="rounded-md bg-aubergine px-4 py-2.5 font-semibold text-white no-underline hover:bg-[#3C2A54]"
+			>
+				Snabbguide
+			</a>
+			<a class="font-medium text-petrol underline underline-offset-2" href={asset('/mallar/iterationsmall.md')}>
+				Iterationsmall (markdown)
+			</a>
 		</div>
-		
-		<div class="grid md:grid-cols-2 gap-12 items-center">
-			<div class="space-y-6">
-				<div class="border-l-4 border-[#352F44] pl-6">
-					<h4 class="text-xl font-semibold text-[#352F44] mb-3">Vägledningen</h4>
-					<p class="text-gray-700">
-						Vägledningen är det material som vägleder och hjälper användningen av ramverket samt skapandet av en referensarkitektur.
-					</p>
-				</div>
-				
-				<div class="border-l-4 border-[#0D3B4F] pl-6">
-					<h4 class="text-xl font-semibold text-[#0D3B4F] mb-3">HERAM</h4>
-					<p class="text-gray-700">
-						HERAM utgör den teoretiska och strukturella grunden för hur referensarkitekturer i ramverket ska struktureras och beskrivas. 
+	</header>
 
-					</p>
-				</div>
-			</div>
-			
-			<!-- Simple Framework Diagram -->
-			<div class="bg-gray-50 p-8 rounded-lg">
-				<div class="text-center">
-					<div class="bg-white text-gray-900 border border-gray-300 py-6 px-6 rounded-lg">
-						<div class="mb-4">
-							<h5 class="font-semibold text-lg">HERAF</h5>
-							<p class="text-sm text-gray-600">Ramverket</p>
-						</div>
-						<div class="text-gray-400 text-sm mb-4">innehåller</div>
-						<div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-							<a href={resolve('/vagledning')} class="hover:underline">
-								<img src={asset('/img/guidance_logo_w_text.png')} alt="Vägledningen" class="w-full max-w-48 mx-auto" />
+	<!-- The HERAF mark, enlarged: two pillars joined into one reference architecture -->
+	<div class="framework" aria-label="HERAF:s två delar">
+		<section class="pillar pillar-guide" aria-labelledby="pillar-guide">
+			<BrandMark name="vagledning" size={28} class="text-white" />
+			<h2 id="pillar-guide" class="pillar-title"><a href={vagledning}>Vägledningen</a></h2>
+			<p class="pillar-lead">Processen för att ta fram en referensarkitektur, i iterationer.</p>
+
+			{#each phases as phase (phase.id)}
+				<h3 class="pillar-sub"><a href="{vagledning}#{phase.id}">{phase.title}</a></h3>
+				<ol class="pillar-steps">
+					{#each phase.steps as step (step.id)}
+						<li>
+							<a href="{vagledning}#{step.id}">
+								<span class="step-n">{step.num}</span>
+								<span>{step.title}</span>
 							</a>
-							<a href={resolve('/heram')} class="hover:underline">
-								<img src={asset('/img/heram_logo_w_text.png')} alt="HERAM" class="w-full max-w-48 mx-auto" />
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+						</li>
+					{/each}
+				</ol>
+			{/each}
+
+			<p class="pillar-foot">
+				<a href="{vagledning}#lopande-aktiviteter">Löpande aktiviteter</a> och
+				<a href="{vagledning}#vad-ska-en-referensarkitektur-innehalla">krav på innehåll</a>
+			</p>
+		</section>
+
+		<div class="bridge">
+			<p>Referens&shy;arkitektur</p>
 		</div>
+
+		<section class="pillar pillar-heram" aria-labelledby="pillar-heram">
+			<BrandMark name="heram" size={28} class="text-white" />
+			<h2 id="pillar-heram" class="pillar-title"><a href={heram}>HERAM</a></h2>
+			<p class="pillar-lead">Begrepp och styrning som referensarkitekturer enligt HERAF bygger på.</p>
+
+			<ul class="pillar-groups">
+				<li>
+					<a href="{heram}#konceptkarta">Konceptkarta</a>
+					<span>Hur begreppen hänger ihop</span>
+				</li>
+				{#each groups as group (group.id)}
+					<li>
+						<a href="{heram}#{group.id}">{group.title}</a>
+						<span>{group.concepts.join(', ')}</span>
+					</li>
+				{/each}
+				<li>
+					<a href="{heram}#styrning">Styrning</a>
+					<span>Principer, riktlinjer och regler</span>
+				</li>
+			</ul>
+		</section>
 	</div>
 
-	<!-- Main Navigation Cards -->
-	<div class="grid md:grid-cols-2 gap-8 mb-16">
-		<!-- Vägledningen -->
-		<a href={resolve('/vagledning')} class="group">
-			<div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#352F44] h-full">
-				<div class="flex items-center justify-between mb-6">
-					<div class="bg-[#352F44] p-3 rounded-lg">
-						<BookOpen class="w-8 h-8 text-white" />
-					</div>
-					<ArrowRight class="w-6 h-6 text-gray-400 group-hover:text-[#352F44] transition-colors" />
-				</div>
-				<h3 class="text-2xl font-bold text-[#352F44] mb-4">Vägledningen</h3>
-				<p class="text-gray-700 mb-4">
-					Det levande dokumentet med interaktiv text, klickbara begrepp och integrerade processsteg.
-				</p>
-				<ul class="space-y-2 text-sm text-gray-600">
-					<li>• Navigationsmeny och ankarlänkar</li>
-					<li>• Expanderbara avsnitt</li>
-					<li>• Interaktiva definitioner</li>
-					<li>• Processgrafik integrerad</li>
-				</ul>
-			</div>
-		</a>
-
-		<!-- HERAM -->
-		<a href={resolve('/heram')} class="group">
-			<div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#0D3B4F] h-full">
-				<div class="flex items-center justify-between mb-6">
-					<div class="bg-[#0D3B4F] p-3 rounded-lg">
-						<Brain class="w-8 h-8 text-white" />
-					</div>
-					<ArrowRight class="w-6 h-6 text-gray-400 group-hover:text-[#0D3B4F] transition-colors" />
-				</div>
-				<h3 class="text-2xl font-bold text-[#0D3B4F] mb-4">HERAM</h3>
-				<p class="text-gray-700 mb-4">
-					Den interaktiva modellen med klickbara konceptkartor och principer.
-				</p>
-				<ul class="space-y-2 text-sm text-gray-600">
-					<li>• Interaktiv konceptkarta</li>
-					<li>• Klickbara relationer</li>
-					<li>• Principer och riktlinjer</li>
-					<li>• Visuell förståelse</li>
-				</ul>
-			</div>
-		</a>
-	</div>
-
-
+	<section class="mt-16 max-w-3xl border-t border-line pt-6 text-[0.9375rem] text-muted">
+		<h2 class="font-semibold text-ink">För AI-agenter</h2>
+		<p class="mt-1">
+			<a class="text-petrol underline underline-offset-2" href={asset('/heraf-agent.md')}>heraf-agent.md</a> innehåller
+			processen, arbetsregler, styrning, begrepp och iterationsmall i en fristående fil.
+			En översikt finns i <a class="text-petrol underline underline-offset-2" href={asset('/llms.txt')}>llms.txt</a>.
+		</p>
+		{#if version}
+			<p class="mt-3">Utkast, version {version}. Innehållet kan ändras.</p>
+		{/if}
+	</section>
 </div>
+
+<style>
+	/* Stacked on small screens: pillar, bridge, pillar (the mark turned 90°) */
+	.framework {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		margin-top: 3.5rem;
+	}
+
+	@media (min-width: 60rem) {
+		.framework {
+			grid-template-columns: minmax(0, 1fr) 10rem minmax(0, 1fr);
+			align-items: stretch;
+			margin-top: 4.5rem;
+		}
+	}
+
+	.pillar {
+		padding: 1.75rem 1.5rem 1.5rem;
+		border-radius: 0.875rem;
+		color: #FFFFFF;
+	}
+
+	@media (min-width: 40rem) {
+		.pillar {
+			padding: 2.25rem 2.25rem 2rem;
+		}
+	}
+
+	.pillar-guide { background: var(--color-aubergine); }
+	.pillar-heram { background: var(--color-petrol); }
+
+	.pillar a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.pillar a:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.18em;
+	}
+
+	.pillar :focus-visible {
+		outline-color: #FFFFFF;
+	}
+
+	.pillar-title {
+		margin-top: 0.875rem;
+		font-size: 1.75rem;
+		font-weight: 700;
+		letter-spacing: -0.01em;
+	}
+
+	.pillar-lead {
+		margin-top: 0.375rem;
+		font-family: var(--font-serif);
+		font-size: 1.0625rem;
+		line-height: 1.5;
+		color: rgb(255 255 255 / 0.86);
+	}
+
+	.pillar-sub {
+		margin-top: 1.75rem;
+		font-size: 0.875rem;
+		font-weight: 600;
+		color: rgb(255 255 255 / 0.78);
+	}
+
+	.pillar-steps {
+		margin-top: 0.5rem;
+		border-top: 1px solid rgb(255 255 255 / 0.18);
+	}
+
+	.pillar-steps a {
+		display: flex;
+		gap: 0.875rem;
+		align-items: baseline;
+		padding: 0.625rem 0;
+		border-bottom: 1px solid rgb(255 255 255 / 0.18);
+		font-size: 1.0625rem;
+		font-weight: 600;
+	}
+
+	.step-n {
+		flex: none;
+		width: 1.25rem;
+		font-family: var(--font-serif);
+		font-size: 1.375rem;
+		font-weight: 400;
+		line-height: 1;
+		font-variant-numeric: lining-nums tabular-nums;
+		color: rgb(255 255 255 / 0.78);
+	}
+
+	.pillar-foot {
+		margin-top: 1.5rem;
+		font-size: 0.9375rem;
+		color: rgb(255 255 255 / 0.86);
+	}
+
+	.pillar-foot a {
+		text-decoration: underline;
+		text-decoration-color: rgb(255 255 255 / 0.45);
+		text-underline-offset: 0.18em;
+	}
+
+	.pillar-groups {
+		margin-top: 1.5rem;
+		border-top: 1px solid rgb(255 255 255 / 0.18);
+	}
+
+	.pillar-groups li {
+		padding: 0.625rem 0;
+		border-bottom: 1px solid rgb(255 255 255 / 0.18);
+	}
+
+	.pillar-groups a {
+		font-size: 1.0625rem;
+		font-weight: 600;
+	}
+
+	.pillar-groups span {
+		display: block;
+		margin-top: 0.125rem;
+		font-size: 0.875rem;
+		line-height: 1.45;
+		color: rgb(255 255 255 / 0.8);
+	}
+
+	/* The bridge: grey like the bar in the mark, joining the two pillars */
+	.bridge {
+		display: grid;
+		place-items: center;
+		justify-self: center;
+		width: 62%;
+		min-height: 4.5rem;
+		padding: 0.75rem 1rem;
+		background: #9A94A8;
+		text-align: center;
+	}
+
+	@media (min-width: 60rem) {
+		.bridge {
+			align-self: center;
+			justify-self: stretch;
+			width: auto;
+			min-height: 7.5rem;
+		}
+	}
+
+	.bridge p {
+		font-size: 1rem;
+		font-weight: 700;
+		line-height: 1.25;
+		color: var(--color-ink);
+	}
+</style>

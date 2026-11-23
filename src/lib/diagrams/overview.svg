@@ -1,0 +1,43 @@
+<svg class="diagram-svg" viewBox="0 0 680 424" role="group" aria-label="HERAF består av HERAM och Vägledningen, som båda används för att skapa referensarkitekturer" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ov-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" class="d-arrowhead"/>
+    </marker>
+  </defs>
+  <rect class="d-area d-area-heram" x="0" y="0" width="680" height="104" rx="6"/>
+  <rect class="d-area d-area-guide" x="0" y="296" width="680" height="128" rx="6"/>
+  <text class="d-area-label d-heram-text" x="14" y="20">HERAM</text>
+  <a class="d-node d-node-heram" href="heram#konceptkarta">
+    <rect x="16" y="30" width="208" height="56" rx="4"/>
+    <text class="d-label" x="120" y="63">Konceptkarta</text>
+  </a>
+  <a class="d-node d-node-heram" href="heram#grunden">
+    <rect x="236" y="30" width="208" height="56" rx="4"/>
+    <text class="d-label" x="340" y="63">Konceptbeskrivning</text>
+  </a>
+  <a class="d-node d-node-heram" href="heram#styrning">
+    <rect x="456" y="30" width="208" height="56" rx="4"/>
+    <text class="d-label" x="560" y="63">Styrning</text>
+  </a>
+  <path class="d-edge" d="M120 86 V150 H280 V180" marker-end="url(#ov-arrow)"/>
+  <path class="d-edge" d="M340 86 V180" marker-end="url(#ov-arrow)"/>
+  <path class="d-edge" d="M560 86 V150 H400 V180" marker-end="url(#ov-arrow)"/>
+  <text class="d-edge-label" x="128" y="126">visar hur begreppen hänger ihop</text>
+  <text class="d-edge-label" x="348" y="126">definierar begreppen</text>
+  <text class="d-edge-label" x="568" y="126">styr utformningen</text>
+  <rect class="d-center" x="220" y="182" width="240" height="56" rx="4"/>
+  <text class="d-label d-center-text" x="340" y="215">Referensarkitektur</text>
+  <path class="d-edge" d="M230 330 V284 H300 V240" marker-end="url(#ov-arrow)"/>
+  <path class="d-edge" d="M450 330 V284 H380 V240" marker-end="url(#ov-arrow)"/>
+  <text class="d-edge-label" x="222" y="312" text-anchor="end">ger överblick över hur den skapas</text>
+  <text class="d-edge-label" x="458" y="312">beskriver hur den skapas</text>
+  <a class="d-node d-node-guide" href="#process-skapa-referensarkitektur">
+    <rect x="126" y="330" width="208" height="56" rx="4"/>
+    <text class="d-label" x="230" y="363">Processmodell</text>
+  </a>
+  <a class="d-node d-node-guide" href="#starta-iterationen">
+    <rect x="346" y="330" width="208" height="56" rx="4"/>
+    <text class="d-label" x="450" y="363">Processbeskrivning</text>
+  </a>
+  <text class="d-area-label d-guide-text" x="14" y="412">Vägledningen</text>
+</svg>

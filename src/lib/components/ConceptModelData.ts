@@ -70,7 +70,7 @@ export const nodes: ModelNode[] = [
         color: 'secondary'
     },
     {
-        id: 'monster-patterns',
+        id: 'monster',
         title: 'Mönster / Patterns',
         x: 5080,
         y: 3970,
@@ -79,11 +79,20 @@ export const nodes: ModelNode[] = [
         color: 'secondary'
     },
     
-    // Row 4: Bottom row (teal)
+    // Row 4: guidelines and rules, both motivated by architecture principles
     {
-        id: 'riktlinjer-regler',
-        title: 'Riktlinjer / Regler',
-        x: 2610,
+        id: 'riktlinje',
+        title: 'Riktlinje',
+        x: 1830,
+        y: 5242,
+        width: 1362,
+        height: 536,
+        color: 'secondary'
+    },
+    {
+        id: 'regel',
+        title: 'Regel',
+        x: 3390,
         y: 5242,
         width: 1362,
         height: 536,
@@ -256,7 +265,7 @@ export const connections: ModelConnection[] = [
     {
         id: 'omrade-monster',
         from: 'omrade',
-        to: 'monster-patterns',
+        to: 'monster',
         type: 'straight',
         points: [
             { x: 5767, y: 3117 },
@@ -276,15 +285,17 @@ export const connections: ModelConnection[] = [
         ]
     },
     
-    // Arkitekturprinciper to Riktlinjer/Regler (vertical) - bidirectional
+    // Arkitekturprinciper to Riktlinje and Regel (branching down) - bidirectional
     {
-        id: 'ark-principer-riktlinjer',
+        id: 'ark-principer-riktlinje',
         from: 'arkitekturprinciper',
-        to: 'riktlinjer-regler',
-        type: 'straight',
+        to: 'riktlinje',
+        type: 'multi',
         points: [
             { x: 3298, y: 4506 },
-            { x: 3298, y: 5229 }
+            { x: 3298, y: 4880 },
+            { x: 2511, y: 4880 },
+            { x: 2511, y: 5229 }
         ],
         labels: [
             {
@@ -292,6 +303,24 @@ export const connections: ModelConnection[] = [
                 arrow: '▼',
                 position: { x: 0, y: 0 }
             },
+            {
+                text: 'motiveras\nav',
+                arrow: '▲',
+                position: { x: 0, y: 0 }
+            }
+        ]
+    },
+    {
+        id: 'ark-principer-regel',
+        from: 'arkitekturprinciper',
+        to: 'regel',
+        type: 'multi',
+        points: [
+            { x: 3298, y: 4880 },
+            { x: 4071, y: 4880 },
+            { x: 4071, y: 5229 }
+        ],
+        labels: [
             {
                 text: 'motiveras\nav',
                 arrow: '▲',
@@ -328,7 +357,7 @@ export const connections: ModelConnection[] = [
     {
         id: 'ark-principer-monster',
         from: 'arkitekturprinciper',
-        to: 'monster-patterns',
+        to: 'monster',
         type: 'straight',
         points: [
             { x: 3985, y: 4232 },
@@ -351,7 +380,7 @@ export const connections: ModelConnection[] = [
     // Mönster/Patterns to Referensarkitektur (vertical - different x)
     // {
     //     id: 'monster-ref-arkitektur',
-    //     from: 'monster-patterns',
+    //     from: 'monster',
     //     to: 'referensarkitektur',
     //     type: 'straight',
     //     points: [

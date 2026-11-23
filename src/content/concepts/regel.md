@@ -3,7 +3,7 @@ id: regel
 title: Regel
 icon: Shield
 category: Governance
-relationships: [riktlinje, styrande-principer]
+relationships: [arkitekturprinciper, riktlinje, styrande-principer]
 examples: [Säkerhetspolicyer, Compliance-krav, Tekniska standarder]
 date: 2025-11-13
 ---

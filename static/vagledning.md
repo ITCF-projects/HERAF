@@ -1,36 +1,18 @@
 # Vägledning
-*Higher Education Reference Architecture Framework*
 
-![HERAF Vägledning](img/heraf_vagledning_logo.png)
+Hur man tar fram en referensarkitektur enligt HERAF, Higher Education Reference Architecture Framework.
 
-**Version 0.5-Alfa**  
-**2025-11-12**
+**Version 0.6-Alfa**, 2026-11-23. Vägledningen är ett utkast och innehållet kan ändras.
 
-## Innehåll
+## Snabbguide
 
-1. [Inledning](#inledning)
-   1. [Bakgrund](#bakgrund)
-   2. [Introduktion](#introduktion)
-      - [Syfte](#syfte)
-      - [Vad är en referensarkitektur?](#vad-är-en-referensarkitektur)
-      - [Varför behövs en referensarkitektur?](#varför-behövs-en-referensarkitektur)
-   3. [Begrepp](#begrepp)
-   4. [Läsanvisning](#läsanvisning)
-2. [HERAF](#heraf)
-   1. [Vägledningen](#vägledningen)
-   2. [HERAM](#heram)
-3. [Skapa referensarkitektur](#skapa-referensarkitektur)
-   1. [Kontinuerliga aktiviteter](#kontinuerliga-aktiviteter)
-      - [Identifiera och förankra med målgrupp](#identifiera-och-förankra-med-målgrupp)
-      - [Kommunicera med intressenter](#kommunicera-med-intressenter)
-      - [Dokumentera arkitekturbeslut](#dokumentera-arkitekturbeslut)
-   2. [Skapande aktiviteter](#skapande-aktiviteter)
-      - [Omfång](#omfång)
-      - [Identifiering](#identifiering)
-      - [Definiering](#definiering)
-      - [Konkretisering](#konkretisering)
-4. [Exempel och mallar](#exempel-och-mallar)
-5. [Begreppsreferenser](#begreppsreferenser)
+Du behöver inte läsa hela vägledningen innan du börjar. Läs den här översikten, ladda ner iterationsmallen och läs varje steg när du kommer till det.
+
+En iteration behöver inte vara omfattande. Börja med en målgrupp och en angelägenhet. Fler angelägenheter kan läggas till i efterhand, det är vad det iterativa arbetet innebär. Ni bestämmer själva hur stor eller liten varje iteration ska vara.
+
+{{snabbguide}}
+
+Det viktigaste begreppet att känna till är [angelägenhet](concept:angelagenhet) (engelska *concern*): något som är viktigt för målgruppen och som referensarkitekturen behöver ge svar på. Övriga begrepp beskrivs i [HERAM].
 
 ---
 
@@ -38,191 +20,190 @@
 
 ### Bakgrund
 
-Lärosäten inom den svenska högskolesektorn står inför liknande behov och utmaningar när det gäller att utveckla och förvalta strategiska och tekniska IT-lösningar. Erfarenheter från gemensamma möten visar att det saknas en enhetlig syn på vad en referensarkitektur är, hur den bör struktureras och vilket syfte den fyller. Detta skapar hinder för samarbete och förmågan att återanvända lösningar mellan lärosäten.
+Svenska lärosäten har i stor utsträckning samma behov när det gäller att utveckla och förvalta IT-lösningar. Utan en gemensam syn på vad en referensarkitektur är, hur den struktureras och vad den ska användas till blir det svårt att samarbeta och att återanvända lösningar mellan lärosäten.
 
-För att underlätta samarbete och skapa förutsättningar för enhetliga IT-lösningar tog ATI fram HERAF, ett stöd i hur referensarkitekturer ska utformas och struktureras.
+HERAF finns för att ge sektorn ett gemensamt sätt att ta fram referensarkitekturer. Ramverket är inte knutet till ett enskilt projekt eller lärosäte, utan är tänkt att användas och förvaltas över tid av alla som tar fram referensarkitekturer inom högskolesektorn. Ramverket initierades av ATI.
 
-### Introduktion
+### Syfte
 
-#### Syfte
+Vägledningen beskriver kort vad HERAF består av och hur ramverket används när man tar fram en referensarkitektur. Ramverket ger en gemensam struktur men undviker detaljstyrning, så att varje område kan anpassa arbetet efter sina förutsättningar.
 
-Vägledningens syfte är att kort beskriva de centrala områden i HERAF (Higher Education Reference Architecture Framework) samt hur den används under skapandet av en referensarkitektur. Ramverket möjliggör att referensarkitekturer skapas på ett enhetligt och strukturerat sätt samtidigt som den lämnar utrymme för viss flexibilitet genom att undvika detaljstyrning.
+### Vad är en referensarkitektur?
+
+En referensarkitektur är en mall eller ett ramverk som beskriver en rekommenderad struktur och organisering inom ett specifikt område. Den fungerar som en överenskommen vägledning och standardiseringsgrund för hur lösningar inom området bör utformas.
+
+En referensarkitektur tillhandahåller **principer, strukturer, begrepp, mönster och arkitekturvyer**. Implementationsguider, teknisk design, API-specifikationer och kod ingår normalt *inte* – de tas fram senare, i lösningsarkitektur och implementation, med referensarkitekturen som grund.
+
+*Källor för definitionen: DoD Reference Architecture White Paper; Reference architecture – Wikipedia; Referensarkitektur för Identitet och åtkomst.*
+
+```note Viktigt att veta
+En referensarkitektur ska alltid utgå från en tydligt vald målgrupp och dess angelägenheter. Annars blir den varken relevant eller användbar.
+```
+
+### Varför behövs en referensarkitektur?
+
+- **Gemensamt språk.** Principer, komponenter och deras relationer beskrivs på samma sätt, vilket minskar missförstånd och gör det lättare att samordna initiativ.
+- **Återanvändning i stället för att börja om.** Arbetet utgår från beprövade lösningar och kan fokusera på att anpassa och vidareutveckla, vilket sparar tid och minskar risk.
+- **Underlag för beslut.** Den nuvarande IT-miljön kan jämföras mot ett definierat mål, vilket ger välgrundade motiveringar till tekniska vägval.
 
 ### Läsanvisning
 
-Vägledningen kan läsas från början till slut för en samlad förståelse, eller användas som uppslagsverk för specifika stycken. 
+Vägledningen kan läsas från början till slut eller användas som uppslagsverk. Ska du ta fram en referensarkitektur räcker det att börja med [[Snabbguide]] och läsa varje steg i [[Process: Skapa referensarkitektur]] när du kommer till det.
 
-Vägledningen är hårt knuten till den underliggande referensmodellen HERAM (Higher Education Reference Architecture Model) som fördjupar koncept och begrepp som används i vägledningen. Dessa utgår även från standarden ISO/IEC/IEEE 42010:2022 men viss anpassning och förenkling.
-
-Rekommendationen är att ha HERAM öppen för att snabbt kunna slå upp begrepp och fördjupa sig i vissa koncept som beskrivs i vägledningen.
-
-För praktiskt arbete rekommenderas att följa kapitlet Skapa referensarkitektur. För intressenter som önskar en förståelse av ramverket HERAF och dessa användningar  kan börja med de inledande avsnitten.
-
-
-#### Vad är en referensarkitektur?
-
-Vi har valt att definiera en referensarkitektur enligt följande: 
-"En referensarkitektur är en mall eller ramverk som beskriver en rekommenderad struktur och organisering inom ett specifikt område. Den fungerar som en överenskommen vägledning och standardiseringsgrund för hur en lösning inom ett visst område bör implementeras."
-
-```note Viktigt att veta
-En referensarkitektur ska alltid utgå från tydligt definierade målgrupper och deras specifika behov för att bli relevant och användbar.
-```
-
-#### Varför behövs en referensarkitektur?
-
-Syftet med en referensarkitektur är att etablera en gemensam strategisk inriktning för samtliga aktörer inom ett specifikt verksamhetsområde. Genom att på ett konsekvent sätt beskriva grundläggande principer, centrala komponenter samt deras inbördes relationer, möjliggörs ett gemensamt språkbruk som underlättar koordinering av initiativ och minimerar risken för kommunikativa missförstånd.
-
-Eftersom referensarkitekturen vilar på ackumulerad erfarenhet och beprövade lösningar, elimineras behovet av att påbörja utvecklingsinsatser från grunden. Istället kan förändringsarbetet koncentreras till att anpassa och vidareutveckla befintliga strukturer, vilket i sin tur bidrar till reducerad tidsåtgång och lägre risknivå vid införande av nya tjänster eller vid utvärdering av befintliga miljöer.
-
-Utöver att accelerera utvecklings- och moderniseringsprocesser tillhandahåller referensarkitekturen ett systematiskt ramverk för att analysera och jämföra den aktuella IT-miljön med ett definierat mål som kan användas som referens. Därigenom skapas ett robust underlag för beslutsfattande, argumentation och kommunikation – särskilt gentemot målgrupper och intressenter som efterfrågar välgrundade motiveringar till tekniska vägval.
-
-
-### Begrepp
-
-| Begrepp | Beskrivning |
-|---------|-------------|
-| **Angelägenhet ("Concern")** | En angelägenhet beskriver vad en intressent eller målgrupp anser vara viktigt i ett system eller en arkitektur. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera.<br><br>Exempel: säkerhet, prestanda, användbarhet, kostnadseffektivitet. |
-| **Aspekt** | En aspekt beskriver ett perspektiv eller en synvinkel som används för att analysera, beskriva eller utvärdera ett system. Den hjälper till att belysa hur olika angelägenheter hanteras i arkitekturen.<br><br>Exempel: säkerhetsaspekt, prestandaaspekt, tillgänglighetsaspekt. |
-| **Aktivitetsgruppen** | Aktivitetsgruppen är den grupp som arbetar med framtagningen av referensarkitekturen. |
-
-
+Begreppen i vägledningen förklaras i [HERAM], som bygger på standarden ISO/IEC/IEEE 42010:2022 med viss anpassning och förenkling.
 
 ---
 
 ## HERAF
-![Primära områden som HERAF består av](img/heraf_vagledning_o_heram.png)
 
-Ramverket innehåller material som beskriver, visualiserar och vägleder i hur man skapar en referensarkitektur. På en övergripande nivå innehåller ramverket två huvudsakliga områden, vägledningen och [HERAM].
+HERAF består av två delar:
 
-Båda områden fyller olika syften där vägledningen är det material som vägleder och hjälper användningen av ramverket samt skapandet av en referensarkitektur. [HERAM] utgör den teoretiska och strukturella grunden för hur referensarkitekturer i ramverket ska struktureras och beskrivas.
+- **Vägledningen** – det här dokumentet. Beskriver hur ramverket används och hur man tar fram en referensarkitektur, steg för steg.
+- **[HERAM]** (Higher Education Reference Architecture Model) – den teoretiska grunden. Innehåller en konceptkarta och konceptbeskrivningar som förklarar begreppen och hur de hänger ihop, samt styrande principer, riktlinjer och regler som gör att referensarkitekturer blir enhetliga.
 
-![Konceptuell modell över underliggande komponenter och deras relationer.](img/heraf_konceptuell_modell.png)
+Båda delarna används när man skapar en referensarkitektur. Konceptkartan visualiserar konceptbeskrivningen, och processmodellen visualiserar processbeskrivningen.
 
-### Vägledningen
-
-![Vagledningen innehåll](img/vagledningen_content.png){width=400px}
-
-Vägledningen – nuvarande dokument – är själva beskrivningen av HERAF och hur man använder det, processmodell och processbeskrivning hur man skapar en referensarkitektur och slutligen exempel som följer ramverket.
-
-### HERAM
-
-![HERAM innehåll](img/heram_content.png){width=400px}
-
-Higher Education Reference Architecture Model ([HERAM]) är en modell som består av en konceptkarta, konceptbeskrivning samt ett styrande dokument för ramverket HERAF. 
-
-Konceptbeskrivningen och konceptkartan förklarar de olika begreppen i ramverket samt visar hur dessa förhåller sig till varandra. Det styrande dokumentet innehåller gemensamma principer, riktlinjer och regler som säkerställer enhetliga    referensarkitekturer.
-
+{{diagram:overview|HERAF:s delar och hur de används för att skapa en referensarkitektur.}}
 
 ---
 
-## Skapa referensarkitektur
+## Process: Skapa referensarkitektur
 
-Processen är framtagen för att kvalitetssäkra arbetet med referensarkitekturer och skapa ett enhetligt arbetssätt för svenska lärosäten. Den är vägledande snarare än tvingande och betonar de viktigaste aktiviteterna. Syftet är att underlätta framtagningen av en referensarkitektur samt att man inte missar eller glömmer vissa aktiviteter.
+Processen hjälper till att kvalitetssäkra arbetet och ger lärosätena ett gemensamt arbetssätt. Den är vägledande snarare än tvingande.
 
-Processen bör inte ses som ett flöde där ena aktiviteten måste genomföras före den andra, den ska hjälpa i hur man startar och kommer igång. Det rekommenderas att genomföra processen i mindre omfång och iterationer snarare än att försöka få med samtliga målgrupper och intressenter under skapandet.
+Arbetet sker i **iterationer**. Varje iteration riktar sig till **en** målgrupp och ett avgränsat omfång. Det är bättre att göra flera små iterationer än att försöka täcka alla målgrupper på en gång.
 
-Kommande avsnitt beskriver de aktiviteter som ingår i processen "Skapa referensarkitektur". 
+{{diagram:process|Processmodellen. Välj ett steg för att gå till beskrivningen.}}
 
-![Översiktsbild av aktiviteter som ingår i skapandet av en referensarkitektur.](img/processmodel_full.png)
+En iteration består av:
 
-Aktiviteterna är indelade i två kategorier:
+- **Starta iterationen** (steg 1–3): Avgör vad iterationen ska handla om.
+- **Ta fram innehållet** (steg 4–6): Genomförs i ordning, men man kan gå tillbaka till ett tidigare steg när något nytt dyker upp.
+- **Löpande aktiviteter**: pågår under hela iterationen.
 
-- **Kontinuerliga aktiviteter** som pågår under framtagningen.
-- **Skapande aktiviteter** som stegvis leder till att referensarkitekturen utformas och dokumenteras.
+Allt arbete dokumenteras i en iterationsmall, se [[Exempel och mallar]].
 
-### Kontinuerliga aktiviteter
+### Starta iterationen
 
-#### Identifiera och förankra med målgrupp 
+#### Steg 1: Välj primär målgrupp
 
-Denna aktivitet innebär att kontinuerligt – och när tillfälle ges – dela referensarkitekturen med den tilltänkta målgruppen för att få återkoppling och identifiera förbättringar.
+**Syfte:** Bestämma vem iterationen är till för. Referensarkitekturen ska vara användbar för just den målgruppen.
 
-Syftet är att säkerställa att referensarkitekturen är relevant, användbar och ger ett värde för dem som ska använda den.
+**Aktiviteter**
+- Lista tänkbara målgrupper, till exempel IT-arkitekter, utvecklare, förvaltare eller beslutsfattare.
+- Välj **en** primär målgrupp. Fråga: vilken målgrupp är viktigast att stödja *just nu*?
+- Notera övriga målgrupper som kandidater till kommande iterationer.
 
+**Resultat:** Fältet *Primär målgrupp* i iterationsmallen.
+
+#### Steg 2: Identifiera målgruppens angelägenheter
+
+**Syfte:** Förstå vad som är viktigt för målgruppen, vilka frågor de behöver få svar på.
+
+**Aktiviteter**
+- Samla in målgruppens [angelägenheter](concept:angelagenhet), till exempel genom intervjuer eller workshops.
+- Formulera varje angelägenhet så att den går att besvara, till exempel ”Hur ska tjänster autentisera sig mot varandra?”.
+- Ge varje angelägenhet ett ID (C01, C02 …).
+
+**Resultat:** En lista med angelägenheter i sektionen *Angelägenheter*.
+
+#### Steg 3: Bestäm omfång
+
+**Syfte:** Avgränsa iterationen. Omfånget styrs av de angelägenheter som väljs – inte tvärtom.
+
+**Aktiviteter**
+- Bestäm vilket område referensarkitekturen gäller, till exempel IAM, integration, AI, IoT eller nätverk. Undvik ett alltför brett område.
+- Välj vilka angelägenheter som ska adresseras i den här iterationen. **De valda angelägenheterna är omfånget.**
+- Motivera varför övriga angelägenheter inte adresseras nu.
+- Skriv ner vad som uttryckligen *inte* ingår, till exempel ”endast tekniskt perspektiv i denna iteration”.
+
+**Resultat:** Sektionen *Omfång* i iterationsmallen, samt kolumnen *Adresseras* för varje angelägenhet.
+
+```note Relaterade principer
+* [P:EAP004]
+* [P:P002]
+```
+
+### Ta fram innehållet
+
+#### Steg 4: Identifiering
+
+**Syfte:** Kartlägga vad som påverkar referensarkitekturen. Här fattas inga beslut.
+
+**Aktiviteter**
+- Lista relevanta standarder, mönster och best practices.
+- Lista lagar och regulatoriska krav.
+- Lista överordnad styrning, till exempel strategier och principer som redan gäller.
+- Titta på hur andra lärosäten och organisationer har löst samma sak.
+
+**Resultat:** Sektionen *Identifiering* – ett underlag som visar vilka krav, mönster och behov som ska beaktas.
+
+#### Steg 5: Definiering
+
+**Syfte:** Bestämma ramarna för referensarkitekturen, utan att gå ner på detaljnivå.
+
+**Aktiviteter**
+- Beskriv vilken nytta målgruppen ska få av referensarkitekturen.
+- Bestäm vilka vyer som behövs. Varje vy ska adressera minst en vald angelägenhet.
+- Skriv en vy-specifikation för varje vy som anger detaljnivå, aspekter och målgruppsperspektiv.
+- Bestäm vilka principer, riktlinjer och regler som ska gälla för området.
+
+**Resultat:** Sektionen *Definiering* – en lista över vyer och styrande principer som ska konkretiseras.
+
+#### Steg 6: Konkretisering
+
+**Syfte:** Ta fram innehållet som definierades i föregående steg.
+
+**Aktiviteter**
+- Ta fram de vyer som definierades.
+- Formulera färdigt principer, riktlinjer och regler.
+- Ta fram en begreppsmodell för området.
+
+**Resultat:** Sektionen *Konkretisering* – en referensarkitektur för området, för den valda målgruppen.
+
+### Löpande aktiviteter
+
+#### Förankra med referensgrupp
+
+Sätt upp en referensgrupp med representanter för målgruppen och relevanta intressenter. Dela referensarkitekturen med gruppen löpande – inte bara i slutet – för att få återkoppling och säkerställa att den är relevant och användbar.
+
+**Resultat:** Sektionen *Förankring* – datum, forum och återkoppling.
 
 #### Kommunicera med intressenter
 
-Kommunikationen med intressenter sker löpande för att säkerställa att viktiga perspektiv och krav beaktas i referensarkitekturen.
-
-Det kan till exempel handla om säkerhetsaspekter, styrande principer eller strategiska inriktningar som behöver integreras i arbetet.
-
+Håll löpande kontakt med intressenter så att viktiga perspektiv och krav kommer med, till exempel säkerhetskrav, styrande principer eller strategiska inriktningar.
 
 #### Dokumentera arkitekturbeslut
 
-Under framtagningen fattas många beslut som påverkar referensarkitekturens utformning.
+Dokumentera de viktigaste besluten tillsammans med motiveringen. Det ger spårbarhet och gör det lättare för målgrupp och intressenter att förstå varför referensarkitekturen ser ut som den gör.
 
-De mest centrala och vägledande besluten bör dokumenteras tillsammans med sin motivering för att skapa förståelse och spårbarhet för både målgrupper och intressenter.
+**Resultat:** Sektionen *Arkitekturbeslut*.
 
+#### Dokumentera underlag
 
-### Skapande aktiviteter
+Målgrupper, intressenter, angelägenheter och kartläggningar är underlag för arbetet, men ingår inte i den färdiga referensarkitekturen. Sätt därför upp en gemensam dokumentyta för underlaget redan från start, så att det går att spåra varför referensarkitekturen ser ut som den gör och så att nästa iteration kan bygga vidare.
 
-De skapande aktiviteterna är de som genererar den slutgiltiga referensarkitekturen.
+---
 
-#### Omfång
+## Vad ska en referensarkitektur innehålla?
 
-Omfång handlar om att specificera ramarna vid skapandet eller en ny iteration av en referensarkitektur. Syftet är att definiera vad arbetet ska omfatta, vilken målgrupp som avses och vilka angelägenheter som ska adresseras.
+Det här är miniminivån för en iteration enligt HERAF. Övriga delar läggs till när de behövs för målgruppen. Kolumnen *Grund* visar vilken styrning i HERAM som kravet kommer från.
 
-Arbetet fokuserar på att skapa en tydlig avgränsning och en gemensam förståelse för syftet med referensarkitekturen samt vilka som är den primära målgruppen
-
-
-```note Relaterade principer
-_Följande principer ska beaktas vid arbete med omfång:_
-* [P:EAP004]
-* [P:P002]
-
-```
-
-Arbetet fokuserar på att skapa en tydlig avgränsning och en gemensam förståelse för syftet med referensarkitekturen samt vilka som är den primära målgruppen.
-
-Omfång innehåller följande delaktiviteter:
-
-- **Identifiera område** innebär att arbetsgruppen beslutar vilket område som referensarkitekturen ska gälla för och därmed inte ta ett alltför brett omfång. Exempelvis: IAM, Integration, AI, IoT, Nätverk etc.
-
-- **Bestäm omfång** betyder att man fastställer gränser för vad referensarkitekturen ska innehålla, vilket gör det enklare att besluta om saker ska eller inte ska finnas med.
-
-- **Identifiera vad som inte ska ingå** är de avgränsningarna man sätter inom omfånget. Exempelvis kan omfånget vara referensarkitektur för integration men att man avgränsar iterationen för det tekniska perspektivet.
-
-#### Identifiering
-
-Identifiering innebär att urskilja, kartlägga och dokumentera relevanta faktorer som behöver beaktas i arbetet. Detta inkluderar att skapa en överblick och synliggöra vad som finns, men inte att fatta beslut eller fastställa något.
-
-Delaktiviteterna  innebär att samla in och kartlägga de faktorer som påverkar framtagandet av referensarkitekturen. Aktivitetsgruppen fokuserar på att skapa en överblick av omvärldens lösningar, strategier, styrande principer, lagar, standarder, mönster och best practices.
-
-Resultatet blir ett underlag som visar vilka krav, mönster och behov som ska beaktas under framtagningen av referensarkitekturen.   
-
-
-#### Definiering
-
-Definiering innebär att man fastställer vad som ska ingå inom vissa ramar utan att gå ner på detaljnivå. Syftet är att skapa en helhetsbild och tydliga avgränsningar så att man kan arbeta vidare utan att fastna i detaljer.
-
-Detta innebär att fastställa de grundläggande ramarna för hur referensarkitekturen ska utformas och användas. Aktivitetsgruppen fokuserar på att definiera vilka målgruppsperspektiv som behövs, vilka principer, regler och riktlinjer som ska gälla. Arbetet innebär också att definiera behov av vyer. 
-
-Resultatet är en referensarkitektur med tydligt definierade delar som kan konkretiseras.  
-
-
-#### Konkretisering
-
-Konkretisering innebär att gå från övergripande definitioner eller idéer till att bryta ner och utveckla innehållet på en mer detaljerad nivå.
-
-Denna del syftar till att konkretisera de definitionerna från föregående aktivitet till mer praktiskt användbara delar. Aktivitetsgruppen arbetar fram de tidigare definierade vyerna, förtydligar styrande principer, riktlinjer och regler samt skapar en begreppsmodell för området.   
-
-Resultatet är en referensarkitektur för ett specifikt område
-
+| Del | Krav | Kommentar | Grund |
+|-----|------|-----------|-------|
+| Område och primär målgrupp | Måste | En målgrupp per iteration. | RE008, R004 |
+| Angelägenheter | Måste | Med beslut om vilka som adresseras och motivering för övriga. | P002 |
+| Omfång och avgränsningar | Måste | Vad som ingår och vad som inte ingår. | EAP004, P002 |
+| Vyer med vy-specifikationer | Måste | Minst en vy per adresserad angelägenhet. Varje vy-specifikation anger detaljnivå, aspekter och målgruppsperspektiv. | RE006, RE010, RE011 |
+| Principer, riktlinjer och regler | Måste | Endast det som är relevant för målgruppen. Varje riktlinje och regel har motivering och referens till överliggande styrning. | RE012, RE001, RE002, R005 |
+| Begreppsmodell | Måste | För det valda området. | RE013 |
+| Arkitekturbeslut | Bör | De mest centrala besluten med motivering. | EAP001 |
+| Mönster | Kan | När det finns beprövade lösningar att peka på, till exempel för lagefterlevnad. | R001 |
 
 ---
 
 ## Exempel och mallar
 
-[Detta avsnitt kommer att innehålla konkreta exempel och mallar för implementering av referensarkitekturer enligt HERAF.]
+**Iterationsmall** – en mall för att dokumentera en iteration. Sektionerna följer processens steg: Omfång, Angelägenheter, Identifiering, Definiering, Konkretisering, Arkitekturbeslut, Förankring och Avslut. [Ladda ner iterationsmallen](mallar/iterationsmall.md).
 
----
-
-## Begreppsreferenser
-
-| Begrepp | Definition | Referenser |
-|---------|------------|------------|
-| **Referensarkitektur** | En referensarkitektur är en mall eller ramverk som beskriver en rekommenderad struktur och organisering inom ett specifikt område. Den fungerar som en överenskommen vägledning och standardiseringsgrund för hur en lösning inom ett visst område bör implementeras. | DoD Reference Architecture White Paper<br><br>Reference architecture - Wikipedia<br><br>Referensarkitektur för Identitet och åtkomst |
-
----
-
-*Dokumentversion: 0.5-Alfa*  
-*Datum: 2025-11-12*
+Fler exempel kommer att läggas till.

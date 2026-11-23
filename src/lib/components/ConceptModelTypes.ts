@@ -26,25 +26,29 @@ export interface ModelConnection {
     points?: { x: number; y: number }[];
 }
 
+// Matches the design tokens in app.css: petrol = HERAM, ink = the reference architecture itself
 export const NODE_COLORS: Record<NodeColor, { fill: string; stroke: string; textFill: string }> = {
+    // Perspectives and aspects
     primary: {
-        fill: '#F2F2F2',
-        stroke: '#262626',
-        textFill: '#262626'
+        fill: '#E2EFF1',
+        stroke: '#0B5566',
+        textFill: '#0B5566'
     },
+    // Governance (principles, guidelines, rules, patterns)
     secondary: {
-        fill: '#352F44',
-        stroke: '#000000',
+        fill: '#0B5566',
+        stroke: '#0B5566',
         textFill: '#FFFFFF'
     },
     tertiary: {
-        fill: '#0D3B4F',
-        stroke: '#000000',
+        fill: '#4A3566',
+        stroke: '#4A3566',
         textFill: '#FFFFFF'
     },
+    // Reference architecture and area
     neutral: {
-        fill: '#E0E0E0',
-        stroke: '#262626',
-        textFill: '#262626'
+        fill: '#26232E',
+        stroke: '#26232E',
+        textFill: '#FFFFFF'
     }
 };
