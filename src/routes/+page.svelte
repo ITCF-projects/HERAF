@@ -33,21 +33,21 @@
 </script>
 
 <svelte:head>
-	<title>HERAF – referensarkitekturer för högskolesektorn</title>
+	<title>HERAF – referensarkitekturer för högre utbildning</title>
 	<meta
 		name="description"
-		content="HERAF är ett gemensamt ramverk för att ta fram referensarkitekturer inom den svenska högskolesektorn: en vägledning för processen och modellen HERAM med begrepp och styrning."
+		content="HERAF är ett gemensamt ramverk för att ta fram referensarkitekturer inom svensk högre utbildning: en vägledning för processen och modellen HERAM med begrepp och styrning."
 	/>
 </svelte:head>
 
 <div class="mx-auto max-w-6xl px-4 pt-12 pb-16 sm:px-6 sm:pt-16 sm:pb-20">
 	<header class="max-w-3xl">
 		<h1 class="text-[2.25rem] leading-[1.1] font-bold tracking-tight text-ink sm:text-[3rem]">
-			Ramverk för referens&shy;arkitekturer inom högskolesektorn
+			Ramverk för referens&shy;arkitekturer inom högre utbildning
 		</h1>
 		<p class="mt-5 max-w-2xl font-serif text-lg leading-relaxed text-ink sm:text-xl">
 			HERAF, Higher Education Reference Architecture Framework, är ett gemensamt ramverk för att ta fram
-			referensarkitekturer inom den svenska högskolesektorn. Ramverket består av två delar: Vägledningen,
+			referensarkitekturer inom svensk högre utbildning. Ramverket består av två delar: Vägledningen,
 			som beskriver processen, och HERAM, som beskriver begrepp och styrning.
 		</p>
 

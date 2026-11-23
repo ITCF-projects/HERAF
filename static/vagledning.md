@@ -22,7 +22,7 @@ Det viktigaste begreppet att känna till är [angelägenhet](concept:angelagenhe
 
 Svenska lärosäten har i stor utsträckning samma behov när det gäller att utveckla och förvalta IT-lösningar. Utan en gemensam syn på vad en referensarkitektur är, hur den struktureras och vad den ska användas till blir det svårt att samarbeta och att återanvända lösningar mellan lärosäten.
 
-HERAF finns för att ge sektorn ett gemensamt sätt att ta fram referensarkitekturer. Ramverket är inte knutet till ett enskilt projekt eller lärosäte, utan är tänkt att användas och förvaltas över tid av alla som tar fram referensarkitekturer inom högskolesektorn. Ramverket initierades av ATI.
+HERAF finns för att ge sektorn ett gemensamt sätt att ta fram referensarkitekturer. Ramverket är inte knutet till ett enskilt projekt eller lärosäte, utan är tänkt att användas och förvaltas över tid av alla som tar fram referensarkitekturer inom högre utbildning. Ramverket initierades av ATI.
 
 ### Syfte
 

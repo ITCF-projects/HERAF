@@ -825,7 +825,7 @@ function buildAgentGuide() {
 
   const llms = `# HERAF
 
-> Higher Education Reference Architecture Framework – ett ramverk för att ta fram referensarkitekturer inom den svenska högskolesektorn. Version ${version}.
+> Higher Education Reference Architecture Framework – ett ramverk för att ta fram referensarkitekturer inom svensk högre utbildning. Version ${version}.
 
 ## För AI-agenter
 
