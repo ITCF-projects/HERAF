@@ -98,10 +98,18 @@ function readChangelog() {
   const filePath = path.join(process.cwd(), 'src/content/versionshistorik.md');
   if (!fs.existsSync(filePath)) return null;
   const markdown = fs.readFileSync(filePath, 'utf8').replace(/<!--[\s\S]*?-->/g, '').trim();
-  const sections = [...markdown.matchAll(/^(##|###) (.+)$/gm)]
-    .filter(([, hashes]) => hashes === '##')
-    .map(([, , title]) => ({ id: headingId(title.trim()), title: title.trim(), level: 2 }));
-  return { htmlContent: marked.parse(markdown), sections };
+  // "## 0.6-Alfa – 2026-11-23" gets the anchor #version-0-6
+  const versionId = (title) => {
+    const number = title.match(/^\d+(?:\.\d+)*/);
+    return number ? `version-${number[0].replace(/\./g, '-')}` : headingId(title);
+  };
+  const sections = [...markdown.matchAll(/^## (.+)$/gm)]
+    .map(([, title]) => ({ id: versionId(title.trim()), title: title.trim(), level: 2 }));
+  let htmlContent = marked.parse(markdown);
+  for (const { id, title } of sections) {
+    htmlContent = htmlContent.replace(`<h2 id="${headingId(title)}">`, `<h2 id="${id}">`);
+  }
+  return { htmlContent, sections };
 }
 
 function processMarkdownFile(filePath) {
