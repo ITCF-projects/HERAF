@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { resolve, asset } from '$app/paths';
+	import { onMount } from 'svelte';
 	import { contentData } from '$lib/content-data.generated.js';
 	import BrandMark from '$lib/components/BrandMark.svelte';
 
@@ -30,6 +31,30 @@
 		title: g.title,
 		concepts: g.concepts.map((slug: string) => conceptTitles.get(slug)).filter(Boolean) as string[]
 	}));
+
+	// Absolute URL to the agent guide, so it can be pasted straight into an AI assistant
+	const agentPath = asset('/heraf-agent.md');
+	let agentUrl = $state(agentPath);
+	let copied = $state(false);
+	let copyTimer: ReturnType<typeof setTimeout>;
+
+	onMount(() => {
+		agentUrl = new URL(agentPath, window.location.href).href;
+	});
+
+	async function copyAgentUrl(event: MouseEvent) {
+		try {
+			await navigator.clipboard.writeText(agentUrl);
+		} catch {
+			// Clipboard API unavailable: select the URL so it can be copied manually
+			const field = (event.currentTarget as HTMLElement).previousElementSibling as HTMLInputElement;
+			field.select();
+			return;
+		}
+		copied = true;
+		clearTimeout(copyTimer);
+		copyTimer = setTimeout(() => (copied = false), 2000);
+	}
 </script>
 
 <svelte:head>
@@ -126,6 +151,25 @@
 			processen, arbetsregler, styrning, begrepp och iterationsmall i en fristående fil.
 			En översikt finns i <a class="text-petrol underline underline-offset-2" href={asset('/llms.txt')}>llms.txt</a>.
 		</p>
+		<p class="mt-3">Kopiera länken och klistra in den i din AI-assistent. Assistenten frågar sedan om den ska fylla i iterationsmallen eller vägleda.</p>
+		<div class="mt-2 flex max-w-xl gap-2">
+			<input
+				type="text"
+				readonly
+				value={agentUrl}
+				aria-label="Länk till heraf-agent.md"
+				class="min-w-0 flex-1 rounded-md border border-line bg-white px-3 py-2 font-mono text-sm text-ink"
+				onfocus={(e) => e.currentTarget.select()}
+			/>
+			<button
+				type="button"
+				onclick={copyAgentUrl}
+				class="flex-none rounded-md bg-petrol px-4 py-2 font-semibold text-white hover:opacity-90"
+			>
+				{copied ? 'Kopierad' : 'Kopiera länk'}
+			</button>
+		</div>
+		<p class="sr-only" aria-live="polite">{copied ? 'Länken är kopierad' : ''}</p>
 		{#if version}
 			<p class="mt-3">Utkast, version {version}. Innehållet kan ändras.</p>
 		{/if}
