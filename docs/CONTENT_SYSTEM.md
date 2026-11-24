@@ -10,6 +10,7 @@ All content is Markdown. `scripts/generate-content.js` turns it into data and fi
 | HERAM intro and concept order | `src/content/heram.md` | `/heram` |
 | Concepts | `src/content/concepts/*.md` | `/heram`, side panel |
 | Principles, guidelines, rules | `src/content/governance/{principles,guidelines,rules}/*.md` | `/heram`, side panel |
+| Version history | `src/content/versionshistorik.md` | `/versionshistorik` |
 | Iteration template | `src/content/templates/iteration_template.md` | Download, agent guide |
 | Agent guide layout and rules | `src/content/agent/heraf-agent.template.md` | `heraf-agent.md` |
 | Diagrams | `src/lib/diagrams/*.svg` | Inlined in the guidance |

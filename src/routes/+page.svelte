@@ -181,7 +181,11 @@
 			En översikt finns i <a class="text-petrol underline underline-offset-2" href={asset('/llms.txt')}>llms.txt</a>.
 		</p>
 		{#if version}
-			<p class="mt-3">Utkast, version {version}. Innehållet kan ändras.</p>
+			<p class="mt-3">
+				Utkast, version {version}. Innehållet kan ändras. Se
+				<a class="text-petrol underline underline-offset-2" href={resolve('/versionshistorik')}>versionshistoriken</a>
+				för vad som har ändrats.
+			</p>
 		{/if}
 	</section>
 </div>

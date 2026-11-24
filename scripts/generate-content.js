@@ -92,6 +92,18 @@ marked.setOptions({
   renderer: renderer
 });
 
+// Version history page from src/content/versionshistorik.md.
+// The leading HTML comment holds instructions for editors and is not published.
+function readChangelog() {
+  const filePath = path.join(process.cwd(), 'src/content/versionshistorik.md');
+  if (!fs.existsSync(filePath)) return null;
+  const markdown = fs.readFileSync(filePath, 'utf8').replace(/<!--[\s\S]*?-->/g, '').trim();
+  const sections = [...markdown.matchAll(/^(##|###) (.+)$/gm)]
+    .filter(([, hashes]) => hashes === '##')
+    .map(([, , title]) => ({ id: headingId(title.trim()), title: title.trim(), level: 2 }));
+  return { htmlContent: marked.parse(markdown), sections };
+}
+
 function processMarkdownFile(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const { data, content: markdownContent } = matter(content);
@@ -579,8 +591,11 @@ function buildContentData() {
     },
     concepts: [],
     guidance: null,
-    heram: null
+    heram: null,
+    changelog: null
   };
+
+  data.changelog = readChangelog();
   
   // Process guidance
   data.guidance = processGuidanceMarkdown();

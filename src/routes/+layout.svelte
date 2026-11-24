@@ -45,8 +45,16 @@
 				<a href={resolve('/')} class="flex items-center gap-2 text-aubergine no-underline">
 					<BrandMark name="heraf" size={22} />
 					<span class="text-lg font-bold tracking-tight">HERAF</span>
-					{#if version}<span class="text-xs text-muted">v{version}</span>{/if}
 				</a>
+				{#if version}
+					<a
+						href={resolve('/versionshistorik')}
+						class="-ml-2 text-xs text-muted underline-offset-2 hover:text-ink hover:underline"
+						title="Versionshistorik"
+					>
+						v{version}
+					</a>
+				{/if}
 				<span class="hidden h-6 w-px bg-line sm:block" aria-hidden="true"></span>
 				<img src={asset('/img/itcf-logga.svg')} alt="ITCF" class="hidden h-6 w-auto sm:block" />
 			</div>
@@ -113,7 +121,10 @@
 				<strong class="font-semibold text-ink">HERAF</strong> Higher Education Reference Architecture Framework.
 				<strong class="font-semibold text-ink">HERAM</strong> Higher Education Reference Architecture Model.
 			</p>
-			<p>Under utveckling. Innehållet är preliminärt och kan ändras.</p>
+			<p>
+				Under utveckling. Innehållet är preliminärt och kan ändras.
+				<a href={resolve('/versionshistorik')} class="text-petrol underline underline-offset-2">Versionshistorik</a>
+			</p>
 		</div>
 	</footer>
 </div>
