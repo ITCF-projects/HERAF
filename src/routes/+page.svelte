@@ -35,25 +35,31 @@
 	// Absolute URL to the agent guide, so it can be pasted straight into an AI assistant
 	const agentPath = asset('/heraf-agent.md');
 	let agentUrl = $state(agentPath);
-	let copied = $state(false);
+	const agentPrompt = $derived(
+		`Läs HERAF-instruktionen på ${agentUrl} och följ den. ` +
+			'Jag vill ta fram en iteration av en referensarkitektur enligt HERAF. ' +
+			'Börja med att fråga om du ska fylla i iterationsmallen åt oss eller vägleda oss genom stegen.'
+	);
+	let copied = $state<'prompt' | 'url' | null>(null);
 	let copyTimer: ReturnType<typeof setTimeout>;
+	let promptField = $state<HTMLTextAreaElement>();
+	let urlField = $state<HTMLInputElement>();
 
 	onMount(() => {
 		agentUrl = new URL(agentPath, window.location.href).href;
 	});
 
-	async function copyAgentUrl(event: MouseEvent) {
+	async function copy(what: 'prompt' | 'url') {
 		try {
-			await navigator.clipboard.writeText(agentUrl);
+			await navigator.clipboard.writeText(what === 'prompt' ? agentPrompt : agentUrl);
 		} catch {
-			// Clipboard API unavailable: select the URL so it can be copied manually
-			const field = (event.currentTarget as HTMLElement).previousElementSibling as HTMLInputElement;
-			field.select();
+			// Clipboard API unavailable: select the text so it can be copied manually
+			(what === 'prompt' ? promptField : urlField)?.select();
 			return;
 		}
-		copied = true;
+		copied = what;
 		clearTimeout(copyTimer);
-		copyTimer = setTimeout(() => (copied = false), 2000);
+		copyTimer = setTimeout(() => (copied = null), 2000);
 	}
 </script>
 
@@ -94,11 +100,31 @@
 		<section class="mt-8 rounded-lg border border-petrol/25 bg-petrol-soft p-5 sm:p-6" aria-labelledby="ai-assistant">
 			<h2 id="ai-assistant" class="text-lg font-bold text-ink">Arbeta med en AI-assistent</h2>
 			<p class="mt-1.5 text-[0.9375rem] leading-relaxed text-ink">
-				Kopiera länken och klistra in den i din AI-assistent. Assistenten får processen, styrningen,
+				Kopiera prompten och klistra in den i din AI-assistent. Assistenten får processen, styrningen,
 				begreppen och iterationsmallen, och frågar om den ska fylla i iterationsmallen åt er eller vägleda er genom varje steg.
 			</p>
-			<div class="mt-3 flex gap-2">
+
+			<textarea
+				bind:this={promptField}
+				readonly
+				rows="3"
+				value={agentPrompt}
+				aria-label="Prompt till AI-assistenten"
+				class="mt-3 block w-full resize-none rounded-md border border-line bg-white px-3 py-2 text-[0.9375rem] leading-relaxed text-ink"
+				onfocus={(e) => e.currentTarget.select()}
+			></textarea>
+			<button
+				type="button"
+				onclick={() => copy('prompt')}
+				class="mt-2 rounded-md bg-petrol px-4 py-2 font-semibold text-white hover:opacity-90"
+			>
+				{copied === 'prompt' ? 'Kopierad' : 'Kopiera prompt'}
+			</button>
+
+			<p class="mt-5 text-sm font-medium text-ink">Eller kopiera bara länken</p>
+			<div class="mt-1.5 flex gap-2">
 				<input
+					bind:this={urlField}
 					type="text"
 					readonly
 					value={agentUrl}
@@ -108,13 +134,20 @@
 				/>
 				<button
 					type="button"
-					onclick={copyAgentUrl}
-					class="flex-none rounded-md bg-petrol px-4 py-2 font-semibold text-white hover:opacity-90"
+					onclick={() => copy('url')}
+					class="flex-none rounded-md border border-petrol bg-white px-4 py-2 font-semibold text-petrol hover:bg-petrol-soft"
 				>
-					{copied ? 'Kopierad' : 'Kopiera länk'}
+					{copied === 'url' ? 'Kopierad' : 'Kopiera länk'}
 				</button>
 			</div>
-			<p class="sr-only" aria-live="polite">{copied ? 'Länken är kopierad' : ''}</p>
+			<p class="mt-3 text-sm leading-relaxed text-muted">
+				Om assistenten inte kan öppna länkar: ladda ner
+				<a class="text-petrol underline underline-offset-2" href={agentPath} download>heraf-agent.md</a>
+				och bifoga filen tillsammans med prompten.
+			</p>
+			<p class="sr-only" aria-live="polite">
+				{copied === 'prompt' ? 'Prompten är kopierad' : copied === 'url' ? 'Länken är kopierad' : ''}
+			</p>
 		</section>
 	</header>
 

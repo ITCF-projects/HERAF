@@ -50,7 +50,7 @@ Ramverket finns som en instruktion för AI-assistenter, [heraf-agent.md](https:/
 ### Funktioner
 
 - Versionshistoriken finns som en egen sida. Den nås från versionsnumret i sidhuvudet, från sidfoten och från startsidan.
-- Startsidan börjar med länken till AI-instruktionen och en knapp som kopierar den, så att länken kan klistras in direkt i en AI-assistent.
+- Startsidan börjar med en färdig prompt och länken till AI-instruktionen. Båda kan kopieras med en knapp och klistras in direkt i en AI-assistent.
 - Ny startsida som visar Vägledningen och HERAM som ramverkets två delar.
 - Begrepp, konceptkarta och styrning finns samlade på en sida, HERAM, i stället för i flikar. Den tidigare sidan Begrepp leder dit.
 - Vägledningen och HERAM har en innehållsförteckning i sidomarginalen.
