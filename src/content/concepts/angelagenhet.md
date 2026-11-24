@@ -28,7 +28,7 @@ Enligt standarden ISO 42010:2022 är en "concern" ett intresse som är av betyde
 - **Tillförlitlighet**: Fungerar lösningen konsekvent?
 - **Skalbarhet**: Kan lösningen hantera ökad belastning?
 
-### Affärsangelägenheter
+### Verksamhetsangelägenheter
 - **Kostnadseffektivitet**: Ger lösningen värde för pengarna?
 - **Time-to-market**: Hur snabbt kan lösningen levereras?
 - **Compliance**: Följer lösningen regelverk?
@@ -54,6 +54,6 @@ Angelägenheter driver utformningen av arkitekturvyer:
 
 ## Hantering av konflikter
 Olika intressenters angelägenheter kan vara motstridiga och kräver:
-- **Prioritering** baserad på affärsvärde
+- **Prioritering** baserad på värde för verksamheten
 - **Kompromisser** mellan konkurrerande concerns
 - **Tydlig kommunikation** om designbeslut
