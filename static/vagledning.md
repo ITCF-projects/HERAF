@@ -204,6 +204,6 @@ Det här är miniminivån för en iteration enligt HERAF. Övriga delar läggs t
 
 ## Exempel och mallar
 
-**Iterationsmall** – en mall för att dokumentera en iteration. Sektionerna följer processens steg: Omfång, Angelägenheter, Identifiering, Definiering, Konkretisering, Arkitekturbeslut, Förankring och Avslut. [Ladda ner iterationsmallen](mallar/iterationsmall.md).
+**Iterationsmall** – en mall för att dokumentera en iteration. Sektionerna följer processens steg: Omfång, Angelägenheter, Identifiering, Definiering, Konkretisering, Arkitekturbeslut, Förankring och Avslut. Ladda ner iterationsmallen som [Word](mallar/iterationsmall.docx) eller [markdown](mallar/iterationsmall.md).
 
 Fler exempel kommer att läggas till.

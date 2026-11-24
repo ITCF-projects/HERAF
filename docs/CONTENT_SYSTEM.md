@@ -25,6 +25,7 @@ Never edit these by hand. All are gitignored and rebuilt on every build.
 | `static/heraf-agent.md` | Agent template + process and minimum-content sections of the guidance + governance + concepts + template |
 | `static/llms.txt` | Index pointing AI tools to `heraf-agent.md` |
 | `static/mallar/iterationsmall.md` | Copy of the iteration template |
+| `static/mallar/iterationsmall.docx` | The iteration template as Word, converted by `scripts/template-docx.js` |
 
 ## Writing the guidance (`static/vagledning.md`)
 

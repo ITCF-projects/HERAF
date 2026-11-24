@@ -83,9 +83,12 @@
 			>
 				Snabbguide
 			</a>
-			<a class="font-medium text-petrol underline underline-offset-2" href={asset('/mallar/iterationsmall.md')}>
-				Iterationsmall (markdown)
-			</a>
+			<p class="font-medium text-ink">
+				Iterationsmall:
+				<a class="text-petrol underline underline-offset-2" href={asset('/mallar/iterationsmall.docx')}>Word</a>
+				·
+				<a class="text-petrol underline underline-offset-2" href={asset('/mallar/iterationsmall.md')}>Markdown</a>
+			</p>
 		</div>
 	</header>
 

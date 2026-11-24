@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked, Marked } from 'marked';
+import { templateToDocx } from './template-docx.js';
 
 // Separate instance without the heading-id renderer, for content embedded inside a page
 // (concept and governance bodies) where generated ids would collide
@@ -262,7 +263,7 @@ function buildQuickGuide(markdown) {
     </div>` : '';
 
   return `<div class="quickguide">${phaseHtml}${ongoingHtml}${minimumHtml}
-    <p class="qg-actions"><a class="qg-button" href="mallar/iterationsmall.md">Iterationsmall (markdown)</a> <a href="#${firstStep.id}">Steg ${firstStep.num}: ${inline(firstStep.title)}</a></p>
+    <p class="qg-actions"><a class="qg-button" href="mallar/iterationsmall.docx">Iterationsmall (Word)</a> <a href="mallar/iterationsmall.md">Iterationsmall (markdown)</a> <a href="#${firstStep.id}">Steg ${firstStep.num}: ${inline(firstStep.title)}</a></p>
   </div>`;
 }
 
@@ -678,22 +679,23 @@ function buildContentData() {
   return data;
 }
 
-// Publish templates as downloadable files under static/mallar/
-function publishTemplates() {
+// Publish templates as downloadable files under static/mallar/, as Markdown and Word
+async function publishTemplates() {
   const templatesDir = path.join(process.cwd(), 'src/content/templates');
   const outDir = path.join(process.cwd(), 'static/mallar');
   if (!fs.existsSync(templatesDir)) return;
   fs.mkdirSync(outDir, { recursive: true });
-  const published = { 'iteration_template.md': 'iterationsmall.md' };
+  const published = { 'iteration_template.md': 'iterationsmall' };
   for (const [source, target] of Object.entries(published)) {
     const sourcePath = path.join(templatesDir, source);
-    if (fs.existsSync(sourcePath)) {
-      fs.copyFileSync(sourcePath, path.join(outDir, target));
-    }
+    if (!fs.existsSync(sourcePath)) continue;
+    fs.copyFileSync(sourcePath, path.join(outDir, `${target}.md`));
+    const docx = await templateToDocx(fs.readFileSync(sourcePath, 'utf-8'));
+    fs.writeFileSync(path.join(outDir, `${target}.docx`), docx);
   }
 }
 
-publishTemplates();
+await publishTemplates();
 
 // ---------------------------------------------------------------------------
 // AI agent guide: static/heraf-agent.md + static/llms.txt
