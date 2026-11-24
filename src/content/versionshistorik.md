@@ -20,10 +20,11 @@ Instruktion för den som uppdaterar filen (även AI-agenter):
 
 ## 0.6-Alfa – 2026-11-23
 
-Vägledningen är omskriven. Processen har sex steg, en miniminivå för vad en iteration ska innehålla och en iterationsmall att arbeta i. HERAM har ett nytt begrepp, Arkitekturprinciper, och begreppen beskrivs i en fast ordning med en inledning. Webbplatsen har ny utformning, och ramverket finns också som en instruktion för AI-agenter.
+Ramverket finns som en instruktion för AI-assistenter, [heraf-agent.md](https://heraf.se/heraf-agent.md). Med länken kan en AI-assistent fylla i iterationsmallen tillsammans med aktivitetsgruppen eller vägleda gruppen genom stegen. Vägledningen är omskriven, med sex steg, en miniminivå för vad en iteration ska innehålla och en iterationsmall att arbeta i. I HERAM beskrivs begreppen i en fast ordning med en inledning, och webbplatsen har ny utformning.
 
 ### Ramverkets innehåll
 
+- Ny AI-instruktion, heraf-agent.md, med processen, arbetsregler, styrning, begrepp och iterationsmall i en fil. Användaren väljer om AI-assistenten ska fylla i iterationsmallen eller vägleda, och instruktionen innehåller frågor för varje steg.
 - Vägledningen är omskriven och börjar med en snabbguide. Inledningen är hopfälld.
 - Processen har sex steg i stället för fyra skapande aktiviteter. Omfång är uppdelat i tre steg: välj primär målgrupp, identifiera angelägenheter och bestäm omfång. Därefter följer identifiering, definiering och konkretisering. Varje steg har syfte, aktiviteter och resultat.
 - Det framgår att de valda angelägenheterna bestämmer iterationens omfång.
@@ -32,15 +33,15 @@ Vägledningen är omskriven. Processen har sex steg, en miniminivå för vad en 
 - Iterationsmallen är ny och följer processens steg.
 - Begreppstabellerna är borttagna ur Vägledningen. Begreppen beskrivs i HERAM.
 - HERAM har en inledning som förklarar konceptbeskrivningarna och deras ordning.
-- Begreppet Arkitekturprinciper är tillagt. Riktlinje och Regel visas som separata begrepp i konceptkartan.
+- Begreppet Arkitekturprinciper har fått en beskrivning, som saknades tidigare. Riktlinje och Regel visas som separata begrepp i konceptkartan.
 - Målgrupp och Målgruppsperspektiv beskriver vilken nytta målgruppen har av referensarkitekturen.
 - "Lösning" och "område" används i stället för "system" i begreppen.
 - "Högre utbildning" används i stället för "högskolesektorn".
 - Angelägenhet: "Affärsangelägenheter" heter nu "Verksamhetsangelägenheter".
-- Ny AI-instruktion. Användaren väljer om agenten ska fylla i iterationsmallen eller vägleda, och instruktionen innehåller frågor för varje steg.
 
 ### Funktioner
 
+- Startsidan börjar med länken till AI-instruktionen och en knapp som kopierar den, så att länken kan klistras in direkt i en AI-assistent.
 - Ny startsida som visar Vägledningen och HERAM som ramverkets två delar.
 - Begrepp, konceptkarta och styrning finns samlade på en sida, HERAM, i stället för i flikar. Den tidigare sidan Begrepp leder dit.
 - Vägledningen och HERAM har en innehållsförteckning i sidomarginalen.
@@ -48,7 +49,6 @@ Vägledningen är omskriven. Processen har sex steg, en miniminivå för vad en 
 - Vägledningen visar en förloppsindikator när man läser processen.
 - Iterationsmallen kan laddas ner som Word-fil och som markdown.
 - AI-instruktionen heraf-agent.md och översikten llms.txt genereras från samma källor som webbplatsen.
-- Startsidan har en knapp som kopierar länken till AI-instruktionen.
 - Nya märken, färger och typsnitt. Sidorna har egna titlar och en felsida på svenska.
 - Markdown- och textfiler visas med rätt teckenkodning (UTF-8).
 

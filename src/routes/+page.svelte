@@ -90,6 +90,32 @@
 				<a class="text-petrol underline underline-offset-2" href={asset('/mallar/iterationsmall.md')}>Markdown</a>
 			</p>
 		</div>
+
+		<section class="mt-8 rounded-lg border border-petrol/25 bg-petrol-soft p-5 sm:p-6" aria-labelledby="ai-assistant">
+			<h2 id="ai-assistant" class="text-lg font-bold text-ink">Arbeta med en AI-assistent</h2>
+			<p class="mt-1.5 text-[0.9375rem] leading-relaxed text-ink">
+				Kopiera länken och klistra in den i din AI-assistent. Assistenten får processen, styrningen,
+				begreppen och iterationsmallen, och frågar om den ska fylla i iterationsmallen åt er eller vägleda er genom varje steg.
+			</p>
+			<div class="mt-3 flex gap-2">
+				<input
+					type="text"
+					readonly
+					value={agentUrl}
+					aria-label="Länk till AI-instruktionen heraf-agent.md"
+					class="min-w-0 flex-1 rounded-md border border-line bg-white px-3 py-2 font-mono text-sm text-ink"
+					onfocus={(e) => e.currentTarget.select()}
+				/>
+				<button
+					type="button"
+					onclick={copyAgentUrl}
+					class="flex-none rounded-md bg-petrol px-4 py-2 font-semibold text-white hover:opacity-90"
+				>
+					{copied ? 'Kopierad' : 'Kopiera länk'}
+				</button>
+			</div>
+			<p class="sr-only" aria-live="polite">{copied ? 'Länken är kopierad' : ''}</p>
+		</section>
 	</header>
 
 	<!-- The HERAF mark, enlarged: two pillars joined into one reference architecture -->
@@ -154,25 +180,6 @@
 			processen, arbetsregler, styrning, begrepp och iterationsmall i en fristående fil.
 			En översikt finns i <a class="text-petrol underline underline-offset-2" href={asset('/llms.txt')}>llms.txt</a>.
 		</p>
-		<p class="mt-3">Kopiera länken och klistra in den i din AI-assistent. Assistenten frågar sedan om den ska fylla i iterationsmallen eller vägleda.</p>
-		<div class="mt-2 flex max-w-xl gap-2">
-			<input
-				type="text"
-				readonly
-				value={agentUrl}
-				aria-label="Länk till heraf-agent.md"
-				class="min-w-0 flex-1 rounded-md border border-line bg-white px-3 py-2 font-mono text-sm text-ink"
-				onfocus={(e) => e.currentTarget.select()}
-			/>
-			<button
-				type="button"
-				onclick={copyAgentUrl}
-				class="flex-none rounded-md bg-petrol px-4 py-2 font-semibold text-white hover:opacity-90"
-			>
-				{copied ? 'Kopierad' : 'Kopiera länk'}
-			</button>
-		</div>
-		<p class="sr-only" aria-live="polite">{copied ? 'Länken är kopierad' : ''}</p>
 		{#if version}
 			<p class="mt-3">Utkast, version {version}. Innehållet kan ändras.</p>
 		{/if}
