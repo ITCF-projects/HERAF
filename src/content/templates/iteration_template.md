@@ -7,6 +7,8 @@
 | **Primär målgrupp** | |
 | **Aktivitetsgrupp** | |
 
+_Iterationsmallen är arbetsdokumentet för iterationen. Referensarkitekturen är det som tas fram i Konkretisering, tillsammans med område, primär målgrupp och arkitekturbeslut. Övriga sektioner, till exempel frågeställningar och vy-specifikationer, är arbetsunderlag och ingår inte i referensarkitekturen._
+
 ## Omfång
 
 **Syfte med iterationen**
@@ -48,7 +50,7 @@ _Kartläggning, inga beslut._
 - 
 
 **Vyer som behövs**
-_Varje rad är vyns vy-specifikation. Detaljnivå, aspekter och målgruppsperspektiv ska anges för varje vy (RE011)._
+_Varje rad är vyns vy-specifikation. Detaljnivå, aspekter och målgruppsperspektiv ska anges för varje vy (RE009)._
 | Vy | Syfte | Adresserar | Detaljnivå | Aspekter | Målgruppsperspektiv |
 |---|---|---|---|---|---|
 | | | C0x | | | |
@@ -61,6 +63,10 @@ _Varje rad är vyns vy-specifikation. Detaljnivå, aspekter och målgruppsperspe
 ## Konkretisering
 
 **Framtagna vyer**
+- 
+
+**Principer, riktlinjer och regler**
+_Färdigformulerade, med motivering och referens till överliggande styrning._
 - 
 
 **Begreppsmodell**

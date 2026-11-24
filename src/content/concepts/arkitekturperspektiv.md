@@ -10,7 +10,7 @@ date: 2025-11-13
 
 # Arkitekturperspektiv
 
-Arkitekturperspektiv beskriver hur en referensarkitektur framställs för att möta olika målgruppsperspektiv. Det består av vyer som visualiserar arkitekturen samt vy-specifikationer som definierar hur vyerna ska utformas.
+Arkitekturperspektiv beskriver hur en referensarkitektur framställs för att möta olika målgruppsperspektiv. Det består av vyer som visualiserar arkitekturen. Vyerna baseras på vy-specifikationer, som är arbetsunderlag och inte ingår i referensarkitekturen.
 
 ## Komponenter
 
@@ -20,7 +20,7 @@ Strukturerade visualiseringar som visar arkitekturen från ett specifikt perspek
 - Fokus på specifika aspekter eller frågeställningar
 - Anpassade för målgruppens behov
 
-### Vyspecifikationer
+### Vy-specifikationer (arbetsunderlag)
 Definierar hur vyerna ska konstrueras:
 - Syfte och målgrupp för vyn
 - Notation och symboler

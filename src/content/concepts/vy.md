@@ -10,7 +10,7 @@ date: 2025-11-13
 
 # Vy
 
-En vy är en strukturerad och visualiserad representation av en arkitektur ur ett specifikt perspektiv, som syftar till att göra arkitekturen begriplig och relevant för olika intressenter genom att illustrera komponenter, relationer och egenskaper såsom komponenters samspel, informationsflöden, säkerhetslager, infrastruktur och tjänstegränssnitt, i syfte att besvara målgruppens frågeställningar (concerns).
+En vy är en strukturerad och visualiserad representation av en arkitektur ur ett specifikt perspektiv, som syftar till att göra arkitekturen begriplig och relevant för målgruppen genom att illustrera komponenter, relationer och egenskaper såsom komponenters samspel, informationsflöden, säkerhetslager, infrastruktur och tjänstegränssnitt, i syfte att besvara målgruppens frågeställningar (concerns).
 
 ## Syfte och funktion
 

@@ -18,6 +18,10 @@ Enligt standarden ISO 42010:2022 är en "concern" ett intresse som är av betyde
 
 I HERAF översätts *concern* med **frågeställning**.
 
+## Ett arbetsverktyg
+
+Frågeställningarna används för att säkerställa att referensarkitekturen innehåller de vyer, principer och regler som målgruppen behöver. De ingår inte i den färdiga referensarkitekturen, men sparas som underlag så att det går att spåra varför referensarkitekturen ser ut som den gör.
+
 ## Typer av frågeställningar
 
 ### Funktionella frågeställningar

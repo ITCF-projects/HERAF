@@ -148,7 +148,7 @@ Allt arbete dokumenteras i en iterationsmall, se [[Exempel och mallar]].
 - Skriv en vy-specifikation för varje vy som anger detaljnivå, aspekter och målgruppsperspektiv.
 - Bestäm vilka principer, riktlinjer och regler som ska gälla för området.
 
-**Resultat:** Sektionen *Definiering* – en lista över vyer och styrande principer som ska konkretiseras.
+**Resultat:** Sektionen *Definiering* – vy-specifikationer för de vyer som ska tas fram och en lista över principer, riktlinjer och regler som ska konkretiseras. Vy-specifikationerna är arbetsunderlag och ingår inte i referensarkitekturen.
 
 #### Steg 6: Konkretisering
 
@@ -181,24 +181,39 @@ Dokumentera de viktigaste besluten tillsammans med motiveringen. Det ger spårba
 
 #### Dokumentera underlag
 
-Målgrupper, intressenter, frågeställningar och kartläggningar är underlag för arbetet, men ingår inte i den färdiga referensarkitekturen. Sätt därför upp en gemensam dokumentyta för underlaget redan från start, så att det går att spåra varför referensarkitekturen ser ut som den gör och så att nästa iteration kan bygga vidare.
+Målgrupper, intressenter, frågeställningar, vy-specifikationer och kartläggningar är underlag för arbetet, men ingår inte i den färdiga referensarkitekturen. Sätt därför upp en gemensam dokumentyta för underlaget redan från start, så att det går att spåra varför referensarkitekturen ser ut som den gör och så att nästa iteration kan bygga vidare.
 
 ---
 
 ## Vad ska en referensarkitektur innehålla?
 
-Det här är miniminivån för en iteration enligt HERAF. Övriga delar läggs till när de behövs för målgruppen. Kolumnen *Grund* visar vilken styrning i HERAM som kravet kommer från.
+En iteration ger två sorters resultat, och de ska hållas isär:
+
+- **Referensarkitekturen** är det som målgruppen använder: vyer, principer, riktlinjer och regler, en begreppsmodell och de viktigaste arkitekturbesluten.
+- **Arbetsunderlaget** är verktygen för att ta fram en bra referensarkitektur. Frågeställningarna säkerställer att referensarkitekturen besvarar det som är viktigt för målgruppen. Vy-specifikationerna bestämmer vilka vyer som ska tas fram och hur de ska utformas.
+
+Arbetsunderlaget ingår inte i referensarkitekturen. Det sparas så att det går att spåra varför referensarkitekturen ser ut som den gör och så att nästa iteration kan bygga vidare, se [[Dokumentera underlag]].
+
+Tabellerna visar miniminivån för en iteration enligt HERAF. Övriga delar läggs till när de behövs för målgruppen. Kolumnen *Grund* visar vilken styrning i HERAM som kravet kommer från.
+
+### Referensarkitekturen
 
 | Del | Krav | Kommentar | Grund |
 |-----|------|-----------|-------|
-| Område och primär målgrupp | Måste | En målgrupp per iteration. | RE008, R004 |
-| Frågeställningar | Måste | Med beslut om vilka som adresseras och motivering för övriga. | P002 |
-| Omfång och avgränsningar | Måste | Vad som ingår och vad som inte ingår. | EAP004, P002 |
-| Vyer med vy-specifikationer | Måste | Minst en vy per adresserad frågeställning. Varje vy-specifikation anger detaljnivå, aspekter och målgruppsperspektiv. | RE006, RE010, RE011 |
-| Principer, riktlinjer och regler | Måste | Endast det som är relevant för målgruppen. Varje riktlinje och regel har motivering och referens till överliggande styrning. | RE012, RE001, RE002, R005 |
-| Begreppsmodell | Måste | För det valda området. | RE013 |
+| Område och primär målgrupp | Måste | En kort beskrivning av vilket område referensarkitekturen gäller, för vilken målgrupp och vad den inte omfattar. En målgrupp per iteration. | RE007, R004, EAP004 |
+| Vyer | Måste | Minst en vy per adresserad frågeställning. | R002 |
+| Principer, riktlinjer och regler | Måste | Endast det som är relevant för målgruppen. Varje riktlinje och regel har motivering och referens till överliggande styrning. | RE010, RE001, RE002, R005 |
+| Begreppsmodell | Måste | För det valda området. | RE011 |
 | Arkitekturbeslut | Bör | De mest centrala besluten med motivering. | EAP001 |
 | Mönster | Kan | När det finns beprövade lösningar att peka på, till exempel för lagefterlevnad. | R001 |
+
+### Arbetsunderlag
+
+| Underlag | Krav | Används för att | Grund |
+|----------|------|-----------------|-------|
+| Frågeställningar | Måste | Säkerställa att referensarkitekturen besvarar det som är viktigt för målgruppen. Med beslut om vilka som adresseras och motivering för övriga. | P002 |
+| Omfång och avgränsningar | Måste | Avgränsa iterationen: vilka frågeställningar som ingår och vad som inte ingår. | EAP004, P002 |
+| Vy-specifikationer | Måste | Bestämma vilka vyer som ska tas fram och hur. Varje vy-specifikation anger vilka frågeställningar vyn adresserar, detaljnivå, aspekter och målgruppsperspektiv. | RE006, RE009, R003 |
 
 ---
 

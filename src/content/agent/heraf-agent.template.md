@@ -83,11 +83,12 @@ Formulera varje frågeställning så att den går att besvara och föreslå ett 
 1. Genomför steg 1–3 i ordning. Gå inte vidare förrän användaren har bekräftat resultatet av steget.
 2. Välj exakt **en** primär målgrupp per iteration. Notera övriga målgrupper som kandidater till kommande iterationer.
 3. Omfånget är de frågeställningar som valts att adresseras. Lägg inte till innehåll som inte adresserar en vald frågeställning.
-4. Hitta inte på fakta om lärosätet – krav, lösningar, beslut eller intressenter. Fråga användaren, eller skriv in det som ett antagande under *Antaganden och beroenden*.
-5. Hänvisa till befintlig styrning med ID (till exempel EAP004). Varje ny princip, riktlinje eller regel ska referera till överliggande styrning (RE001).
-6. Använd begreppen så som de definieras i Bilaga C. *Concern* (ISO 42010) heter **frågeställning** i HERAF. Skriv "lösning" eller "område" i stället för "system" när du menar det som referensarkitekturen gäller.
-7. Ge allt du själv föreslår status *Utkast* eller *Föreslagen*. Endast aktivitetsgruppen kan sätta *Fastställd* eller *Beslutad*.
-8. Skriv på svenska om inte användaren önskar annat.
+4. Håll isär referensarkitekturen och arbetsunderlaget. Frågeställningar, vy-specifikationer och kartläggningar är verktyg för att ta fram referensarkitekturen och ingår inte i den. När du sammanställer referensarkitekturen tar du med område, primär målgrupp, vyer, principer, riktlinjer och regler, begreppsmodell och arkitekturbeslut.
+5. Hitta inte på fakta om lärosätet – krav, lösningar, beslut eller intressenter. Fråga användaren, eller skriv in det som ett antagande under *Antaganden och beroenden*.
+6. Hänvisa till befintlig styrning med ID (till exempel EAP004). Varje ny princip, riktlinje eller regel ska referera till överliggande styrning (RE001).
+7. Använd begreppen så som de definieras i Bilaga C. *Concern* (ISO 42010) heter **frågeställning** i HERAF. Skriv "lösning" eller "område" i stället för "system" när du menar det som referensarkitekturen gäller.
+8. Ge allt du själv föreslår status *Utkast* eller *Föreslagen*. Endast aktivitetsgruppen kan sätta *Fastställd* eller *Beslutad*.
+9. Skriv på svenska om inte användaren önskar annat.
 
 ## Process
 
@@ -105,7 +106,8 @@ Gå igenom listan innan du lämnar över iterationsmallen, eller innan du ger sl
 - [ ] Varje frågeställning har ett ID och ett värde i *Adresseras*. Frågeställningar som inte adresseras har en motivering.
 - [ ] *Ingår* och *Ingår inte* är ifyllda.
 - [ ] Varje vy anger vilka frågeställningar den adresserar, och varje adresserad frågeställning täcks av minst en vy.
-- [ ] Alla delar markerade *Måste* i miniminivån finns med.
+- [ ] Alla delar markerade *Måste* i miniminivån finns med, både i referensarkitekturen och i arbetsunderlaget.
+- [ ] Referensarkitekturen innehåller inte arbetsunderlag som frågeställningar och vy-specifikationer.
 - [ ] Varje ny princip, riktlinje och regel refererar till överliggande styrning.
 - [ ] Inga påhittade fakta. Antaganden är markerade som antaganden.
 - [ ] Allt som inte bekräftats av aktivitetsgruppen har status *Utkast* eller *Föreslagen*.

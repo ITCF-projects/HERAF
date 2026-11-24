@@ -38,6 +38,11 @@ Ramverket finns som en instruktion för AI-assistenter, [heraf-agent.md](https:/
 - "Lösning" och "område" används i stället för "system" i begreppen.
 - "Högre utbildning" används i stället för "högskolesektorn".
 - *Concern* översätts nu med Frågeställning i stället för Angelägenhet, i hela ramverket: begreppen, processens steg 2, iterationsmallen och AI-instruktionen.
+- Det framgår att referensarkitekturen och arbetsunderlaget är olika saker. Frågeställningar och vy-specifikationer är verktyg för att ta fram referensarkitekturen och ingår inte i den. Miniminivån är uppdelad i två tabeller, och iterationsmallen, AI-instruktionen och begreppen Frågeställning och Vy-specifikation beskriver samma uppdelning.
+- Styrningen om vyer är omarbetad efter samma uppdelning. RE006 säger att varje vy ska baseras på en vy-specifikation, RE009 att vy-specifikationen ska ange detaljnivå, aspekter och målgruppsperspektiv, R002 att referensarkitekturen bör innehålla tydliga vyer och R003 gäller varje vy-specifikation.
+- Två regler är borttagna: regeln att referensarkitekturer ska innehålla vyer, som inte tillförde något, och regeln om vy-specifikationer anpassade efter intressenter, som överlappade med R002.
+- Reglerna är omnumrerade och heter nu RE001–RE011. Tidigare RE008, RE009, RE011, RE012 och RE013 heter RE007, RE008, RE009, RE010 och RE011.
+- Vy och Arkitekturperspektiv: vyer anpassas efter målgruppen, och vy-specifikationer beskrivs som arbetsunderlag.
 - Frågeställning: typen "Affärsangelägenheter" heter nu "Verksamhetsfrågeställningar".
 
 ### Funktioner

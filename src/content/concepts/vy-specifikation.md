@@ -12,6 +12,10 @@ date: 2025-11-13
 
 En vy-specifikation definierar hur en vy ska utformas genom att ange dess syfte, målgrupp, innehåll, notation och detaljnivå, vilket säkerställer att vyer är konsekventa, jämförbara och uppfyller sitt arkitektoniska syfte.
 
+## Ett arbetsverktyg
+
+Vy-specifikationen används när referensarkitekturen tas fram, för att bestämma vilka vyer som behövs och hur de ska utformas. Den ingår inte i den färdiga referensarkitekturen, men sparas som underlag så att det går att spåra varför vyerna ser ut som de gör.
+
 ## Komponenter av en vy-specifikation
 
 ### Syfte
