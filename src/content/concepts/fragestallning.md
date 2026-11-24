@@ -1,6 +1,6 @@
 ---
-id: angelagenhet
-title: Angelägenhet (Concern)
+id: fragestallning
+title: Frågeställning (Concern)
 icon: AlertCircle
 category: Intressenter
 relationships: [intressenter, malgrupp, arkitekturperspektiv]
@@ -8,17 +8,19 @@ examples: [Säkerhet, Prestanda, Användbarhet, Kostnadseffektivitet]
 date: 2025-11-13
 ---
 
-# Angelägenhet (Concern)
+# Frågeställning (Concern)
 
-En angelägenhet beskriver vad en intressent eller målgrupp anser vara viktigt i en lösning eller en arkitektur. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera.
+En frågeställning beskriver vad en intressent eller målgrupp anser vara viktigt i en lösning eller en arkitektur. Det kan vara mål, behov, krav eller frågor som påverkar hur något ska utformas eller fungera.
 
 ## Definition enligt ISO 42010
 
 Enligt standarden ISO 42010:2022 är en "concern" ett intresse som är av betydelse för en eller flera intressenter i relation till ett system och dess arkitektur. I HERAF motsvarar det lösningen eller området som referensarkitekturen gäller.
 
-## Typer av angelägenheter
+I HERAF översätts *concern* med **frågeställning**.
 
-### Funktionella angelägenheter
+## Typer av frågeställningar
+
+### Funktionella frågeställningar
 - **Användbarhet**: Hur lätt är lösningen att använda?
 - **Prestanda**: Uppfyller lösningen prestandakrav?
 - **Funktionalitet**: Ger lösningen rätt funktioner?
@@ -28,32 +30,32 @@ Enligt standarden ISO 42010:2022 är en "concern" ett intresse som är av betyde
 - **Tillförlitlighet**: Fungerar lösningen konsekvent?
 - **Skalbarhet**: Kan lösningen hantera ökad belastning?
 
-### Verksamhetsangelägenheter
+### Verksamhetsfrågeställningar
 - **Kostnadseffektivitet**: Ger lösningen värde för pengarna?
 - **Time-to-market**: Hur snabbt kan lösningen levereras?
 - **Compliance**: Följer lösningen regelverk?
 
 ## Relation till arkitekturvyer
 
-Angelägenheter driver utformningen av arkitekturvyer:
-- Varje vy adresserar specifika angelägenheter
-- Vyernas innehåll och struktur anpassas för att besvara concerns
-- Olika intressenter har olika angelägenheter som kräver olika vyer
+Frågeställningar driver utformningen av arkitekturvyer:
+- Varje vy adresserar specifika frågeställningar
+- Vyernas innehåll och struktur anpassas för att besvara frågeställningarna
+- Olika intressenter har olika frågeställningar som kräver olika vyer
 
-## Identifiering av angelägenheter
+## Identifiering av frågeställningar
 
 ### Workshop-metoder
 - Intressentanalys
-- Concern mapping
+- Kartläggning av frågeställningar
 - Riskanalyser
 
 ### Strukturerade intervjuer
 - Målgruppspecifika frågor
-- Prioritering av concerns
+- Prioritering av frågeställningar
 - Konfliktidentifiering
 
 ## Hantering av konflikter
-Olika intressenters angelägenheter kan vara motstridiga och kräver:
+Olika intressenters frågeställningar kan vara motstridiga och kräver:
 - **Prioritering** baserad på värde för verksamheten
-- **Kompromisser** mellan konkurrerande concerns
+- **Kompromisser** mellan konkurrerande frågeställningar
 - **Tydlig kommunikation** om designbeslut

@@ -3,7 +3,7 @@ id: aspekter
 title: Aspekter
 icon: Layers
 category: Tvärgående perspektiv
-relationships: [arkitekturperspektiv, vy, angelagenhet]
+relationships: [arkitekturperspektiv, vy, fragestallning]
 examples: [Funktionella aspekter, Säkerhetsaspekter, Infrastrukturaspekter]
 date: 2025-11-13
 ---

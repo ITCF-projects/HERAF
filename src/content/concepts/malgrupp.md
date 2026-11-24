@@ -3,7 +3,7 @@ id: malgrupp
 title: Målgrupp
 icon: Users
 category: Intressenter
-relationships: [intressenter, arkitekturperspektiv, angelagenhet]
+relationships: [intressenter, arkitekturperspektiv, fragestallning]
 examples: [IT-arkitekter, Verksamhetsledning, Utvecklare]
 date: 2025-11-13
 ---

@@ -3,7 +3,7 @@ id: vy
 title: Vy
 icon: Eye
 category: Vyer och perspektiv
-relationships: [arkitekturperspektiv, vy-specifikation, angelagenhet]
+relationships: [arkitekturperspektiv, vy-specifikation, fragestallning]
 examples: [Systemkomponentvy, Integrationsvyer, Säkerhetsvy]
 date: 2025-11-13
 ---
@@ -30,8 +30,8 @@ Ger strukturerad information som stödjer arkitektoniska och tekniska beslut.
 - **Detaljeringsgrad** varierar beroende på användningsområde
 - **Notation** väljs för optimal förståelse
 
-### Angelägenhetsfokus
-Varje vy adresserar specifika angelägenheter (concerns):
+### Fokus på frågeställningar
+Varje vy adresserar specifika frågeställningar (concerns):
 - Säkerhetsvy fokuserar på säkerhetsaspekter
 - Integrationsvyer visar systemsamverkan
 - Prestandavy belyser prestandakritiska element

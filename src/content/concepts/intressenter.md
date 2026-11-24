@@ -3,7 +3,7 @@ id: intressenter
 title: Intressenter
 icon: Users
 category: Intressenter
-relationships: [malgrupp, angelagenhet, arkitekturperspektiv]
+relationships: [malgrupp, fragestallning, arkitekturperspektiv]
 examples: [Säkerhetsteam, Riskhanteringsteam, Compliance-ansvariga]
 date: 2025-11-13
 ---

@@ -17,7 +17,7 @@ Arkitekturperspektiv beskriver hur en referensarkitektur framställs för att m�
 ### Vyer
 Strukturerade visualiseringar som visar arkitekturen från ett specifikt perspektiv:
 - Visuella representationer av arkitektoniska element
-- Fokus på specifika aspekter eller angelägenheter
+- Fokus på specifika aspekter eller frågeställningar
 - Anpassade för målgruppens behov
 
 ### Vyspecifikationer

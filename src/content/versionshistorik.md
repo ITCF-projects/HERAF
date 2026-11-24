@@ -12,7 +12,7 @@ Instruktion för den som uppdaterar filen (även AI-agenter):
     ändrar vad ramverket säger.
 - En punkt per ändring. Beskriv vad som har ändrats för läsaren, inte hur det är gjort i koden.
 - Jämför med föregående version: skriv inte att något är tillagt om det fanns tidigare.
-- Hänvisa till styrning och begrepp med ID eller namn, till exempel RE011 eller Angelägenhet.
+- Hänvisa till styrning och begrepp med ID eller namn, till exempel RE011 eller Frågeställning.
 - Skriv på svenska, sakligt och kort.
 -->
 
@@ -20,14 +20,14 @@ Instruktion för den som uppdaterar filen (även AI-agenter):
 
 ## 0.6-Alfa – 2026-11-23
 
-Ramverket finns som en instruktion för AI-assistenter, [heraf-agent.md](https://heraf.se/heraf-agent.md). Med länken kan en AI-assistent fylla i iterationsmallen tillsammans med aktivitetsgruppen eller vägleda gruppen genom stegen. Vägledningen är omskriven, med sex steg, en miniminivå för vad en iteration ska innehålla och en iterationsmall att arbeta i. I HERAM beskrivs begreppen i en fast ordning med en inledning, och webbplatsen har ny utformning.
+Ramverket finns som en instruktion för AI-assistenter, [heraf-agent.md](https://heraf.se/heraf-agent.md). Med länken kan en AI-assistent fylla i iterationsmallen tillsammans med aktivitetsgruppen eller vägleda gruppen genom stegen. Vägledningen är omskriven, med sex steg, en miniminivå för vad en iteration ska innehålla och en iterationsmall att arbeta i. Begreppet Angelägenhet heter nu Frågeställning. I HERAM beskrivs begreppen i en fast ordning med en inledning, och webbplatsen har ny utformning.
 
 ### Ramverkets innehåll
 
 - Ny AI-instruktion, heraf-agent.md, med processen, arbetsregler, styrning, begrepp och iterationsmall i en fil. Användaren väljer om AI-assistenten ska fylla i iterationsmallen eller vägleda, och instruktionen innehåller frågor för varje steg.
 - Vägledningen är omskriven och börjar med en snabbguide. Inledningen är hopfälld.
-- Processen har sex steg i stället för fyra skapande aktiviteter. Omfång är uppdelat i tre steg: välj primär målgrupp, identifiera angelägenheter och bestäm omfång. Därefter följer identifiering, definiering och konkretisering. Varje steg har syfte, aktiviteter och resultat.
-- Det framgår att de valda angelägenheterna bestämmer iterationens omfång.
+- Processen har sex steg i stället för fyra skapande aktiviteter. Omfång är uppdelat i tre steg: välj primär målgrupp, identifiera frågeställningar och bestäm omfång. Därefter följer identifiering, definiering och konkretisering. Varje steg har syfte, aktiviteter och resultat.
+- Det framgår att de valda frågeställningarna bestämmer iterationens omfång.
 - De löpande aktiviteterna (tidigare kontinuerliga aktiviteter) är omarbetade. Förankring sker med en referensgrupp i stället för enbart med målgruppen, och aktiviteten Dokumentera underlag är ny.
 - En miniminivå för en iteration är tillagd. Varje krav hänvisar till styrningen i HERAM.
 - Iterationsmallen är ny och följer processens steg.
@@ -37,7 +37,8 @@ Ramverket finns som en instruktion för AI-assistenter, [heraf-agent.md](https:/
 - Målgrupp och Målgruppsperspektiv beskriver vilken nytta målgruppen har av referensarkitekturen.
 - "Lösning" och "område" används i stället för "system" i begreppen.
 - "Högre utbildning" används i stället för "högskolesektorn".
-- Angelägenhet: "Affärsangelägenheter" heter nu "Verksamhetsangelägenheter".
+- *Concern* översätts nu med Frågeställning i stället för Angelägenhet, i hela ramverket: begreppen, processens steg 2, iterationsmallen och AI-instruktionen.
+- Frågeställning: typen "Affärsangelägenheter" heter nu "Verksamhetsfrågeställningar".
 
 ### Funktioner
 

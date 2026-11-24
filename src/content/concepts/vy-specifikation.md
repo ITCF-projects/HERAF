@@ -16,7 +16,7 @@ En vy-specifikation definierar hur en vy ska utformas genom att ange dess syfte,
 
 ### Syfte
 - **Varför** existerar denna vy?
-- Vilka **angelägenheter** (concerns) adresseras?
+- Vilka **frågeställningar** (concerns) adresseras?
 - Vilket **problem** löser vyn?
 
 ### Målgrupp

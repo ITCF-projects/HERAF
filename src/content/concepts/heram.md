@@ -31,7 +31,7 @@ Gemensamma principer, riktlinjer och regler som säkerställer att alla referens
 
 HERAM-modellen säkerställer att alla referensarkitekturer inom HERAF:
 - Följer samma grundläggande struktur och terminologi
-- Adresserar samma typer av angelägenheter och aspekter  
+- Adresserar samma typer av frågeställningar och aspekter  
 - Kan jämföras och kombineras på ett meningsfullt sätt
 - Uppfyller kvalitetskrav för användbarhet och ändamålsenlighet
 

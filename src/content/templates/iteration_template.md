@@ -21,13 +21,13 @@ _Vad ska iterationen åstadkomma? En till tre meningar._
 **Antaganden och beroenden**
 - 
 
-## Angelägenheter
+## Frågeställningar
 
-| ID | Angelägenhet | Adresseras | Var besvaras den |
+| ID | Frågeställning | Adresseras | Var besvaras den |
 |---|---|---|---|
 | C01 | | Ja / Delvis / Nej – nästa iteration | |
 
-_Angelägenheter som inte adresseras ska ha en motivering, inte bara ett nej._
+_Frågeställningar som inte adresseras ska ha en motivering, inte bara ett nej._
 
 ## Identifiering
 

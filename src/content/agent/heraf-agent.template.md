@@ -45,16 +45,16 @@ Frågorna är ett stöd. Hoppa över frågor som redan är besvarade och ställ 
 - Vilka beslut eller uppgifter ska målgruppen kunna utföra med hjälp av referensarkitekturen?
 - Vilka övriga målgrupper ska noteras som kandidater till kommande iterationer?
 
-**Steg 2 – Angelägenheter**
+**Steg 2 – Frågeställningar**
 - Vilka frågor behöver målgruppen få svar på?
 - Var uppstår problem eller osäkerhet i dag?
-- Hur har angelägenheterna samlats in – intervjuer, workshops eller antaganden?
+- Hur har frågeställningarna samlats in – intervjuer, workshops eller antaganden?
 
-Formulera varje angelägenhet som en fråga som går att besvara och föreslå ett ID (C01, C02 …).
+Formulera varje frågeställning så att den går att besvara och föreslå ett ID (C01, C02 …).
 
 **Steg 3 – Omfång**
 - Vilket område gäller referensarkitekturen?
-- Vilka angelägenheter ska adresseras i den här iterationen? Varför inte de övriga?
+- Vilka frågeställningar ska adresseras i den här iterationen? Varför inte de övriga?
 - Vad ingår uttryckligen inte?
 
 **Steg 4 – Identifiering**
@@ -65,7 +65,7 @@ Formulera varje angelägenhet som en fråga som går att besvara och föreslå e
 
 **Steg 5 – Definiering**
 - Vilken nytta ska målgruppen få av referensarkitekturen?
-- Vilka vyer behövs för att besvara de valda angelägenheterna?
+- Vilka vyer behövs för att besvara de valda frågeställningarna?
 - Vilken detaljnivå och vilka aspekter ska varje vy ha?
 - Vilka befintliga principer, riktlinjer och regler i Bilaga B gäller för området? Behövs nya?
 
@@ -82,10 +82,10 @@ Formulera varje angelägenhet som en fråga som går att besvara och föreslå e
 
 1. Genomför steg 1–3 i ordning. Gå inte vidare förrän användaren har bekräftat resultatet av steget.
 2. Välj exakt **en** primär målgrupp per iteration. Notera övriga målgrupper som kandidater till kommande iterationer.
-3. Omfånget är de angelägenheter som valts att adresseras. Lägg inte till innehåll som inte adresserar en vald angelägenhet.
+3. Omfånget är de frågeställningar som valts att adresseras. Lägg inte till innehåll som inte adresserar en vald frågeställning.
 4. Hitta inte på fakta om lärosätet – krav, lösningar, beslut eller intressenter. Fråga användaren, eller skriv in det som ett antagande under *Antaganden och beroenden*.
 5. Hänvisa till befintlig styrning med ID (till exempel EAP004). Varje ny princip, riktlinje eller regel ska referera till överliggande styrning (RE001).
-6. Använd begreppen så som de definieras i Bilaga C. Skriv "lösning" eller "område" i stället för "system" när du menar det som referensarkitekturen gäller.
+6. Använd begreppen så som de definieras i Bilaga C. *Concern* (ISO 42010) heter **frågeställning** i HERAF. Skriv "lösning" eller "område" i stället för "system" när du menar det som referensarkitekturen gäller.
 7. Ge allt du själv föreslår status *Utkast* eller *Föreslagen*. Endast aktivitetsgruppen kan sätta *Fastställd* eller *Beslutad*.
 8. Skriv på svenska om inte användaren önskar annat.
 
@@ -102,9 +102,9 @@ Formulera varje angelägenhet som en fråga som går att besvara och föreslå e
 Gå igenom listan innan du lämnar över iterationsmallen, eller innan du ger slutlig återkoppling i arbetssätt B. Säg uttryckligen vilka punkter som inte är uppfyllda.
 
 - [ ] Exakt en primär målgrupp är angiven.
-- [ ] Varje angelägenhet har ett ID och ett värde i *Adresseras*. Angelägenheter som inte adresseras har en motivering.
+- [ ] Varje frågeställning har ett ID och ett värde i *Adresseras*. Frågeställningar som inte adresseras har en motivering.
 - [ ] *Ingår* och *Ingår inte* är ifyllda.
-- [ ] Varje vy anger vilka angelägenheter den adresserar, och varje adresserad angelägenhet täcks av minst en vy.
+- [ ] Varje vy anger vilka frågeställningar den adresserar, och varje adresserad frågeställning täcks av minst en vy.
 - [ ] Alla delar markerade *Måste* i miniminivån finns med.
 - [ ] Varje ny princip, riktlinje och regel refererar till överliggande styrning.
 - [ ] Inga påhittade fakta. Antaganden är markerade som antaganden.

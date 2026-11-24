@@ -8,8 +8,8 @@ groups:
     concepts: [referensarkitektur, referensarkitekturmodell, heram, omrade]
   - id: vem-den-ar-till-for
     title: Vem den är till för
-    description: Begreppen som används i steg 1–3 i processen – välj målgrupp, identifiera angelägenheter och bestäm omfång.
-    concepts: [malgrupp, intressenter, angelagenhet, malgruppsperspektiv]
+    description: Begreppen som används i steg 1–3 i processen – välj målgrupp, identifiera frågeställningar och bestäm omfång.
+    concepts: [malgrupp, intressenter, fragestallning, malgruppsperspektiv]
   - id: hur-den-beskrivs
     title: Hur den beskrivs
     description: Begreppen som används i steg 5–6 – vilka vyer som behövs och hur de specificeras.

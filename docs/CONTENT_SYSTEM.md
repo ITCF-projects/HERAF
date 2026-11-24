@@ -36,7 +36,7 @@ Plain Markdown, plus a few extras:
 | `[[Exempel och mallar]]` | Link to that heading in the guidance |
 | `[P:EAP004]` | Link to a principle, opens in the side panel |
 | `[HERAM]` | Link to the HERAM concept |
-| `[text](concept:angelagenhet)` | Explicit concept link |
+| `[text](concept:fragestallning)` | Explicit concept link |
 | ` ```note Title ` … ` ``` ` | Callout box (also `tip`, `warning`, `info`, `important`) |
 | `{{diagram:process\|Caption}}` | Inline `src/lib/diagrams/process.svg` with a caption, on its own line |
 
@@ -50,8 +50,8 @@ The agent guide reuses two sections by their exact heading: `## Process: Skapa r
 
 ```yaml
 ---
-id: angelagenhet            # same as the file name
-title: Angelägenhet (Concern)
+id: fragestallning            # same as the file name
+title: Frågeställning (Concern)
 icon: AlertCircle
 category: Intressenter
 relationships: [malgrupp, intressenter]   # other concept ids, shown as links
@@ -59,7 +59,7 @@ examples: [Säkerhet, Prestanda]
 date: 2025-11-13
 ---
 
-# Angelägenhet (Concern)
+# Frågeställning (Concern)
 
 First paragraph = the definition (used in the agent guide).
 

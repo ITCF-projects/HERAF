@@ -8,11 +8,11 @@ Hur man tar fram en referensarkitektur enligt HERAF, Higher Education Reference 
 
 Du behöver inte läsa hela vägledningen innan du börjar. Läs den här översikten, ladda ner iterationsmallen och läs varje steg när du kommer till det.
 
-En iteration behöver inte vara omfattande. Börja med en målgrupp och en angelägenhet. Fler angelägenheter kan läggas till i efterhand, det är vad det iterativa arbetet innebär. Ni bestämmer själva hur stor eller liten varje iteration ska vara.
+En iteration behöver inte vara omfattande. Börja med en målgrupp och en frågeställning. Fler frågeställningar kan läggas till i efterhand, det är vad det iterativa arbetet innebär. Ni bestämmer själva hur stor eller liten varje iteration ska vara.
 
 {{snabbguide}}
 
-Det viktigaste begreppet att känna till är [angelägenhet](concept:angelagenhet) (engelska *concern*): något som är viktigt för målgruppen och som referensarkitekturen behöver ge svar på. Övriga begrepp beskrivs i [HERAM].
+Det viktigaste begreppet att känna till är [frågeställning](concept:fragestallning) (engelska *concern*): något som är viktigt för målgruppen och som referensarkitekturen behöver ge svar på. Övriga begrepp beskrivs i [HERAM].
 
 ---
 
@@ -37,7 +37,7 @@ En referensarkitektur tillhandahåller **principer, strukturer, begrepp, mönste
 *Källor för definitionen: DoD Reference Architecture White Paper; Reference architecture – Wikipedia; Referensarkitektur för Identitet och åtkomst.*
 
 ```note Viktigt att veta
-En referensarkitektur ska alltid utgå från en tydligt vald målgrupp och dess angelägenheter. Annars blir den varken relevant eller användbar.
+En referensarkitektur ska alltid utgå från en tydligt vald målgrupp och dess frågeställningar. Annars blir den varken relevant eller användbar.
 ```
 
 ### Varför behövs en referensarkitektur?
@@ -96,28 +96,28 @@ Allt arbete dokumenteras i en iterationsmall, se [[Exempel och mallar]].
 
 **Resultat:** Fältet *Primär målgrupp* i iterationsmallen.
 
-#### Steg 2: Identifiera målgruppens angelägenheter
+#### Steg 2: Identifiera målgruppens frågeställningar
 
 **Syfte:** Förstå vad som är viktigt för målgruppen, vilka frågor de behöver få svar på.
 
 **Aktiviteter**
-- Samla in målgruppens [angelägenheter](concept:angelagenhet), till exempel genom intervjuer eller workshops.
-- Formulera varje angelägenhet så att den går att besvara, till exempel ”Hur ska tjänster autentisera sig mot varandra?”.
-- Ge varje angelägenhet ett ID (C01, C02 …).
+- Samla in målgruppens [frågeställningar](concept:fragestallning), till exempel genom intervjuer eller workshops.
+- Formulera varje frågeställning så att den går att besvara, till exempel ”Hur ska tjänster autentisera sig mot varandra?”.
+- Ge varje frågeställning ett ID (C01, C02 …).
 
-**Resultat:** En lista med angelägenheter i sektionen *Angelägenheter*.
+**Resultat:** En lista med frågeställningar i sektionen *Frågeställningar*.
 
 #### Steg 3: Bestäm omfång
 
-**Syfte:** Avgränsa iterationen. Omfånget styrs av de angelägenheter som väljs – inte tvärtom.
+**Syfte:** Avgränsa iterationen. Omfånget styrs av de frågeställningar som väljs – inte tvärtom.
 
 **Aktiviteter**
 - Bestäm vilket område referensarkitekturen gäller, till exempel IAM, integration, AI, IoT eller nätverk. Undvik ett alltför brett område.
-- Välj vilka angelägenheter som ska adresseras i den här iterationen. **De valda angelägenheterna är omfånget.**
-- Motivera varför övriga angelägenheter inte adresseras nu.
+- Välj vilka frågeställningar som ska adresseras i den här iterationen. **De valda frågeställningarna är omfånget.**
+- Motivera varför övriga frågeställningar inte adresseras nu.
 - Skriv ner vad som uttryckligen *inte* ingår, till exempel ”endast tekniskt perspektiv i denna iteration”.
 
-**Resultat:** Sektionen *Omfång* i iterationsmallen, samt kolumnen *Adresseras* för varje angelägenhet.
+**Resultat:** Sektionen *Omfång* i iterationsmallen, samt kolumnen *Adresseras* för varje frågeställning.
 
 ```note Relaterade principer
 * [P:EAP004]
@@ -144,7 +144,7 @@ Allt arbete dokumenteras i en iterationsmall, se [[Exempel och mallar]].
 
 **Aktiviteter**
 - Beskriv vilken nytta målgruppen ska få av referensarkitekturen.
-- Bestäm vilka vyer som behövs. Varje vy ska adressera minst en vald angelägenhet.
+- Bestäm vilka vyer som behövs. Varje vy ska adressera minst en vald frågeställning.
 - Skriv en vy-specifikation för varje vy som anger detaljnivå, aspekter och målgruppsperspektiv.
 - Bestäm vilka principer, riktlinjer och regler som ska gälla för området.
 
@@ -181,7 +181,7 @@ Dokumentera de viktigaste besluten tillsammans med motiveringen. Det ger spårba
 
 #### Dokumentera underlag
 
-Målgrupper, intressenter, angelägenheter och kartläggningar är underlag för arbetet, men ingår inte i den färdiga referensarkitekturen. Sätt därför upp en gemensam dokumentyta för underlaget redan från start, så att det går att spåra varför referensarkitekturen ser ut som den gör och så att nästa iteration kan bygga vidare.
+Målgrupper, intressenter, frågeställningar och kartläggningar är underlag för arbetet, men ingår inte i den färdiga referensarkitekturen. Sätt därför upp en gemensam dokumentyta för underlaget redan från start, så att det går att spåra varför referensarkitekturen ser ut som den gör och så att nästa iteration kan bygga vidare.
 
 ---
 
@@ -192,9 +192,9 @@ Det här är miniminivån för en iteration enligt HERAF. Övriga delar läggs t
 | Del | Krav | Kommentar | Grund |
 |-----|------|-----------|-------|
 | Område och primär målgrupp | Måste | En målgrupp per iteration. | RE008, R004 |
-| Angelägenheter | Måste | Med beslut om vilka som adresseras och motivering för övriga. | P002 |
+| Frågeställningar | Måste | Med beslut om vilka som adresseras och motivering för övriga. | P002 |
 | Omfång och avgränsningar | Måste | Vad som ingår och vad som inte ingår. | EAP004, P002 |
-| Vyer med vy-specifikationer | Måste | Minst en vy per adresserad angelägenhet. Varje vy-specifikation anger detaljnivå, aspekter och målgruppsperspektiv. | RE006, RE010, RE011 |
+| Vyer med vy-specifikationer | Måste | Minst en vy per adresserad frågeställning. Varje vy-specifikation anger detaljnivå, aspekter och målgruppsperspektiv. | RE006, RE010, RE011 |
 | Principer, riktlinjer och regler | Måste | Endast det som är relevant för målgruppen. Varje riktlinje och regel har motivering och referens till överliggande styrning. | RE012, RE001, RE002, R005 |
 | Begreppsmodell | Måste | För det valda området. | RE013 |
 | Arkitekturbeslut | Bör | De mest centrala besluten med motivering. | EAP001 |
@@ -204,6 +204,6 @@ Det här är miniminivån för en iteration enligt HERAF. Övriga delar läggs t
 
 ## Exempel och mallar
 
-**Iterationsmall** – en mall för att dokumentera en iteration. Sektionerna följer processens steg: Omfång, Angelägenheter, Identifiering, Definiering, Konkretisering, Arkitekturbeslut, Förankring och Avslut. Ladda ner iterationsmallen som [Word](mallar/iterationsmall.docx) eller [markdown](mallar/iterationsmall.md).
+**Iterationsmall** – en mall för att dokumentera en iteration. Sektionerna följer processens steg: Omfång, Frågeställningar, Identifiering, Definiering, Konkretisering, Arkitekturbeslut, Förankring och Avslut. Ladda ner iterationsmallen som [Word](mallar/iterationsmall.docx) eller [markdown](mallar/iterationsmall.md).
 
 Fler exempel kommer att läggas till.
